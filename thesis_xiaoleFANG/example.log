@@ -1,0 +1,4838 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.18)  6 MAR 2013 15:32
+entering extended mode
+ %&-line parsing enabled.
+**example
+(./example.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-document.cls
+Document Class: upmethodology-document 2012/10/02
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-p-common.sty
+
+LaTeX Warning: You have requested package `upmethodology-p-common',
+               but the package provides `upmethodology-p-doctype'.
+
+Package: upmethodology-p-doctype 2012/09/21
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count79
+)))
+*********** UPMETHODOLOGY BOOK CLASS (WITH PART AND CHAPTER)
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/share/texmf-texlive/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-document.sty
+Package: upmethodology-document 2009/11/03
+
+**** upmethodology-document is using French language ****
+(/var/lib/texmf/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/frenchb.ldf
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+)
+Package babel Info: Making : an active character on input line 120.
+Package babel Info: Making ; an active character on input line 121.
+Package babel Info: Making ! an active character on input line 122.
+Package babel Info: Making ? an active character on input line 123.
+\FB@Mht=\dimen104
+\std@mcc=\count90
+\dec@mcc=\count91
+\parindentFFN=\dimen105
+
+*************************************
+* Local config file frenchb.cfg used
+*
+(/usr/share/texmf-texlive/tex/generic/babel/frenchb.cfg)))
+(/usr/share/texmf-texlive/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/vmargin/vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+\PaperWidth=\dimen106
+\PaperHeight=\dimen107
+) (/usr/share/texmf/tex/latex/upmethodology/upmethodology-extension.sty
+Package: upmethodology-extension 2012/09/21
+\upmext@tmp@putx=\skip52
+
+*** define extension value frontillustrationsize ****
+*** define extension value watermarksize ****
+*** undefine extension value publisher ****
+*** undefine extension value copyrighter ****
+*** undefine extension value printedin ****)
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-fmt.sty
+Package: upmethodology-fmt 2012/09/21
+
+**** upmethodology-fmt is using French language ****
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip53
+\subfigcapskip=\skip54
+\subfigcaptopadj=\dimen110
+\subfigbottomskip=\skip55
+\subfigcapmargin=\dimen111
+\subfiglabelskip=\skip56
+\c@subfigure=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@lotdepth=\count95
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip57
+\subfig@bottom=\skip58
+)
+(/usr/share/texmf-texlive/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen112
+\extrarowheight=\dimen113
+\NC@list=\toks15
+\extratabsurround=\skip59
+\backup@length=\skip60
+)
+\TX@col@width=\dimen114
+\TX@old@table=\dimen115
+\TX@old@col=\dimen116
+\TX@target=\dimen117
+\TX@delta=\dimen118
+\TX@cols=\count96
+\TX@ftn=\toks16
+)
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count97
+\mult@box=\box26
+\multicol@leftmargin=\dimen119
+\c@unbalance=\count98
+\c@collectmore=\count99
+\doublecol@number=\count100
+\multicoltolerance=\count101
+\multicolpretolerance=\count102
+\full@width=\dimen120
+\page@free=\dimen121
+\premulticols=\dimen122
+\postmulticols=\dimen123
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count103
+\c@finalcolumnbadness=\count104
+\last@try=\dimen124
+\multicolovershoot=\dimen125
+\multicolundershoot=\dimen126
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+\everycr=\toks17
+\minrowclearance=\skip63
+)
+(/usr/share/texmf-texlive/tex/latex/picinpar/picinpar.sty
+Pictures in Paragraphs. Version 1.2a, July 13, 1993
+\br=\count105
+\bl=\count106
+\na=\count107
+\nb=\count108
+\tcdsav=\count109
+\tcl=\count110
+\tcd=\count111
+\tcn=\count112
+\cumtcl=\count113
+\cumpartcl=\count114
+\lftside=\dimen127
+\rtside=\dimen128
+\hpic=\dimen129
+\vpic=\dimen130
+\strutilg=\dimen131
+\picwd=\dimen132
+\topheight=\dimen133
+\ilg=\dimen134
+\lpic=\dimen135
+\lwindowsep=\dimen136
+\rwindowsep=\dimen137
+\cumpar=\dimen138
+\twa=\toks18
+\la=\toks19
+\ra=\toks20
+\ha=\toks21
+\pictoc=\toks22
+\rawtext=\box52
+\holder=\box53
+\windowbox=\box54
+\wartext=\box55
+\finaltext=\box56
+\aslice=\box57
+\bslice=\box58
+\wbox=\box59
+\wstrutbox=\box60
+\picbox=\box61
+\waslice=\box62
+\wbslice=\box63
+\fslice=\box64
+) (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip64
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks23
+\ex@=\dimen139
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen140
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count115
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count116
+\leftroot@=\count117
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count118
+\DOTSCASE@=\count119
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count120
+\c@MaxMatrixCols=\count121
+\dotsspace@=\muskip10
+\c@parentequation=\count122
+\dspbrk@lvl=\count123
+\tag@help=\toks24
+\row@=\count124
+\column@=\count125
+\maxfields@=\count126
+\andhelp@=\toks25
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks26
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/share/texmf-texlive/tex/latex/tools/varioref.sty
+Package: varioref 2009/09/13 v1.4w package for extended references (FMi)
+\c@vrcnt=\count127
+)
+(/usr/share/texmf-texlive/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/relsize.sty
+Package: relsize 2003/07/04 ver 3.1
+)
+\c@upm@subfigure@count=\count128
+\c@upm@format@section@sectionlevel=\count129
+\c@upm@fmt@savedcounter=\count130
+\c@@@upm@fmt@inlineenumeration=\count131
+\upm@framed@minipage=\box67
+\upm@highlight@box@save=\box68
+)
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-version.sty
+Package: upmethodology-version 2009/12/30
+
+**** upmethodology-version is using French language ****
+\upm@tmp@a=\count132
+))
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-frontpage.sty
+Package: upmethodology-frontpage 2009/10/30
+
+**** upmethodology-frontpage is using French language ****
+\upm@front@tmpa=\dimen148
+\upm@front@tmpb=\dimen149
+
+*** define extension value frontillustrationsize ****)
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-backpage.sty
+Package: upmethodology-backpage 2009/10/30
+
+**** upmethodology-backpage is using French language ****)
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-task.sty
+Package: upmethodology-task 2009/10/30
+
+**** upmethodology-task is using French language ****)
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-code.sty
+Package: upmethodology-code 2009/10/30
+\upm@code@current@lang=\count133
+)
+(/usr/share/texmf/tex/latex/upmethodology/upmethodology-spec.sty
+Package: upmethodology-spec 2009/10/30
+
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/ulem.sty
+\UL@box=\box69
+\UL@hyphenbox=\box70
+\UL@skip=\skip67
+\UL@hook=\toks28
+\UL@pe=\count134
+\UL@pixel=\dimen150
+\ULC@box=\box71
+Package: ulem 2000/05/26
+\ULdepth=\dimen151
+)
+**** upmethodology-spec is using French language ****
+\upm@spec@detailspec@description@width=\skip68
+\upm@spec@detailspec@savebox=\box72
+\upm@spec@detailspec@itrn@width=\skip69
+\c@upm@detailspec@return@counter=\count135
+\c@upm@detailspec@function@counter=\count136
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen152
+\Hy@linkcounter=\count137
+\Hy@pagecounter=\count138
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `breaklinks' set `true' on input line 2864.
+Package hyperref Info: Option `pageanchor' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarks' set `false' on input line 2864.
+Package hyperref Info: Option `hyperfigures' set `true' on input line 2864.
+Package hyperref Info: Option `hyperindex' set `true' on input line 2864.
+Package hyperref Info: Option `linktocpage' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 2864
+.
+Package hyperref Info: Option `colorlinks' set `false' on input line 2864.
+Package hyperref Info: Hyper figures ON on input line 2973.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+LaTeX Info: Redefining \href on input line 3409.
+LaTeX Info: Redefining \url on input line 3428.
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count139
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+\Field@toks=\toks29
+Package hyperref Info: Hyper figures ON on input line 4375.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count140
+\c@Item=\count141
+)
+*hyperref using driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count142
+)
+\upm@smalllogo@height=\dimen155
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
+
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+**** including upm extension spimufcphdthesis (upmext-spimufcphdthesis.cfg) ***
+* (./upmext-spimufcphdthesis.cfg *** define extension value copyright ****
+*** style extension spimufcphdthesis, Copyright {(c)} 2012 Dr. St\unhbox \voidb
+@x \bgroup \let \unhbox \voidb@x \setbox \@tempboxa \hbox {e\global \mathcharde
+f \accent@spacefactor \spacefactor }\accent 19 e\egroup \spacefactor \accent@sp
+acefactor phane GALLAND. **** *** define extension value trademarks ****
+(/usr/share/texmf-texlive/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texmf-texlive/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language57
+LaTeX Info: Redefining \_ on input line 43.
+)
+Package color Info: Redefining color backtableheader on input line 25.
+Package color Info: Redefining color fronttableheader on input line 26.
+Package color Info: Redefining color sectiontitlecolor on input line 28.
+Package color Info: Redefining color chaptertitlecolor on input line 29.
+Package color Info: Redefining color parttitlecolor on input line 30.
+
+*** define extension value frontillustration ****
+*** define extension value p3illustration ****
+*** define extension value backillustration ****
+*** define extension value watermarksize ****
+*** define extension value universityname ****
+*** define extension value speciality ****
+*** define extension value defensedate ****
+*** define extension value jurytabwidth ****)
+*** define extension value defensedate ****
+*** define extension value speciality ****
+*** define extension value universityname ****
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 49.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/msa/m/n on input line 49.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 50.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 50.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 64.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 65.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 66.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 130
+.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 131.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 132.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 134.
+
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 47.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 51
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 57.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 59.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 68.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+74.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+4.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+15.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 11
+6.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 121.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 146.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 218
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 219.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 223.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 224.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 226.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 227.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 231.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 232.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 239.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 253.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 260.
+)
+(/usr/share/texmf-texlive/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2006/05/11 v2.1 Martin Vogel's Symbols font definitions
+)
+(/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2009/09/04 v1.5i extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texmf-texlive/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2008/07/16 v60 Package minitoc (JPFD)
+
+(/usr/share/texmf-texlive/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 60 ***.
+\tf@mtc=\write3
+\mtcindent=\skip70
+\mtcskipamount=\skip71
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks32
+\mtc@strutbox=\box73
+\mtc@hstrutbox=\box74
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `example.mtc0'.
+
+\openout3 = `example.mtc'.
+
+ (./example.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `example.mtc'.
+
+\openout3 = `example.mtc0'.
+
+\c@mtc=\count143
+\c@minitocdepth=\count144
+\c@ptc=\count145
+\c@parttocdepth=\count146
+\ptcindent=\skip72
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/share/texmf-texlive/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+Package minitoc Info: I0010
+(minitoc)             The french language is selected.
+(minitoc)              on input line 4911.
+
+(/usr/share/texmf-texlive/tex/latex/minitoc/french.mld
+File: french.mld 2006/03/21
+))
+(/usr/share/texmf-texlive/tex/latex/ae/aecompl.sty
+Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+)
+(/usr/share/texmf-texlive/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen156
+\nom@tempdim=\dimen157
+\nomitemsep=\skip73
+)
+\@nomenclaturefile=\write4
+\openout4 = `example.nlo'.
+
+
+Writing nomenclature file example.nlo
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 142.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 142.
+Package hyperref Info: Option `colorlinks' set `true' on input line 142.
+
+Package hyperref Warning: Values of option `pdfpagemode':
+(hyperref)                * `UseNone'
+(hyperref)                * `UseOutlines'
+(hyperref)                * `UseThumbs'
+(hyperref)                * `FullScreen'
+(hyperref)                * `UseOC' (PDF 1.5)
+(hyperref)                * `UseAttachments' (PDF 1.6)
+(hyperref)                * An empty value disables the option.
+(hyperref)                Unknown value `None' on input line 142.
+
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 142.
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count147
+\rotFPtop=\skip74
+\rotFPbot=\skip75
+\rot@float@box=\box75
+\rot@mess@toks=\toks33
+)
+(/usr/share/texmf-texlive/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count148
+\float@exts=\toks34
+\float@box=\box76
+\@float@everytoks=\toks35
+\@floatcapt=\box77
+)
+\@float@every@algorithm=\toks36
+\c@algorithm=\count149
+)
+(/usr/share/texmf-texlive/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count150
+\c@ALC@line=\count151
+\c@ALC@rem=\count152
+\c@ALC@depth=\count153
+\ALC@tlm=\skip76
+\algorithmicindent=\skip77
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen158
+)
+(/usr/share/texmf-texlive/tex/latex/slashbox/slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box78
+\@slashboxb=\box79
+\@slashboxc=\box80
+\@slashboxwd=\count154
+\@slashboxht=\count155
+\@slashsepl=\dimen159
+\@slashsepr=\dimen160
+) (/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 433.
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+(/usr/share/texmf-texlive/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen161
+\epsfysize=\dimen162
+)
+(/usr/share/texmf-texlive/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count156
+\pfg@scount=\count157
+\pfg@temp=\write5
+)
+(/usr/share/texmf-texlive/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/share/texmf-texlive/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup11
+)
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count158
+\@cmidlb=\count159
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count160
+\@lastruleclass=\count161
+\@thisrulewidth=\dimen175
+)
+(/usr/share/texmf-texlive/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texmf-texlive/tex/latex/ntheorem/ntheorem.sty
+Style `ntheorem', Version 1.25 <2005/07/07>
+Package: ntheorem 2005/07/07 1.25
+\theorem@style=\toks37
+\theorem@@style=\toks38
+\theorembodyfont=\toks39
+\theoremnumbering=\toks40
+\theorempreskipamount=\skip78
+\theorempostskipamount=\skip79
+\theoremindent=\dimen176
+\theorem@indent=\dimen177
+\theoremheaderfont=\toks41
+\theoremseparator=\toks42
+\theoremprework=\toks43
+\theorempostwork=\toks44
+\theoremsymbol=\toks45
+\qedsymbol=\toks46
+\theoremkeyword=\toks47
+\qedsymbol=\toks48
+\thm@topsepadd=\skip80
+Package ntheorem Info: Standard config file ntheorem.std used on input line 103
+8.
+(/usr/share/texmf-texlive/tex/latex/ntheorem/ntheorem.std
+(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup12
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\c@Theorem=\count162
+\c@theorem=\count163
+\c@Satz=\count164
+\c@satz=\count165
+\c@Proposition=\count166
+\c@proposition=\count167
+\c@Lemma=\count168
+\c@lemma=\count169
+\c@Korollar=\count170
+\c@korollar=\count171
+\c@Corollary=\count172
+\c@corollary=\count173
+\c@Example=\count174
+\c@example=\count175
+\c@Beispiel=\count176
+\c@beispiel=\count177
+\c@Bemerkung=\count178
+\c@bemerkung=\count179
+\c@Anmerkung=\count180
+\c@anmerkung=\count181
+\c@Remark=\count182
+\c@remark=\count183
+\c@Definition=\count184
+\c@definition=\count185
+\c@Proof=\count186
+\c@proof=\count187
+\c@Beweis=\count188
+\c@beweis=\count189
+)) (./example.aux
+(./part1_introduction.aux) (./part2_introduction.aux)
+(./part2_reviewsOfBasic.aux
+
+LaTeX Warning: Label `XORshift' multiply defined.
+
+) (./part2_TheDesignAndDevelopmentOfCIPRNG.aux
+
+LaTeX Warning: Label `cryptopreuve' multiply defined.
+
+
+LaTeX Warning: Label `cryptopreuve' multiply defined.
+
+) (./part2_StatisticalTestForRandomness.aux
+
+LaTeX Warning: Label `Subsec:DieHARD' multiply defined.
+
+) (./part2_optimazationTechnologyChaoticIteration.aux
+
+LaTeX Warning: Label `equation Oplus' multiply defined.
+
+
+LaTeX Warning: Label `equation Oplus' multiply defined.
+
+
+LaTeX Warning: Label `equation Oplus' multiply defined.
+
+) (./part2_StateOfTheArt.aux) (./part2_FPGADesign.aux)
+(./part2_CIPRNGUsedInApplication.aux
+
+LaTeX Warning: Label `Spatial MSCs and LSCs of Lena' multiply defined.
+
+) (./part3_Optical.aux) (./part4_conclusion.aux))
+\openout1 = `example.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 283.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 283
+.
+
+(/usr/share/texmf-texlive/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 283.
+LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 283.
+LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 283.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 283
+.
+
+(/usr/share/texmf-texlive/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 283.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 283
+.
+
+(/usr/share/texmf-texlive/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 283.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 283.
+
+
+(/usr/share/texmf-texlive/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 283.
+LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 283.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count190
+\scratchdimen=\dimen178
+\scratchbox=\box81
+\nofMPsegments=\count191
+\nofMParguments=\count192
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count193
+\MPscratchDim=\dimen179
+\MPnumerator=\count194
+\everyMPtoPDFconversion=\toks50
+)
+LaTeX Info: Redefining \degres on input line 283.
+LaTeX Info: Redefining \dots on input line 283.
+LaTeX Info: Redefining \up on input line 283.
+
+
+Package frenchb.ldf Warning: OT1 encoding should not be used for French. 
+(frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(frenchb.ldf)                of your document, on input line 283.
+
+Package hyperref Info: Link coloring ON on input line 283.
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count195
+LaTeX Info: Redefining \Ref on input line 396.
+)
+LaTeX Info: Redefining \ref on input line 283.
+LaTeX Info: Redefining \pageref on input line 283.
+ (./example.out)
+(./example.out)
+\@outlinefile=\write6
+\openout6 = `example.out'.
+
+\AtBeginShipoutBox=\box82
+LaTeX Info: Redefining \Ref on input line 283.
+ ************ USE CUSTOM FRONT COVER
+
+pdfTeX warning: pdflatex (file ./frontpage.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<frontpage.pdf, id=531, 597.50829pt x 845.0471pt>
+File: frontpage.pdf Graphic file (type pdf)
+ <use frontpage.pdf> [1
+Non-PDF special ignored!
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./frontpage.pdf>] [2
+
+] <p3-head.pdf, id=579, 598.235pt x 285.065pt>
+File: p3-head.pdf Graphic file (type pdf)
+
+<use p3-head.pdf>
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 283.
+ (/usr/share/texmf-texlive/tex/latex/txfonts/ot1txr.fd)
+(/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd)
+(/usr/share/texmf-texlive/tex/latex/stmaryrd/Ustmry.fd)
+(/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd)
+(/usr/share/texmf-texlive/tex/latex/base/ulasy.fd)
+Underfull \hbox (badness 1052) in paragraph at lines 283--283
+[]|\OT1/phv/m/n/10.95 Ma[]^^Ptre Assistant []a l'Universit[]e de Franche-
+ []
+
+
+Package frenchb.ldf Warning: Degrees would look better in TS1-encoding: 
+(frenchb.ldf)                add \usepackage{textcomp} to the preamble. 
+(frenchb.ldf)                Degrees used on input line 283.
+
+[3 <./p3-head.pdf>]
+\c@minilofdepth=\count196
+\c@minilotdepth=\count197
+\c@partlofdepth=\count198
+\c@partlotdepth=\count199
+\c@sectlofdepth=\count200
+\c@sectlotdepth=\count201
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0046
+(minitoc(hints))             --- The tocbibind package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1
+
+] [2
+
+] (./example.toc
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 2.
+ [3]
+
+LaTeX Warning: Citation `wang2009' on page iv undefined on input line 48.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page iv undefined on input line 51.
+
+[4] [5]
+Overfull \hbox (1.29184pt too wide) detected at line 127
+ [][][]\OT1/phv/m/n/10.95 101[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 128
+ [][][]\OT1/phv/m/n/10.95 101[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 137
+ [][][]\OT1/phv/m/n/10.95 111[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 138
+ [][][]\OT1/phv/m/n/10.95 111[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 139
+ [][][]\OT1/phv/m/n/10.95 113[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 143
+ [][][]\OT1/phv/m/n/10.95 119[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 144
+ [][][]\OT1/phv/m/n/10.95 119[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 145
+ [][][]\OT1/phv/m/n/10.95 120[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 146
+ [][][]\OT1/phv/m/n/10.95 122[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 147
+ [][][]\OT1/phv/m/n/10.95 123[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 148
+ [][][]\OT1/phv/m/n/10.95 123[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 153
+ [][][]\OT1/phv/m/n/10.95 127[][]
+ []
+
+
+Underfull \vbox (badness 1622) has occurred while \output is active []
+
+ [6]
+Overfull \hbox (1.29184pt too wide) detected at line 155
+ [][][]\OT1/phv/m/n/10.95 131[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 156
+ [][][]\OT1/phv/m/n/10.95 131[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 157
+ [][][]\OT1/phv/m/n/10.95 132[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 158
+ [][][]\OT1/phv/m/n/10.95 133[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 163
+ [][][]\OT1/phv/m/n/10.95 134[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 167
+ [][][]\OT1/phv/m/n/10.95 139[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 168
+ [][][]\OT1/phv/m/n/10.95 140[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 170
+ [][][]\OT1/phv/m/n/10.95 143[][]
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 171
+ [][][]\OT1/phv/m/n/10.95 143[][]
+ []
+
+)
+\tf@toc=\write7
+\openout7 = `example.toc'.
+
+ [7] [8
+
+]
+\openout2 = `part1_introduction.aux'.
+
+ (./part1_introduction.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \part{Preliminaries}
+                         [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \part{Preliminaries}
+                         [2]
+Chapitre 1.
+Package minitoc Info: I0006
+(minitoc)             example.mtc1 is empty on input line 4.
+
+LaTeX Warning: Citation `Pulch20121477' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `begining_chaos' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `liyorke1975' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Pulch20121477' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Elnashaie20073295' on page 3 undefined on input line 6
+.
+
+
+LaTeX Warning: Citation `Chen20117258' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Tian1997128' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Chotorlishvili2010103' on page 3 undefined on input li
+ne 6.
+
+
+LaTeX Warning: Citation `Yu2004341' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Su12231' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `ElSayed2013148' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Wu2009632' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Lee199671' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Aihara2012199' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Wu20104363' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Du20092493' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Sunada2012190' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Gon1999109' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation `kellert1994wake' on page 3 undefined on input line 11.
+
+
+
+LaTeX Warning: Citation `Eckhardt87' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Citation `liyorke1975' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Wu20051195' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Citation `gleick2011chaos' on page 3 undefined on input line 11.
+
+
+
+LaTeX Warning: Citation `gleick2011chaos' on page 3 undefined on input line 11.
+
+
+
+LaTeX Warning: Citation `Eckhardt87' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Matthews:1984:DLE:67071.67073' on page 3 undefined on 
+input line 11.
+
+
+LaTeX Warning: Citation `ethesis69' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ethesis74' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Matthews:1984:DLE:67071.67073' on page 3 undefined on 
+input line 13.
+
+
+LaTeX Warning: Citation `ethesis67' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ethesis95' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ethesis75' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ethesis22' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ethesis117' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Citation `ethesis86' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `ethesis61' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `Cohen1988113' on page 3 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Gay2001197' on page 3 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Opendak1994570' on page 3 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Larger2004609' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Citation `fast' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 3 undefined on input line 18.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.19 
+      [3
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 25.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 4 undefined on input line 25.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+
+LaTeX Warning: Citation `guyeux09' on page 5 undefined on input line 51.
+
+
+LaTeX Warning: Citation `guyeux10' on page 5 undefined on input line 51.
+
+
+LaTeX Warning: Citation `Dev89' on page 5 undefined on input line 51.
+
+
+LaTeX Warning: Citation `wang2009' on page 5 undefined on input line 51.
+
+
+LaTeX Warning: Citation `ANDREW2008' on page 5 undefined on input line 53.
+
+
+LaTeX Warning: Citation `guyeuxTaiwan10' on page 5 undefined on input line 54.
+
+
+LaTeX Warning: Citation `bgw10:ip' on page 5 undefined on input line 54.
+
+
+LaTeX Warning: Citation `guyeuxTaiwan10' on page 5 undefined on input line 55.
+
+
+LaTeX Warning: Citation `bgw10:ip' on page 5 undefined on input line 55.
+
+
+LaTeX Warning: Citation `guyeuxTaiwan10' on page 5 undefined on input line 55.
+
+
+LaTeX Warning: Citation `bgw10:ip' on page 5 undefined on input line 55.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 5 undefined on input line 56.
+
+
+LaTeX Warning: Citation `bfgw11:ij' on page 5 undefined on input line 56.
+
+
+LaTeX Warning: Citation `wang2009' on page 5 undefined on input line 56.
+
+
+LaTeX Warning: Citation `bcgw11:ip' on page 5 undefined on input line 60.
+
+
+LaTeX Warning: Citation `bfgw11:ip' on page 5 undefined on input line 61.
+
+
+LaTeX Warning: Citation `weicker:pre12' on page 5 undefined on input line 66.
+
+
+LaTeX Warning: Citation `PhysRevE.86.055201' on page 5 undefined on input line 
+66.
+
+
+LaTeX Warning: Citation `PhysRevLett.107.034103' on page 5 undefined on input l
+ine 66.
+
+
+LaTeX Warning: Citation `lavrov:jqe10' on page 5 undefined on input line 68.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+
+LaTeX Warning: Citation `ultrafast2009' on page 6 undefined on input line 108.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 6 undefined on input line 108.
+
+
+LaTeX Warning: Citation `bfgw11:ij' on page 6 undefined on input line 120.
+
+
+Underfull \vbox (badness 1400) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Citation `submit1' on page 7 undefined on input line 124.
+
+
+LaTeX Warning: Citation `submit2' on page 7 undefined on input line 128.
+
+
+LaTeX Warning: Citation `submit3' on page 7 undefined on input line 132.
+
+
+LaTeX Warning: Citation `submit4' on page 7 undefined on input line 138.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 7 undefined on input line 147.
+
+
+LaTeX Warning: Citation `bfgw11:ip' on page 7 undefined on input line 149.
+
+
+LaTeX Warning: Citation `bfg12a:ip' on page 7 undefined on input line 151.
+
+
+LaTeX Warning: Citation `bfg12b:ip' on page 7 undefined on input line 153.
+
+[7]
+
+LaTeX Warning: Citation `ultrafast2009' on page 8 undefined on input line 172.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 8 undefined on input line 172.
+
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 193
+.
+(/usr/share/texmf-texlive/tex/latex/txfonts/ot1txss.fd
+File: ot1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 193.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 193.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 193.
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 201.
+
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 209.
+
+(/usr/share/texmf-texlive/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 209.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
+ [8] [9] [10
+
+]
+Chapitre 2.
+Package minitoc Info: I0006
+(minitoc)             example.mtc2 is empty on input line 218.
+
+LaTeX Warning: Citation `kellert1994wake' on page 11 undefined on input line 23
+0.
+
+
+LaTeX Warning: Citation `kellert1994wake' on page 11 undefined on input line 23
+0.
+
+
+LaTeX Warning: Citation `kellert1994wake' on page 11 undefined on input line 23
+0.
+
+
+LaTeX Warning: Citation `Werndl01032009' on page 11 undefined on input line 230
+.
+
+
+LaTeX Warning: Citation `Dev89' on page 11 undefined on input line 245.
+
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 11 undefined on input line 
+245.
+
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 248.
+[11]
+
+LaTeX Warning: Citation `GuyeuxThese10' on page 12 undefined on input line 288.
+
+
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 12 undefined on input line 
+288.
+
+
+LaTeX Warning: Citation `Robert1986' on page 12 undefined on input line 294.
+
+
+LaTeX Warning: Citation `Robert1986' on page 12 undefined on input line 317.
+
+
+LaTeX Warning: Citation `GuyeuxThese10' on page 12 undefined on input line 320.
+
+
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 12 undefined on input line 
+320.
+
+
+LaTeX Warning: Citation `GuyeuxThese10' on page 12 undefined on input line 322.
+
+
+[12]
+
+LaTeX Warning: Citation `MazrooeiSebdani2008628' on page 13 undefined on input 
+line 341.
+
+
+LaTeX Warning: Citation `Binder1986' on page 13 undefined on input line 342.
+
+
+LaTeX Warning: Citation `Wheeler1989' on page 13 undefined on input line 342.
+
+
+LaTeX Warning: Citation `Palmore1990' on page 13 undefined on input line 342.
+
+
+LaTeX Warning: Citation `Blank1997' on page 13 undefined on input line 342.
+
+
+LaTeX Warning: Citation `Li2005' on page 13 undefined on input line 342.
+
+
+LaTeX Warning: Citation `GuyeuxThese10' on page 13 undefined on input line 363.
+
+
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 13 undefined on input line 
+363.
+
+
+LaTeX Warning: Citation `Larger2004609' on page 13 undefined on input line 378.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Package epstopdf Info: Source file: <Classification.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 171473 bytes
+(epstopdf)             Output file: <Classification-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:24:42
+(epstopdf)                    size: 32769 bytes
+(epstopdf)             Command: <epstopdf --outfile=Classification-eps-converte
+d-to.pdf Classification.eps>
+(epstopdf)             \includegraphics on input line 406.
+Package epstopdf Info: Output file is already uptodate.
+
+<Classification-eps-converted-to.pdf, id=872, 631.35875pt x 401.5pt>
+File: Classification-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Classification-eps-converted-to.pdf> [14]
+
+LaTeX Warning: Citation `Barker05recommendationfor' on page 15 undefined on inp
+ut line 423.
+
+
+LaTeX Warning: Citation `Provenzale199231' on page 15 undefined on input line 4
+79.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.482  \item C
+              ontinuous time domain: chaotic dynamics generated by different...
+ <./Classification-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `Lecuyer2009' on page 16 undefined on input line 498.
+
+
+LaTeX Warning: Citation `ANDREW2008' on page 16 undefined on input line 498.
+
+
+LaTeX Warning: Citation `Marsaglia1996' on page 16 undefined on input line 499.
+
+
+[16]
+
+LaTeX Warning: Citation `ANDREW2008' on page 17 undefined on input line 521.
+
+
+LaTeX Warning: Citation `Marsaglia1996' on page 17 undefined on input line 567.
+
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+
+LaTeX Warning: Citation `ent' on page 19 undefined on input line 627.
+
+
+LaTeX Warning: Citation `Menezes1997' on page 19 undefined on input line 655.
+
+[19] [20]
+
+LaTeX Warning: Citation `Knuth1998' on page 21 undefined on input line 710.
+
+
+LaTeX Warning: Citation `Knuth1998' on page 21 undefined on input line 731.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 769--779
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 779--811
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 811--842
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 843--859
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 860--864
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 866--881
+
+ []
+
+Package epstopdf Info: Source file: <fpga_scheme.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 369811 bytes
+(epstopdf)             Output file: <fpga_scheme-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:24:43
+(epstopdf)                    size: 67731 bytes
+(epstopdf)             Command: <epstopdf --outfile=fpga_scheme-eps-converted-t
+o.pdf fpga_scheme.eps>
+(epstopdf)             \includegraphics on input line 901.
+Package epstopdf Info: Output file is already uptodate.
+<fpga_scheme-eps-converted-to.pdf, id=929, 625.33624pt x 629.35126pt>
+File: fpga_scheme-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fpga_scheme-eps-converted-to.pdf> [24] [25pdfTeX warning (ext4): destinati
+on with the same identifier (name{figure.2.2}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.922 
+       <./fpga_scheme-eps-converted-to.pdf>]) [26]
+\openout2 = `part2_introduction.aux'.
+
+ (./part2_introduction.tex
+[27
+
+
+
+] [28]
+Chapitre 3.
+Package minitoc Info: I0006
+(minitoc)             example.mtc3 is empty on input line 5.
+
+LaTeX Warning: Citation `Zhu200675' on page 29 undefined on input line 6.
+
+
+LaTeX Warning: Citation `quantum' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `communication' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cryptography' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `LEcuyer08' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `fast' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `dice' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `pecora:prl90' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `argyris:nat05' on page 29 undefined on input line 8.
+
+
+LaTeX Warning: Citation `LEcuyer08' on page 29 undefined on input line 10.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29
+
+]
+
+LaTeX Warning: Citation `Falcioni2005' on page 30 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Cecen2009' on page 30 undefined on input line 13.
+
+
+LaTeX Warning: Citation `PO2004' on page 30 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Schuster1984' on page 30 undefined on input line 13.
+
+
+LaTeX Warning: Citation `cite-key' on page 30 undefined on input line 13.
+
+
+LaTeX Warning: Citation `PhysRevLett.64.821' on page 30 undefined on input line
+ 15.
+
+
+LaTeX Warning: Citation `BethLaMa94' on page 30 undefined on input line 15.
+
+
+LaTeX Warning: Citation `HabutsuNSM91' on page 30 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Biham91cryptanalysisof' on page 30 undefined on input 
+line 18.
+
+
+LaTeX Warning: Citation `Matthews:1984' on page 30 undefined on input line 18.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 21.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 21.
+
+LaTeX Warning: Citation `guyeux09' on page 30 undefined on input line 21.
+
+[30]
+
+LaTeX Warning: Citation `Lecuyer2009' on page 31 undefined on input line 24.
+
+
+LaTeX Warning: Citation `ANDREW2008' on page 31 undefined on input line 24.
+
+
+LaTeX Warning: Citation `Marsaglia1996' on page 31 undefined on input line 24.
+
+
+LaTeX Warning: Citation `Menezes1997' on page 31 undefined on input line 24.
+
+
+LaTeX Warning: Citation `Turan2008' on page 31 undefined on input line 24.
+
+) [31]
+\openout2 = `part2_reviewsOfBasic.aux'.
+
+ (./part2_reviewsOfBasic.tex [32
+
+
+
+]
+Chapitre 4.
+Package minitoc Info: I0006
+(minitoc)             example.mtc4 is empty on input line 3.
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 33 undefined on input line 
+5.
+
+
+LaTeX Warning: Citation `BBS' on page 33 undefined on input line 12.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+LaTeX Warning: Citation `ulam1947' on page 33 undefined on input line 25.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 33.
+
+LaTeX Font Info:    Try loading font information for OML+phv on input line 33.
+(/usr/share/texmf-texlive/tex/latex/psnfss/omlphv.fd
+File: omlphv.fd 
+)
+LaTeX Font Info:    Font shape `OML/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 33.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 33.
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 43.
+
+LaTeX Warning: Citation `Marsaglia2003' on page 33 undefined on input line 65.
+
+[33]
+
+LaTeX Warning: Citation `Jenkins1996' on page 34 undefined on input line 85.
+
+
+LaTeX Warning: Citation `citeulike:3805944' on page 34 undefined on input line 
+85.
+
+[34]
+LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 124.
+
+
+LaTeX Warning: Citation `wang2009' on page 35 undefined on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 124.
+
+
+LaTeX Warning: Citation `wang2009' on page 35 undefined on input line 129.
+
+
+LaTeX Warning: Citation `wang2009' on page 35 undefined on input line 153.
+
+[35]
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 36 undefined on input line 
+168.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]\OT1/phv/m/n/10.95 The ba-sic de-sign pro-ce-dure of the no-vel ge-ne-ra-tor 
+is sum-med up in
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 168--169
+\OT1/phv/m/n/10.95 Algo.[][]5[][]. The in-ter-nal state is $\OML/txmi/m/it/10.9
+5 x$\OT1/phv/m/n/10.95 , the out-put ar-ray is $\OML/txmi/m/it/10.95 r$\OT1/phv
+/m/n/10.95 . $\OML/txmi/m/it/10.95 a$ \OT1/phv/m/n/10.95 and $\OML/txmi/m/it/10
+.95 b$ \OT1/phv/m/n/10.95 are those
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\OT1/phv/m/n/10.95 com-pu-ted by PRNG1 and PRNG2. Lastly, $\OML/txmi/m/it/10.95
+ k$ \OT1/phv/m/n/10.95 and $\OT1/txss/m/n/10.95 N$ \OT1/phv/m/n/10.95 are const
+ants and
+ []
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 36 undefined on input line 171.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 171.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 36 undefined on input line 211.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 212.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 212.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 212.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 212.
+
+[36]
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 37 undefined on input line 
+244.
+
+
+LaTeX Warning: Citation `Bahi2000' on page 37 undefined on input line 264.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 37 undefined on input line 264.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 37 undefined on input line 264.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 37 undefined on input line 278.
+
+
+LaTeX Warning: Citation `wbg10:ip' on page 37 undefined on input line 279.
+
+[37]
+Package epstopdf Info: Source file: <nmark.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 15325 bytes
+(epstopdf)             Output file: <nmark-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:24:44
+(epstopdf)                    size: 8316 bytes
+(epstopdf)             Command: <epstopdf --outfile=nmark-eps-converted-to.pdf 
+nmark.eps>
+(epstopdf)             \includegraphics on input line 282.
+Package epstopdf Info: Output file is already uptodate.
+ <nmark-eps-converted-to.pdf, id=1042, 686.565pt x 446.66875pt>
+File: nmark-eps-converted-to.pdf Graphic file (type pdf)
+
+<use nmark-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `bfgw11:ij' on page 38 undefined on input line 330.
+
+) [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.310 \include{part2_reviewsOfBasic}
+                                     <./nmark-eps-converted-to.pdf>]
+\openout2 = `part2_TheDesignAndDevelopmentOfCIPRNG.aux'.
+
+
+(./part2_TheDesignAndDevelopmentOfCIPRNG.tex
+Chapitre 5.
+Package minitoc Info: I0006
+(minitoc)             example.mtc5 is empty on input line 3.
+
+LaTeX Warning: Citation `submit1' on page 39 undefined on input line 5.
+
+
+LaTeX Warning: Citation `submit2' on page 39 undefined on input line 5.
+
+
+LaTeX Warning: Citation `submit3' on page 39 undefined on input line 5.
+
+Package hyperref Info: bookmark level for unknown proposition defaults to 0 on 
+input line 37.
+[39
+
+
+
+]
+Package hyperref Info: bookmark level for unknown proof defaults to 0 on input 
+line 41.
+ [40]
+Overfull \vbox (2.71999pt too high) detected at line 102
+ []
+
+
+Overfull \hbox (14.70341pt too wide) in paragraph at lines 102--102
+[]|\OT1/phv/b/n/10.95 (0,0,1,1,1,0,0,0,2,  
+ []
+
+
+Overfull \hbox (11.65942pt too wide) in paragraph at lines 102--102
+[]\OT1/phv/b/n/10.95 2,2,3,3,3,2,2,2,0)|  
+ []
+
+
+Overfull \hbox (15.30573pt too wide) in paragraph at lines 105--105
+[]|\OT1/phv/b/n/10.95 (0,1,0,0,2,3,3,2,0)|  
+ []
+
+
+Overfull \hbox (8.55786pt too wide) in paragraph at lines 127--127
+[]\OT1/phv/m/n/10.95 number|  
+ []
+
+
+Overfull \hbox (33.30046pt too wide) in paragraph at lines 119--139
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <pseudo_orbit.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 206164 bytes
+(epstopdf)             Output file: <pseudo_orbit-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:01
+(epstopdf)                    size: 62826 bytes
+(epstopdf)             Command: <epstopdf --outfile=pseudo_orbit-eps-converted-
+to.pdf pseudo_orbit.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+<pseudo_orbit-eps-converted-to.pdf, id=1095, 1221.56375pt x 513.92pt>
+File: pseudo_orbit-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pseudo_orbit-eps-converted-to.pdf> [41pdfTeX warning (ext4): destination w
+ith the same identifier (name{table.5.1}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.199 
+      ] [42pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.5.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.199 
+      ] [43pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.5.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.199 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.199 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.5
+.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.199 
+       <./pseudo_orbit-eps-converted-to.pdf>] [44]
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 45 undefined on input line 
+287.
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 326--328
+[]\OT1/phv/m/n/10.95 The in-ter-nal state $\OML/txmi/m/it/10.95 x$ \OT1/phv/m/n
+/10.95 has a size of $\OT1/txr/m/n/10.95 12$ \OT1/phv/m/n/10.95 bits. Three $\O
+T1/txr/m/n/10.95 32$\OT1/phv/m/n/10.95 -bit XOR-shift PRNGs
+ []
+
+[45] [46pdfTeX warning (ext4): destination with the same identifier (name{table
+.5.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.328 
+      ]
+
+LaTeX Warning: Citation `vmd' on page 47 undefined on input line 329.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--388
+
+ []
+
+
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+ [47]
+[48] [49]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 580.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 580.
+
+[50]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 685.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 685.
+
+
+Underfull \vbox (badness 1776) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 5847) has occurred while \output is active []
+
+ [52pdfTeX warning (ext4): destination with the same identifier (name{table.5.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.775 \end{equation}
+                    ] [53pdfTeX warning (ext4): destination with the same ident
+ifier (name{table.5.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.843 
+      ]
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 54 undefined
+ on input line 851.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 54 undefined
+ on input line 870.
+
+
+LaTeX Warning: Citation `bfg12a:ip' on page 54 undefined on input line 870.
+
+[54pdfTeX warning (ext4): destination with the same identifier (name{table.5.8}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.902 
+      ]
+Underfull \hbox (badness 10000) in paragraph at lines 935--937
+
+ []
+
+
+Underfull \vbox (badness 5288) has occurred while \output is active []
+
+ [55]
+[56]
+Underfull \hbox (badness 3471) in paragraph at lines 1087--1090
+\OT1/phv/m/n/10.95 since $\OML/txmi/m/it/10.95 y$ \OT1/phv/m/n/10.95 and all $\
+OML/txmi/m/it/10.95 u\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 j\OT1/txr/m/n/10.
+95 )$ \OT1/phv/m/n/10.95 are ran-domly ge-ne-ra-ted. By construc-tion, $\OML/tx
+mi/m/it/10.95 '[]\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 ^^^[]\OT1/txr/m/n/10.
+95 (\OML/txmi/m/it/10.95 I\OT1/txr/m/n/10.95 (\OML/txmi/m/it/10.95 x\OT1/txr/m/
+n/10.95 ))) =
+ []
+
+
+LaTeX Warning: Citation `vmd' on page 57 undefined on input line 1124.
+
+[57]
+
+LaTeX Warning: Citation `bfg12a:ip' on page 58 undefined on input line 1169.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 58 undefined
+ on input line 1178.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 58 undefined
+ on input line 1181.
+
+
+LaTeX Warning: Citation `Lecuyer2009' on page 58 undefined on input line 1183.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 58 undefined
+ on input line 1188.
+
+) [58pdfTeX warning (ext4): destination with the same identifier (name{table.5.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.311 ...de{part2_TheDesignAndDevelopmentOfCIPRNG}
+                                                  ]
+\openout2 = `part2_StatisticalTestForRandomness.aux'.
+
+
+(./part2_StatisticalTestForRandomness.tex
+Chapitre 6.
+Package minitoc Info: I0006
+(minitoc)             example.mtc6 is empty on input line 3.
+
+LaTeX Warning: Citation `bfg12a:ip' on page 59 undefined on input line 13.
+
+
+LaTeX Warning: Citation `bfgw11:ij' on page 59 undefined on input line 13.
+
+
+LaTeX Warning: Citation `bfgw11:ip' on page 59 undefined on input line 13.
+
+
+Overfull \hbox (3.76854pt too wide) in paragraph at lines 39--61
+ [][] 
+ []
+
+[59
+
+
+
+] [60pdfTeX warning (ext4): destination with the same identifier (name{table.6.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.261 \end{table}
+                 ] [61pdfTeX warning (ext4): destination with the same identifi
+er (name{table.6.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.320 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.6
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.320 
+      ] [62pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.494 
+      ] [63pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.494 
+      ] [64pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.494 
+      ] [65pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.494 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.6
+.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.494 
+      ] [66pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.494 
+      ] [67] [68pdfTeX warning (ext4): destination with the same identifier (na
+me{table.6.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 
+      ] [69pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.6
+.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 
+      ] [70pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.642 
+      ]
+Package epstopdf Info: Source file: <monobits.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 21022 bytes
+(epstopdf)             Output file: <monobits-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:02
+(epstopdf)                    size: 13586 bytes
+(epstopdf)             Command: <epstopdf --outfile=monobits-eps-converted-to.p
+df monobits.eps>
+(epstopdf)             \includegraphics on input line 647.
+Package epstopdf Info: Output file is already uptodate.
+ <monobits-eps-converted-to.pdf, id=1451, 420.57124pt x 316.18124pt>
+File: monobits-eps-converted-to.pdf Graphic file (type pdf)
+
+<use monobits-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <serial.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 21155 bytes
+(epstopdf)             Output file: <serial-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:03
+(epstopdf)                    size: 13642 bytes
+(epstopdf)             Command: <epstopdf --outfile=serial-eps-converted-to.pdf
+ serial.eps>
+(epstopdf)             \includegraphics on input line 658.
+Package epstopdf Info: Output file is already uptodate.
+
+<serial-eps-converted-to.pdf, id=1455, 420.57124pt x 316.18124pt>
+File: serial-eps-converted-to.pdf Graphic file (type pdf)
+
+<use serial-eps-converted-to.pdf> [71pdfTeX warning (ext4): destination with th
+e same identifier (name{table.6.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.662 
+      ] [72pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.6.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.662 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.662 
+       <./monobits-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <poker.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 21182 bytes
+(epstopdf)             Output file: <poker-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:03
+(epstopdf)                    size: 13771 bytes
+(epstopdf)             Command: <epstopdf --outfile=poker-eps-converted-to.pdf 
+poker.eps>
+(epstopdf)             \includegraphics on input line 668.
+Package epstopdf Info: Output file is already uptodate.
+
+<poker-eps-converted-to.pdf, id=1471, 420.57124pt x 316.18124pt>
+File: poker-eps-converted-to.pdf Graphic file (type pdf)
+
+<use poker-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <runs.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 20901 bytes
+(epstopdf)             Output file: <runs-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:04
+(epstopdf)                    size: 13276 bytes
+(epstopdf)             Command: <epstopdf --outfile=runs-eps-converted-to.pdf r
+uns.eps>
+(epstopdf)             \includegraphics on input line 683.
+Package epstopdf Info: Output file is already uptodate.
+
+<runs-eps-converted-to.pdf, id=1473, 420.57124pt x 316.18124pt>
+File: runs-eps-converted-to.pdf Graphic file (type pdf)
+
+<use runs-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <autocorrelation1.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 20925 bytes
+(epstopdf)             Output file: <autocorrelation1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:04
+(epstopdf)                    size: 13683 bytes
+(epstopdf)             Command: <epstopdf --outfile=autocorrelation1-eps-conver
+ted-to.pdf autocorrelation1.eps>
+(epstopdf)             \includegraphics on input line 695.
+Package epstopdf Info: Output file is already uptodate.
+
+<autocorrelation1-eps-converted-to.pdf, id=1475, 418.56375pt x 314.17375pt>
+File: autocorrelation1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use autocorrelation1-eps-converted-to.pdf>) [73pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.6.2}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.312 \include{part2_StatisticalTestForRandomness}
+                                                   <./serial-eps-converted-to.p
+df>] [74pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.6.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.312 \include{part2_StatisticalTestForRandomness}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.6.4}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.312 \include{part2_StatisticalTestForRandomness}
+                                                   <./poker-eps-converted-to.pd
+f> <./runs-eps-converted-to.pdf>] [75pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.6.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.312 \include{part2_StatisticalTestForRandomness}
+                                                   <./autocorrelation1-eps-conv
+erted-to.pdf>]
+\openout2 = `part2_optimazationTechnologyChaoticIteration.aux'.
+
+ (./part2_optimazationTechnologyChaoticIteration.tex [76
+
+
+
+]
+Chapitre 7.
+Package minitoc Info: I0006
+(minitoc)             example.mtc7 is empty on input line 2.
+
+LaTeX Warning: Citation `bfg12a:ip' on page 77 undefined on input line 11.
+
+
+LaTeX Warning: Citation `DavidRC2003643' on page 77 undefined on input line 20.
+
+
+[77]
+Package epstopdf Info: Source file: <TYPEPRNG.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 52115 bytes
+(epstopdf)             Output file: <TYPEPRNG-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:05
+(epstopdf)                    size: 19046 bytes
+(epstopdf)             Command: <epstopdf --outfile=TYPEPRNG-eps-converted-to.p
+df TYPEPRNG.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+ <TYPEPRNG-eps-converted-to.pdf, id=1514, 322.20375pt x 102.3825pt>
+File: TYPEPRNG-eps-converted-to.pdf Graphic file (type pdf)
+
+<use TYPEPRNG-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `Lecuyer2009' on page 78 undefined on input line 55.
+
+
+LaTeX Warning: Citation `combined_lcg' on page 78 undefined on input line 56.
+
+
+LaTeX Warning: Citation `Lecuyer2009' on page 78 undefined on input line 59.
+
+
+Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
+ Make it at least 25.79395pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 ...d{array} \right. \end{array}\end{equation}
+                                                   <./TYPEPRNG-eps-converted-to
+.pdf>]
+
+LaTeX Warning: Citation `Lecuyer2009' on page 79 undefined on input line 103.
+
+[79] [80pdfTeX warning (ext4): destination with the same identifier (name{table
+.7.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.214 \end{sidewaystable}
+                         ] [81] [82pdfTeX warning (ext4): destination with the 
+same identifier (name{table.7.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.273 
+      ]
+Underfull \vbox (badness 2213) has occurred while \output is active []
+
+ [83pdfTeX warning (ext4): destination with the same identifier (name{table.7.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{equation}
+                    ]) [84pdfTeX warning (ext4): destination with the same iden
+tifier (name{table.7.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 ...2_optimazationTechnologyChaoticIteration}
+                                                  ]
+\openout2 = `part2_StateOfTheArt.aux'.
+
+ (./part2_StateOfTheArt.tex
+Chapitre 8.
+
+LaTeX Warning: Citation `bfg12b:ip' on page 85 undefined on input line 5.
+
+Package epstopdf Info: Source file: <lena_crypt_old_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 50406 bytes
+(epstopdf)             Output file: <lena_crypt_old_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:06
+(epstopdf)                    size: 41837 bytes
+(epstopdf)             Command: <epstopdf --outfile=lena_crypt_old_ci-eps-conve
+rted-to.pdf lena_crypt_old_ci.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+<lena_crypt_old_ci-eps-converted-to.pdf, id=1586, 198.7425pt x 198.7425pt>
+File: lena_crypt_old_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lena_crypt_old_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_old_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19507 bytes
+(epstopdf)             Output file: <hist_old_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:06
+(epstopdf)                    size: 5613 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_old_ci-eps-converted-t
+o.pdf hist_old_ci.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+
+<hist_old_ci-eps-converted-to.pdf, id=1587, 421.575pt x 317.185pt>
+File: hist_old_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_old_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_old_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 775372 bytes
+(epstopdf)             Output file: <cd_old_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:11
+(epstopdf)                    size: 2025614 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_old_ci-eps-converted-to.
+pdf cd_old_ci.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+
+<cd_old_ci-eps-converted-to.pdf, id=1588, 421.575pt x 317.185pt>
+File: cd_old_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_old_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <lena_crypt_new_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 50413 bytes
+(epstopdf)             Output file: <lena_crypt_new_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:11
+(epstopdf)                    size: 41837 bytes
+(epstopdf)             Command: <epstopdf --outfile=lena_crypt_new_ci-eps-conve
+rted-to.pdf lena_crypt_new_ci.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+
+<lena_crypt_new_ci-eps-converted-to.pdf, id=1589, 198.7425pt x 198.7425pt>
+File: lena_crypt_new_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lena_crypt_new_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_new_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19469 bytes
+(epstopdf)             Output file: <hist_new_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:11
+(epstopdf)                    size: 5613 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_new_ci-eps-converted-t
+o.pdf hist_new_ci.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+
+<hist_new_ci-eps-converted-to.pdf, id=1590, 421.575pt x 317.185pt>
+File: hist_new_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_new_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_new_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 775572 bytes
+(epstopdf)             Output file: <cd_new_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:16
+(epstopdf)                    size: 2025312 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_new_ci-eps-converted-to.
+pdf cd_new_ci.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+
+<cd_new_ci-eps-converted-to.pdf, id=1591, 421.575pt x 317.185pt>
+File: cd_new_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_new_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_old_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19507 bytes
+(epstopdf)             Output file: <hist_old_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:06
+(epstopdf)                    size: 5613 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_old_ci-eps-converted-t
+o.pdf hist_old_ci.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+File: hist_old_ci-eps-converted-to.pdf Graphic file (type pdf)
+ <use hist_old_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_old_ci_info.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19262 bytes
+(epstopdf)             Output file: <hist_old_ci_info-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:17
+(epstopdf)                    size: 6134 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_old_ci_info-eps-conver
+ted-to.pdf hist_old_ci_info.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+
+<hist_old_ci_info-eps-converted-to.pdf, id=1592, 421.575pt x 317.185pt>
+File: hist_old_ci_info-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_old_ci_info-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_old_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 775372 bytes
+(epstopdf)             Output file: <cd_old_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:11
+(epstopdf)                    size: 2025614 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_old_ci-eps-converted-to.
+pdf cd_old_ci.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+File: cd_old_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_old_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_old_ci_info.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 3489712 bytes
+(epstopdf)             Output file: <cd_old_ci_info-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:20
+(epstopdf)                    size: 31505 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_old_ci_info-eps-converte
+d-to.pdf cd_old_ci_info.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+
+<cd_old_ci_info-eps-converted-to.pdf, id=1593, 421.575pt x 317.185pt>
+File: cd_old_ci_info-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_old_ci_info-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_new_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19469 bytes
+(epstopdf)             Output file: <hist_new_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:11
+(epstopdf)                    size: 5613 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_new_ci-eps-converted-t
+o.pdf hist_new_ci.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+File: hist_new_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_new_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_new_ci_info.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19248 bytes
+(epstopdf)             Output file: <hist_new_ci_info-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:20
+(epstopdf)                    size: 6167 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_new_ci_info-eps-conver
+ted-to.pdf hist_new_ci_info.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<hist_new_ci_info-eps-converted-to.pdf, id=1594, 421.575pt x 317.185pt>
+File: hist_new_ci_info-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_new_ci_info-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_new_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 775572 bytes
+(epstopdf)             Output file: <cd_new_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:16
+(epstopdf)                    size: 2025312 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_new_ci-eps-converted-to.
+pdf cd_new_ci.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+File: cd_new_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_new_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_new_ci_info.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 3489712 bytes
+(epstopdf)             Output file: <cd_new_ci_info-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:23
+(epstopdf)                    size: 31383 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_new_ci_info-eps-converte
+d-to.pdf cd_new_ci_info.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+
+<cd_new_ci_info-eps-converted-to.pdf, id=1595, 421.575pt x 317.185pt>
+File: cd_new_ci_info-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_new_ci_info-eps-converted-to.pdf> [85
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.89 
+      <./lena_crypt_old_ci-eps-converted-to.pdf> <./hist_old_ci-eps-converted-t
+o.pdf> <./cd_old_ci-eps-converted-to.pdf>] [86pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.8.2}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.89 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.89 
+      <./lena_crypt_new_ci-eps-converted-to.pdf> <./hist_new_ci-eps-converted-t
+o.pdf> <./cd_new_ci-eps-converted-to.pdf> <./hist_old_ci_info-eps-converted-to.
+pdf> <./cd_old_ci_info-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <lena512.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 1864533 bytes
+(epstopdf)             Output file: <lena512-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:25
+(epstopdf)                    size: 53359 bytes
+(epstopdf)             Command: <epstopdf --outfile=lena512-eps-converted-to.pd
+f lena512.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<lena512-eps-converted-to.pdf, id=1645, 515.9275pt x 515.9275pt>
+File: lena512-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lena512-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <invader1.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 13944 bytes
+(epstopdf)             Output file: <invader1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:26
+(epstopdf)                    size: 4172 bytes
+(epstopdf)             Command: <epstopdf --outfile=invader1-eps-converted-to.p
+df invader1.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+
+<invader1-eps-converted-to.pdf, id=1646, 217.81375pt x 217.81375pt>
+File: invader1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use invader1-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_lena.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 18896 bytes
+(epstopdf)             Output file: <hist_lena-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:26
+(epstopdf)                    size: 7064 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_lena-eps-converted-to.
+pdf hist_lena.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+
+<hist_lena-eps-converted-to.pdf, id=1647, 421.575pt x 317.185pt>
+File: hist_lena-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_lena-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_lena.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 740142 bytes
+(epstopdf)             Output file: <cd_lena-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:30
+(epstopdf)                    size: 1613187 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_lena-eps-converted-to.pd
+f cd_lena.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+<cd_lena-eps-converted-to.pdf, id=1648, 421.575pt x 317.185pt>
+File: cd_lena-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_lena-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `bfg12b:ip' on page 87 undefined on input line 113.
+
+[87pdfTeX warning (ext4): destination with the same identifier (name{figure.8.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.120 \end{enumerate}
+                      <./hist_new_ci_info-eps-converted-to.pdf> <./cd_new_ci_in
+fo-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <xor_ci_new.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 50404 bytes
+(epstopdf)             Output file: <xor_ci_new-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:31
+(epstopdf)                    size: 41823 bytes
+(epstopdf)             Command: <epstopdf --outfile=xor_ci_new-eps-converted-to
+.pdf xor_ci_new.eps>
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
+
+<xor_ci_new-eps-converted-to.pdf, id=1675, 198.7425pt x 198.7425pt>
+File: xor_ci_new-eps-converted-to.pdf Graphic file (type pdf)
+
+<use xor_ci_new-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_xor_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19506 bytes
+(epstopdf)             Output file: <hist_xor_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:31
+(epstopdf)                    size: 5618 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_xor_ci-eps-converted-t
+o.pdf hist_xor_ci.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+
+<hist_xor_ci-eps-converted-to.pdf, id=1676, 421.575pt x 317.185pt>
+File: hist_xor_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_xor_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_xor_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 775507 bytes
+(epstopdf)             Output file: <cd_xor_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:36
+(epstopdf)                    size: 2025629 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_xor_ci-eps-converted-to.
+pdf cd_xor_ci.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
+
+<cd_xor_ci-eps-converted-to.pdf, id=1677, 421.575pt x 317.185pt>
+File: cd_xor_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_xor_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_xor_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19506 bytes
+(epstopdf)             Output file: <hist_xor_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:31
+(epstopdf)                    size: 5618 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_xor_ci-eps-converted-t
+o.pdf hist_xor_ci.eps>
+(epstopdf)             \includegraphics on input line 150.
+Package epstopdf Info: Output file is already uptodate.
+File: hist_xor_ci-eps-converted-to.pdf Graphic file (type pdf)
+ <use hist_xor_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <hist_xor_ci_info.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19262 bytes
+(epstopdf)             Output file: <hist_xor_ci_info-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:37
+(epstopdf)                    size: 6134 bytes
+(epstopdf)             Command: <epstopdf --outfile=hist_xor_ci_info-eps-conver
+ted-to.pdf hist_xor_ci_info.eps>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+
+<hist_xor_ci_info-eps-converted-to.pdf, id=1678, 421.575pt x 317.185pt>
+File: hist_xor_ci_info-eps-converted-to.pdf Graphic file (type pdf)
+
+<use hist_xor_ci_info-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_xor_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 775507 bytes
+(epstopdf)             Output file: <cd_xor_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:36
+(epstopdf)                    size: 2025629 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_xor_ci-eps-converted-to.
+pdf cd_xor_ci.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+File: cd_xor_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_xor_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cd_xor_ci_info.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 3489712 bytes
+(epstopdf)             Output file: <cd_xor_ci_info-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:39
+(epstopdf)                    size: 31505 bytes
+(epstopdf)             Command: <epstopdf --outfile=cd_xor_ci_info-eps-converte
+d-to.pdf cd_xor_ci_info.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+
+<cd_xor_ci_info-eps-converted-to.pdf, id=1679, 421.575pt x 317.185pt>
+File: cd_xor_ci_info-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cd_xor_ci_info-eps-converted-to.pdf> [88pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.8.5}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.174 
+       <./lena512-eps-converted-to.pdf> <./invader1-eps-converted-to.pdf> <./hi
+st_lena-eps-converted-to.pdf> <./cd_lena-eps-converted-to.pdf>] [89pdfTeX warni
+ng (ext4): destination with the same identifier (name{figure.8.6}) has been alr
+eady used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.174 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.174 
+       <./xor_ci_new-eps-converted-to.pdf> <./hist_xor_ci-eps-converted-to.pdf>
+ <./cd_xor_ci-eps-converted-to.pdf> <./hist_xor_ci_info-eps-converted-to.pdf> <
+./cd_xor_ci_info-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <diff_old_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 47087 bytes
+(epstopdf)             Output file: <diff_old_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:40
+(epstopdf)                    size: 35858 bytes
+(epstopdf)             Command: <epstopdf --outfile=diff_old_ci-eps-converted-t
+o.pdf diff_old_ci.eps>
+(epstopdf)             \includegraphics on input line 181.
+Package epstopdf Info: Output file is already uptodate.
+
+<diff_old_ci-eps-converted-to.pdf, id=1739, 198.7425pt x 198.7425pt>
+File: diff_old_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use diff_old_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <diff_new_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 46972 bytes
+(epstopdf)             Output file: <diff_new_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:40
+(epstopdf)                    size: 35874 bytes
+(epstopdf)             Command: <epstopdf --outfile=diff_new_ci-eps-converted-t
+o.pdf diff_new_ci.eps>
+(epstopdf)             \includegraphics on input line 183.
+Package epstopdf Info: Output file is already uptodate.
+
+<diff_new_ci-eps-converted-to.pdf, id=1740, 198.7425pt x 198.7425pt>
+File: diff_new_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use diff_new_ci-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <diff_xor_ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 46906 bytes
+(epstopdf)             Output file: <diff_xor_ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:41
+(epstopdf)                    size: 35695 bytes
+(epstopdf)             Command: <epstopdf --outfile=diff_xor_ci-eps-converted-t
+o.pdf diff_xor_ci.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<diff_xor_ci-eps-converted-to.pdf, id=1741, 198.7425pt x 198.7425pt>
+File: diff_xor_ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use diff_xor_ci-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `Chen2004749' on page 90 undefined on input line 215.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90pdfTeX warning (ext4): destination with the same identifier (name{figure.8.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.238 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.8
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.238 
+       <./diff_old_ci-eps-converted-to.pdf> <./diff_new_ci-eps-converted-to.pdf
+> <./diff_xor_ci-eps-converted-to.pdf>]) [91]
+\openout2 = `part2_FPGADesign.aux'.
+
+ (./part2_FPGADesign.tex [92
+
+
+
+]
+Chapitre 9.
+
+LaTeX Warning: Citation `Porter198443' on page 93 undefined on input line 8.
+
+
+LaTeX Warning: Citation `Batina20031' on page 93 undefined on input line 8.
+
+
+LaTeX Warning: Citation `Carroll1990613' on page 93 undefined on input line 8.
+
+
+LaTeX Warning: Citation `Liu2012331' on page 93 undefined on input line 8.
+
+
+LaTeX Warning: Citation `submit1' on page 93 undefined on input line 22.
+
+
+LaTeX Warning: Citation `submit3' on page 93 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Bojani200663' on page 93 undefined on input line 33.
+
+
+LaTeX Warning: Citation `Danger:2009:HST:1645457.1645933' on page 93 undefined 
+on input line 33.
+
+
+LaTeX Warning: Citation `Tsoi:2003:CFT:938383.938400' on page 93 undefined on i
+nput line 33.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 93 undefined
+ on input line 41.
+
+[93]
+
+LaTeX Warning: Citation `verilog' on page 94 undefined on input line 65.
+
+Package epstopdf Info: Source file: <xorshift.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 16244 bytes
+(epstopdf)             Output file: <xorshift-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:41
+(epstopdf)                    size: 8055 bytes
+(epstopdf)             Command: <epstopdf --outfile=xorshift-eps-converted-to.p
+df xorshift.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+<xorshift-eps-converted-to.pdf, id=1785, 298.11375pt x 102.3825pt>
+File: xorshift-eps-converted-to.pdf Graphic file (type pdf)
+
+<use xorshift-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <bbs.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 15717 bytes
+(epstopdf)             Output file: <bbs-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:42
+(epstopdf)                    size: 8059 bytes
+(epstopdf)             Command: <epstopdf --outfile=bbs-eps-converted-to.pdf bb
+s.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<bbs-eps-converted-to.pdf, id=1786, 260.975pt x 106.3975pt>
+File: bbs-eps-converted-to.pdf Graphic file (type pdf)
+
+<use bbs-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <ci.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 22570 bytes
+(epstopdf)             Output file: <ci-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:42
+(epstopdf)                    size: 9805 bytes
+(epstopdf)             Command: <epstopdf --outfile=ci-eps-converted-to.pdf ci.
+eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+<ci-eps-converted-to.pdf, id=1787, 631.35875pt x 201.75375pt>
+File: ci-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ci-eps-converted-to.pdf>
+Underfull \vbox (badness 4454) has occurred while \output is active []
+
+ [94pdfTeX warning (ext4): destination with the same identifier (name{figure.9.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 
+       <./xorshift-eps-converted-to.pdf> <./bbs-eps-converted-to.pdf> <./ci-eps
+-converted-to.pdf>]
+Package epstopdf Info: Source file: <print.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 2498114 bytes
+(epstopdf)             Output file: <print-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:44
+(epstopdf)                    size: 88098 bytes
+(epstopdf)             Command: <epstopdf --outfile=print-eps-converted-to.pdf 
+print.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+<print-eps-converted-to.pdf, id=1818, 469.755pt x 310.15875pt>
+File: print-eps-converted-to.pdf Graphic file (type pdf)
+
+<use print-eps-converted-to.pdf>) [95pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.9.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.316 \include{part2_FPGADesign}
+                                 <./print-eps-converted-to.pdf>]
+\openout2 = `part2_CIPRNGUsedInApplication.aux'.
+
+
+(./part2_CIPRNGUsedInApplication.tex [96
+
+
+
+]
+Chapitre 10.
+Package minitoc Info: I0006
+(minitoc)             example.mtc10 is empty on input line 3.
+
+LaTeX Warning: Citation `Wu2007bis' on page 97 undefined on input line 85.
+
+
+LaTeX Warning: Citation `submit2' on page 97 undefined on input line 94.
+
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 97 undefined on input line 
+94.
+
+
+LaTeX Warning: Citation `gfb10:ip' on page 97 undefined on input line 100.
+
+
+LaTeX Warning: Citation `bg10:ip' on page 97 undefined on input line 100.
+
+[97]
+Package epstopdf Info: Source file: <lena512marqueDWT.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 1873151 bytes
+(epstopdf)             Output file: <lena512marqueDWT-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:47
+(epstopdf)                    size: 50161 bytes
+(epstopdf)             Command: <epstopdf --outfile=lena512marqueDWT-eps-conver
+ted-to.pdf lena512marqueDWT.eps>
+(epstopdf)             \includegraphics on input line 133.
+Package epstopdf Info: Output file is already uptodate.
+
+<lena512marqueDWT-eps-converted-to.pdf, id=1840, 514.92375pt x 514.92375pt>
+File: lena512marqueDWT-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lena512marqueDWT-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <lenaMSCbis.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 85814 bytes
+(epstopdf)             Output file: <lenaMSCbis-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:47
+(epstopdf)                    size: 6841 bytes
+(epstopdf)             Command: <epstopdf --outfile=lenaMSCbis-eps-converted-to
+.pdf lenaMSCbis.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+
+<lenaMSCbis-eps-converted-to.pdf, id=1841, 109.40875pt x 109.40875pt>
+File: lenaMSCbis-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lenaMSCbis-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <lenaLSCbis.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 90089 bytes
+(epstopdf)             Output file: <lenaLSCbis-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:48
+(epstopdf)                    size: 11016 bytes
+(epstopdf)             Command: <epstopdf --outfile=lenaLSCbis-eps-converted-to
+.pdf lenaLSCbis.eps>
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
+
+<lenaLSCbis-eps-converted-to.pdf, id=1842, 109.40875pt x 109.40875pt>
+File: lenaLSCbis-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lenaLSCbis-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `bcg11:ij' on page 98 undefined on input line 156.
+
+
+LaTeX Warning: Citation `bg10b:ip' on page 98 undefined on input line 162.
+
+
+LaTeX Warning: Citation `bg10b:ip' on page 98 undefined on input line 169.
+
+
+LaTeX Warning: Citation `guyeux10' on page 98 undefined on input line 171.
+
+[98pdfTeX warning (ext4): destination with the same identifier (name{figure.10.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.172 
+       <./lena512marqueDWT-eps-converted-to.pdf> <./lenaMSCbis-eps-converted-to
+.pdf> <./lenaLSCbis-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <nios.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 17990 bytes
+(epstopdf)             Output file: <nios-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:49
+(epstopdf)                    size: 9088 bytes
+(epstopdf)             Command: <epstopdf --outfile=nios-eps-converted-to.pdf n
+ios.eps>
+(epstopdf)             \includegraphics on input line 200.
+Package epstopdf Info: Output file is already uptodate.
+
+<nios-eps-converted-to.pdf, id=1862, 477.785pt x 185.69376pt>
+File: nios-eps-converted-to.pdf Graphic file (type pdf)
+
+<use nios-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <nios2.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 255884 bytes
+(epstopdf)             Output file: <nios2-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:50
+(epstopdf)                    size: 79063 bytes
+(epstopdf)             Command: <epstopdf --outfile=nios2-eps-converted-to.pdf 
+nios2.eps>
+(epstopdf)             \includegraphics on input line 202.
+Package epstopdf Info: Output file is already uptodate.
+
+<nios2-eps-converted-to.pdf, id=1863, 1100.11pt x 606.265pt>
+File: nios2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use nios2-eps-converted-to.pdf>
+Overfull \hbox (3.04399pt too wide) in paragraph at lines 200--203
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <lena512.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 1864533 bytes
+(epstopdf)             Output file: <lena512-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:25
+(epstopdf)                    size: 53359 bytes
+(epstopdf)             Command: <epstopdf --outfile=lena512-eps-converted-to.pd
+f lena512.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
+File: lena512-eps-converted-to.pdf Graphic file (type pdf)
+<use lena512-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <invader1.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 13944 bytes
+(epstopdf)             Output file: <invader1-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:26
+(epstopdf)                    size: 4172 bytes
+(epstopdf)             Command: <epstopdf --outfile=invader1-eps-converted-to.p
+df invader1.eps>
+(epstopdf)             \includegraphics on input line 227.
+Package epstopdf Info: Output file is already uptodate.
+File: invader1-eps-converted-to.pdf Graphic file (type pdf)
+ <use invader1-eps-converted-to.pdf> [99]
+Package epstopdf Info: Source file: <output_lena.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 346402 bytes
+(epstopdf)             Output file: <output_lena-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:51
+(epstopdf)                    size: 228362 bytes
+(epstopdf)             Command: <epstopdf --outfile=output_lena-eps-converted-t
+o.pdf output_lena.eps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
+
+<output_lena-eps-converted-to.pdf, id=1873, 445.665pt x 383.4325pt>
+File: output_lena-eps-converted-to.pdf Graphic file (type pdf)
+
+<use output_lena-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <diff.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 44197 bytes
+(epstopdf)             Output file: <diff-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:51
+(epstopdf)                    size: 15838 bytes
+(epstopdf)             Command: <epstopdf --outfile=diff-eps-converted-to.pdf d
+iff.eps>
+(epstopdf)             \includegraphics on input line 236.
+Package epstopdf Info: Output file is already uptodate.
+
+<diff-eps-converted-to.pdf, id=1874, 445.665pt x 383.4325pt>
+File: diff-eps-converted-to.pdf Graphic file (type pdf)
+
+<use diff-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `java' on page 100 undefined on input line 240.
+
+[100pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.244 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+10.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.244 
+       <./nios-eps-converted-to.pdf> <./nios2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <start.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 19519 bytes
+(epstopdf)             Output file: <start-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:52
+(epstopdf)                    size: 10701 bytes
+(epstopdf)             Command: <epstopdf --outfile=start-eps-converted-to.pdf 
+start.eps>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+
+<start-eps-converted-to.pdf, id=1899, 773.89125pt x 433.62pt>
+File: start-eps-converted-to.pdf Graphic file (type pdf)
+
+<use start-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <chooseFile.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 27473 bytes
+(epstopdf)             Output file: <chooseFile-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:52
+(epstopdf)                    size: 11558 bytes
+(epstopdf)             Command: <epstopdf --outfile=chooseFile-eps-converted-to
+.pdf chooseFile.eps>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+
+<chooseFile-eps-converted-to.pdf, id=1900, 669.50125pt x 363.3575pt>
+File: chooseFile-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chooseFile-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <chooseImage.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 576440 bytes
+(epstopdf)             Output file: <chooseImage-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:53
+(epstopdf)                    size: 63601 bytes
+(epstopdf)             Command: <epstopdf --outfile=chooseImage-eps-converted-t
+o.pdf chooseImage.eps>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
+
+<chooseImage-eps-converted-to.pdf, id=1901, 1200.485pt x 442.65375pt>
+File: chooseImage-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chooseImage-eps-converted-to.pdf>
+Overfull \hbox (52.75397pt too wide) in paragraph at lines 247--250
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `nios' on page 101 undefined on input line 264.
+
+[101pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 
+       <./output_lena-eps-converted-to.pdf> <./diff-eps-converted-to.pdf>]
+[102pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 
+       <./start-eps-converted-to.pdf> <./chooseFile-eps-converted-to.pdf> <./ch
+ooseImage-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 103 undefined on input line
+ 294.
+
+Package epstopdf Info: Source file: <lennaDecoupe100px.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 138652 bytes
+(epstopdf)             Output file: <lennaDecoupe100px-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:54
+(epstopdf)                    size: 10006 bytes
+(epstopdf)             Command: <epstopdf --outfile=lennaDecoupe100px-eps-conve
+rted-to.pdf lennaDecoupe100px.eps>
+(epstopdf)             \includegraphics on input line 301.
+Package epstopdf Info: Output file is already uptodate.
+<lennaDecoupe100px-eps-converted-to.pdf, id=1937, 256.96pt x 256.96pt>
+File: lennaDecoupe100px-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lennaDecoupe100px-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <lennaTourne25d.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 138667 bytes
+(epstopdf)             Output file: <lennaTourne25d-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:54
+(epstopdf)                    size: 11426 bytes
+(epstopdf)             Command: <epstopdf --outfile=lennaTourne25d-eps-converte
+d-to.pdf lennaTourne25d.eps>
+(epstopdf)             \includegraphics on input line 307.
+Package epstopdf Info: Output file is already uptodate.
+
+<lennaTourne25d-eps-converted-to.pdf, id=1938, 256.96pt x 256.96pt>
+File: lennaTourne25d-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lennaTourne25d-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <invaderDechiffreDecoupe100px.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 6788 bytes
+(epstopdf)             Output file: <invaderDechiffreDecoupe100px-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:54
+(epstopdf)                    size: 2773 bytes
+(epstopdf)             Command: <epstopdf --outfile=invaderDechiffreDecoupe100p
+x-eps-converted-to.pdf invaderDechiffreDecoupe100px.eps>
+(epstopdf)             \includegraphics on input line 343.
+Package epstopdf Info: Output file is already uptodate.
+
+<invaderDechiffreDecoupe100px-eps-converted-to.pdf, id=1940, 64.24pt x 64.24pt>
+File: invaderDechiffreDecoupe100px-eps-converted-to.pdf Graphic file (type pdf)
+
+<use invaderDechiffreDecoupe100px-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <invaderDechiffreDecoupeAuth100px.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 5030 bytes
+(epstopdf)             Output file: <invaderDechiffreDecoupeAuth100px-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:55
+(epstopdf)                    size: 3662 bytes
+(epstopdf)             Command: <epstopdf --outfile=invaderDechiffreDecoupeAuth
+100px-eps-converted-to.pdf invaderDechiffreDecoupeAuth100px.eps>
+(epstopdf)             \includegraphics on input line 349.
+Package epstopdf Info: Output file is already uptodate.
+
+<invaderDechiffreDecoupeAuth100px-eps-converted-to.pdf, id=1941, 65.24374pt x 6
+5.24374pt>
+File: invaderDechiffreDecoupeAuth100px-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use invaderDechiffreDecoupeAuth100px-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <invaderDechiffreDecoupeAuth50px.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 3704 bytes
+(epstopdf)             Output file: <invaderDechiffreDecoupeAuth50px-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:55
+(epstopdf)                    size: 3562 bytes
+(epstopdf)             Command: <epstopdf --outfile=invaderDechiffreDecoupeAuth
+50px-eps-converted-to.pdf invaderDechiffreDecoupeAuth50px.eps>
+(epstopdf)             \includegraphics on input line 355.
+Package epstopdf Info: Output file is already uptodate.
+
+<invaderDechiffreDecoupeAuth50px-eps-converted-to.pdf, id=1942, 65.24374pt x 65
+.24374pt>
+File: invaderDechiffreDecoupeAuth50px-eps-converted-to.pdf Graphic file (type p
+df)
+ <use invaderDechiffreDecoupeAuth50px-eps-converted-to.pdf> [103pdfTeX warning 
+(ext4): destination with the same identifier (name{figure.10.6}) has been alrea
+dy used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.375 \begin{center}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.10.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.375 \begin{center}
+                     <./lennaDecoupe100px-eps-converted-to.pdf> <./lennaTourne2
+5d-eps-converted-to.pdf> <./invaderDechiffreDecoupe100px-eps-converted-to.pdf> 
+<./invaderDechiffreDecoupeAuth100px-eps-converted-to.pdf> <./invaderDechiffreDe
+coupeAuth50px-eps-converted-to.pdf>] [104]) [105]
+\openout2 = `part3_Optical.aux'.
+
+ (./part3_Optical.tex [106
+
+
+
+]
+[107] [108]
+Chapitre 11.
+
+LaTeX Warning: Citation `security' on page 109 undefined on input line 6.
+
+
+LaTeX Warning: Citation `radio' on page 109 undefined on input line 6.
+
+
+LaTeX Warning: Citation `circuits' on page 109 undefined on input line 6.
+
+
+LaTeX Warning: Citation `oscillator' on page 109 undefined on input line 6.
+
+
+LaTeX Warning: Citation `dynes:031109' on page 109 undefined on input line 6.
+
+
+LaTeX Warning: Citation `mukai85' on page 109 undefined on input line 8.
+
+
+LaTeX Warning: Citation `fast' on page 109 undefined on input line 10.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 109 undefined on input line 10.
+
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 109 undefined on input line 10.
+
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 109 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 109 undefined on input line 13.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109
+
+]
+[110]
+Chapitre 12.
+
+LaTeX Warning: Citation `submit4' on page 111 undefined on input line 47.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 111 undefined on input line 54.
+
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 111 undefined on input line 54.
+
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 111 undefined on input line 59.
+
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 111 undefined on input line 59.
+
+
+
+LaTeX Warning: Citation `li:OL11' on page 111 undefined on input line 61.
+
+
+LaTeX Warning: Citation `lavrov:jqe10' on page 111 undefined on input line 63.
+
+[111
+
+]
+
+LaTeX Warning: Citation `ultrafast2009' on page 112 undefined on input line 65.
+
+
+Package epstopdf Info: Source file: <setup_opto_RNG.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 171984 bytes
+(epstopdf)             Output file: <setup_opto_RNG-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:56
+(epstopdf)                    size: 121507 bytes
+(epstopdf)             Command: <epstopdf --outfile=setup_opto_RNG-eps-converte
+d-to.pdf setup_opto_RNG.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+<setup_opto_RNG-eps-converted-to.pdf, id=2005, 317.185pt x 182.6825pt>
+File: setup_opto_RNG-eps-converted-to.pdf Graphic file (type pdf)
+
+<use setup_opto_RNG-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `lavrov:pre09' on page 112 undefined on input line 88.
+
+
+LaTeX Warning: Citation `weicker:pre12' on page 112 undefined on input line 88.
+
+
+[112pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.90 
+      <./setup_opto_RNG-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <scheme_optic.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 58895 bytes
+(epstopdf)             Output file: <scheme_optic-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:57
+(epstopdf)                    size: 21261 bytes
+(epstopdf)             Command: <epstopdf --outfile=scheme_optic-eps-converted-
+to.pdf scheme_optic.eps>
+(epstopdf)             \includegraphics on input line 96.
+Package epstopdf Info: Output file is already uptodate.
+
+<scheme_optic-eps-converted-to.pdf, id=2015, 410.53375pt x 186.6975pt>
+File: scheme_optic-eps-converted-to.pdf Graphic file (type pdf)
+
+<use scheme_optic-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `ultrafast2010' on page 113 undefined on input line 104
+.
+
+[113pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.112 \begin{eqnarray}
+                       <./scheme_optic-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <sampling_th.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 63418 bytes
+(epstopdf)             Output file: <sampling_th-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:57
+(epstopdf)                    size: 29500 bytes
+(epstopdf)             Command: <epstopdf --outfile=sampling_th-eps-converted-t
+o.pdf sampling_th.eps>
+(epstopdf)             \includegraphics on input line 130.
+Package epstopdf Info: Output file is already uptodate.
+
+<sampling_th-eps-converted-to.pdf, id=2032, 519.9425pt x 232.87pt>
+File: sampling_th-eps-converted-to.pdf Graphic file (type pdf)
+
+<use sampling_th-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <chaos_derivative.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 159032 bytes
+(epstopdf)             Output file: <chaos_derivative-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:58
+(epstopdf)                    size: 143495 bytes
+(epstopdf)             Command: <epstopdf --outfile=chaos_derivative-eps-conver
+ted-to.pdf chaos_derivative.eps>
+(epstopdf)             \includegraphics on input line 142.
+Package epstopdf Info: Output file is already uptodate.
+
+<chaos_derivative-eps-converted-to.pdf, id=2033, 432.61626pt x 341.275pt>
+File: chaos_derivative-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chaos_derivative-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <chaos_derivative_zoom.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 33549 bytes
+(epstopdf)             Output file: <chaos_derivative_zoom-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2013-03-04 16:27:59
+(epstopdf)                    size: 25791 bytes
+(epstopdf)             Command: <epstopdf --outfile=chaos_derivative_zoom-eps-c
+onverted-to.pdf chaos_derivative_zoom.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+
+<chaos_derivative_zoom-eps-converted-to.pdf, id=2034, 432.61626pt x 341.275pt>
+File: chaos_derivative_zoom-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chaos_derivative_zoom-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <cwh.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 8797 bytes
+(epstopdf)             Output file: <cwh-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:27:59
+(epstopdf)                    size: 4425 bytes
+(epstopdf)             Command: <epstopdf --outfile=cwh-eps-converted-to.pdf cw
+h.eps>
+(epstopdf)             \includegraphics on input line 144.
+Package epstopdf Info: Output file is already uptodate.
+
+<cwh-eps-converted-to.pdf, id=2035, 432.61626pt x 341.275pt>
+File: cwh-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cwh-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <noise_derivative.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 115881 bytes
+(epstopdf)             Output file: <noise_derivative-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:00
+(epstopdf)                    size: 106582 bytes
+(epstopdf)             Command: <epstopdf --outfile=noise_derivative-eps-conver
+ted-to.pdf noise_derivative.eps>
+(epstopdf)             \includegraphics on input line 170.
+Package epstopdf Info: Output file is already uptodate.
+
+<noise_derivative-eps-converted-to.pdf, id=2036, 432.61626pt x 341.275pt>
+File: noise_derivative-eps-converted-to.pdf Graphic file (type pdf)
+
+<use noise_derivative-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <noise_derivative_zoom.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 33567 bytes
+(epstopdf)             Output file: <noise_derivative_zoom-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2013-03-04 16:28:01
+(epstopdf)                    size: 24868 bytes
+(epstopdf)             Command: <epstopdf --outfile=noise_derivative_zoom-eps-c
+onverted-to.pdf noise_derivative_zoom.eps>
+(epstopdf)             \includegraphics on input line 171.
+Package epstopdf Info: Output file is already uptodate.
+
+<noise_derivative_zoom-eps-converted-to.pdf, id=2037, 432.61626pt x 341.275pt>
+File: noise_derivative_zoom-eps-converted-to.pdf Graphic file (type pdf)
+
+<use noise_derivative_zoom-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <nwh.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 8799 bytes
+(epstopdf)             Output file: <nwh-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:01
+(epstopdf)                    size: 4409 bytes
+(epstopdf)             Command: <epstopdf --outfile=nwh-eps-converted-to.pdf nw
+h.eps>
+(epstopdf)             \includegraphics on input line 172.
+Package epstopdf Info: Output file is already uptodate.
+
+<nwh-eps-converted-to.pdf, id=2038, 432.61626pt x 341.275pt>
+File: nwh-eps-converted-to.pdf Graphic file (type pdf)
+
+<use nwh-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `ultrafast2009' on page 114 undefined on input line 185
+.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 114 undefined on input line 185
+.
+
+[114pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.202 \begin{equation}
+                       <./sampling_th-eps-converted-to.pdf>] [115pdfTeX warning
+ (ext4): destination with the same identifier (name{figure.12.4}) has been alre
+ady used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.202 \begin{equation}
+                       <./chaos_derivative-eps-converted-to.pdf> <./chaos_deriv
+ative_zoom-eps-converted-to.pdf> <./cwh-eps-converted-to.pdf>] [116pdfTeX warni
+ng (ext4): destination with the same identifier (name{figure.12.5}) has been al
+ready used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.202 \begin{equation}
+                       <./noise_derivative-eps-converted-to.pdf> <./noise_deriv
+ative_zoom-eps-converted-to.pdf> <./nwh-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `ultrafast2009' on page 117 undefined on input line 260
+.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 117 undefined on input line 260
+.
+
+[117]
+
+LaTeX Warning: Citation `ultrafast2009' on page 118 undefined on input line 277
+.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 118 undefined on input line 277
+.
+
+[118]
+
+LaTeX Warning: Citation `PhysRevE.85.016211' on page 119 undefined on input lin
+e 344.
+
+
+LaTeX Warning: Citation `PhysRevE.85.016211' on page 119 undefined on input lin
+e 383.
+
+[119]
+Package epstopdf Info: Source file: <chaos_noise.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 9572 bytes
+(epstopdf)             Output file: <chaos_noise-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:02
+(epstopdf)                    size: 4320 bytes
+(epstopdf)             Command: <epstopdf --outfile=chaos_noise-eps-converted-t
+o.pdf chaos_noise.eps>
+(epstopdf)             \includegraphics on input line 433.
+Package epstopdf Info: Output file is already uptodate.
+ <chaos_noise-eps-converted-to.pdf, id=2125, 410.53375pt x 309.155pt>
+File: chaos_noise-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chaos_noise-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `PhysRevE.85.016211' on page 120 undefined on input lin
+e 473.
+
+Package epstopdf Info: Source file: <entropy_value_lsb_msb_40ghz.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 318076 bytes
+(epstopdf)             Output file: <entropy_value_lsb_msb_40ghz-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:04
+(epstopdf)                    size: 602384 bytes
+(epstopdf)             Command: <epstopdf --outfile=entropy_value_lsb_msb_40ghz
+-eps-converted-to.pdf entropy_value_lsb_msb_40ghz.eps>
+(epstopdf)             \includegraphics on input line 491.
+Package epstopdf Info: Output file is already uptodate.
+
+<entropy_value_lsb_msb_40ghz-eps-converted-to.pdf, id=2126, 259.97125pt x 520.9
+4624pt>
+File: entropy_value_lsb_msb_40ghz-eps-converted-to.pdf Graphic file (type pdf)
+ <use entropy_value_lsb_msb_40ghz-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <entropy_value_lsb_msb_40ghz_d1.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 321048 bytes
+(epstopdf)             Output file: <entropy_value_lsb_msb_40ghz_d1-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:06
+(epstopdf)                    size: 605120 bytes
+(epstopdf)             Command: <epstopdf --outfile=entropy_value_lsb_msb_40ghz
+_d1-eps-converted-to.pdf entropy_value_lsb_msb_40ghz_d1.eps>
+(epstopdf)             \includegraphics on input line 492.
+Package epstopdf Info: Output file is already uptodate.
+
+<entropy_value_lsb_msb_40ghz_d1-eps-converted-to.pdf, id=2127, 260.975pt x 525.
+965pt>
+File: entropy_value_lsb_msb_40ghz_d1-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use entropy_value_lsb_msb_40ghz_d1-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <entropy_value_lsb_msb_40ghz_d2.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 297974 bytes
+(epstopdf)             Output file: <entropy_value_lsb_msb_40ghz_d2-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:08
+(epstopdf)                    size: 547610 bytes
+(epstopdf)             Command: <epstopdf --outfile=entropy_value_lsb_msb_40ghz
+_d2-eps-converted-to.pdf entropy_value_lsb_msb_40ghz_d2.eps>
+(epstopdf)             \includegraphics on input line 493.
+Package epstopdf Info: Output file is already uptodate.
+
+<entropy_value_lsb_msb_40ghz_d2-eps-converted-to.pdf, id=2128, 259.97125pt x 52
+3.9575pt>
+File: entropy_value_lsb_msb_40ghz_d2-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use entropy_value_lsb_msb_40ghz_d2-eps-converted-to.pdf> [120pdfTeX warning (
+ext4): destination with the same identifier (name{figure.12.6}) has been alread
+y used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.501 
+       <./chaos_noise-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `PhysRevE.85.016211' on page 121 undefined on input lin
+e 506.
+
+
+LaTeX Warning: Citation `fast' on page 121 undefined on input line 546.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 121 undefined on input line 549
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+2.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.552 
+       <./entropy_value_lsb_msb_40ghz-eps-converted-to.pdf> <./entropy_value_ls
+b_msb_40ghz_d1-eps-converted-to.pdf> <./entropy_value_lsb_msb_40ghz_d2-eps-conv
+erted-to.pdf>]
+Package epstopdf Info: Source file: <lsb2msb_entropy.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 18918 bytes
+(epstopdf)             Output file: <lsb2msb_entropy-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:08
+(epstopdf)                    size: 8685 bytes
+(epstopdf)             Command: <epstopdf --outfile=lsb2msb_entropy-eps-convert
+ed-to.pdf lsb2msb_entropy.eps>
+(epstopdf)             \includegraphics on input line 569.
+Package epstopdf Info: Output file is already uptodate.
+
+<lsb2msb_entropy-eps-converted-to.pdf, id=2161, 410.53375pt x 309.155pt>
+File: lsb2msb_entropy-eps-converted-to.pdf Graphic file (type pdf)
+
+<use lsb2msb_entropy-eps-converted-to.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 122 undefined on input line 584
+.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 122 undefined on input line 584
+.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 122 undefined on input line 598
+.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 122 undefined on input line 599
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+
+LaTeX Warning: Citation `ultrafast2009' on page 123 undefined on input line 601
+.
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 123 undefined on input line 605
+.
+
+
+LaTeX Warning: Citation `Barker05recommendationfor' on page 123 undefined on in
+put line 622.
+
+
+LaTeX Warning: Citation `Marsaglia1996' on page 123 undefined on input line 622
+.
+
+
+LaTeX Warning: Citation `ent' on page 123 undefined on input line 623.
+
+
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+ [123pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+2.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.711 
+       <./lsb2msb_entropy-eps-converted-to.pdf>]
+Overfull \hbox (17.09526pt too wide) in paragraph at lines 719--727
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <comparison.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 25731 bytes
+(epstopdf)             Output file: <comparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:09
+(epstopdf)                    size: 28151 bytes
+(epstopdf)             Command: <epstopdf --outfile=comparison-eps-converted-to
+.pdf comparison.eps>
+(epstopdf)             \includegraphics on input line 749.
+Package epstopdf Info: Output file is already uptodate.
+<comparison-eps-converted-to.pdf, id=2182, 410.53375pt x 309.155pt>
+File: comparison-eps-converted-to.pdf Graphic file (type pdf)
+
+<use comparison-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <comparison2.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 25768 bytes
+(epstopdf)             Output file: <comparison2-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:10
+(epstopdf)                    size: 28023 bytes
+(epstopdf)             Command: <epstopdf --outfile=comparison2-eps-converted-t
+o.pdf comparison2.eps>
+(epstopdf)             \includegraphics on input line 751.
+Package epstopdf Info: Output file is already uptodate.
+
+<comparison2-eps-converted-to.pdf, id=2183, 410.53375pt x 309.155pt>
+File: comparison2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use comparison2-eps-converted-to.pdf>
+
+LaTeX Warning: Float too large for page by 45.93004pt on input line 755.
+
+[124pdfTeX warning (ext4): destination with the same identifier (name{table.12.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.755 \end{figure}
+                  ]
+
+LaTeX Warning: Citation `li:OL11' on page 125 undefined on input line 797.
+
+
+LaTeX Warning: Citation `wetzel:ox12' on page 125 undefined on input line 797.
+
+
+LaTeX Warning: Citation `fast' on page 125 undefined on input line 799.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 125 undefined on input line 799
+.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 125 undefined on input line 829
+.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 125 undefined on input line 844
+.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 125 undefined on input line 862
+.
+
+
+LaTeX Warning: Citation `williams:OE10' on page 125 undefined on input line 864
+.
+
+
+LaTeX Warning: Citation `hirano:OE10' on page 125 undefined on input line 864.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 125 undefined on input line 875
+.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 125 undefined on input line 899
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125pdfTeX warning (ext4): destination with the same identifier (name{table.12
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.902 
+      ] [126pdfTeX warning (ext4): destination with the same identifier (name{f
+igure.12.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.902 
+       <./comparison-eps-converted-to.pdf> <./comparison2-eps-converted-to.pdf>
+] [127pdfTeX warning (ext4): destination with the same identifier (name{table.1
+2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.902 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1
+2.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.902 
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+
+LaTeX Warning: Citation `fast' on page 129 undefined on input line 910.
+
+[129] [130
+
+]
+Chapitre 13.
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 131 undefine
+d on input line 940.
+
+Package epstopdf Info: Source file: <setup_opto_laser.eps>
+(epstopdf)                    date: 2013-03-04 15:53:31
+(epstopdf)                    size: 55102 bytes
+(epstopdf)             Output file: <setup_opto_laser-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:10
+(epstopdf)                    size: 17995 bytes
+(epstopdf)             Command: <epstopdf --outfile=setup_opto_laser-eps-conver
+ted-to.pdf setup_opto_laser.eps>
+(epstopdf)             \includegraphics on input line 948.
+Package epstopdf Info: Output file is already uptodate.
+<setup_opto_laser-eps-converted-to.pdf, id=2229, 318.18875pt x 183.68625pt>
+File: setup_opto_laser-eps-converted-to.pdf Graphic file (type pdf)
+
+<use setup_opto_laser-eps-converted-to.pdf> [131]
+Package epstopdf Info: Source file: <CI_Photononic.eps>
+(epstopdf)                    date: 2013-03-04 15:53:30
+(epstopdf)                    size: 27175 bytes
+(epstopdf)             Output file: <CI_Photononic-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-03-04 16:28:11
+(epstopdf)                    size: 11605 bytes
+(epstopdf)             Command: <epstopdf --outfile=CI_Photononic-eps-converted
+-to.pdf CI_Photononic.eps>
+(epstopdf)             \includegraphics on input line 968.
+Package epstopdf Info: Output file is already uptodate.
+
+<CI_Photononic-eps-converted-to.pdf, id=2237, 1158.3275pt x 331.2375pt>
+File: CI_Photononic-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CI_Photononic-eps-converted-to.pdf>
+
+LaTeX Warning: Citation `beker1982cipher' on page 132 undefined on input line 9
+97.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 132 undefine
+d on input line 1000.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1003 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.13.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1003 
+        <./setup_opto_laser-eps-converted-to.pdf> <./CI_Photononic-eps-converte
+d-to.pdf>]
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1112-5239' on page 133 undefine
+d on input line 1007.
+
+[133]
+
+LaTeX Warning: Citation `PhysRevE.79.026208' on page 134 undefined on input lin
+e 1071.
+
+) [134] [135pdfTeX warning (ext4): destination with the same identifier (name{t
+able.13.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.318 \include{part3_Optical}
+                             ]
+\openout2 = `part4_conclusion.aux'.
+
+ (./part4_conclusion.tex [136
+
+
+
+] [137] [138]
+Chapitre 14.
+[139
+
+]
+
+LaTeX Warning: Citation `bibtexwangqianxue' on page 140 undefined on input line
+ 12.
+
+
+LaTeX Warning: Citation `li:OL11' on page 140 undefined on input line 21.
+
+
+LaTeX Warning: Citation `wetzel:ox12' on page 140 undefined on input line 21.
+
+
+LaTeX Warning: Citation `fast' on page 140 undefined on input line 21.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 140 undefined on input line 21.
+
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 140 undefined on input line 21.
+
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 140 undefined on input line 21.
+
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 140 undefined on input line 22.
+
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 140 undefined on input line 22.
+
+
+
+LaTeX Warning: Citation `williams:OE10' on page 140 undefined on input line 22.
+
+
+
+LaTeX Warning: Citation `hirano:OE10' on page 140 undefined on input line 22.
+
+
+LaTeX Warning: Citation `ultrafast2009' on page 140 undefined on input line 25.
+
+
+
+LaTeX Warning: Citation `ultrafast2010' on page 140 undefined on input line 25.
+
+
+[140] [141] [142
+
+]
+Chapitre 15.
+) [143] (./example.bbl) [144
+
+
+
+] [145]
+
+pdfTeX warning: pdflatex (file ./backpage.pdf): PDF inclusion: found PDF versio
+n <1.6>, but at most version <1.4> allowed
+<backpage.pdf, id=2336, 597.432pt x 844.83629pt>
+File: backpage.pdf Graphic file (type pdf)
+ <use backpage.pdf>
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the example.maf file.
+\openout3 = `example.maf'.
+
+
+
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the example.log file.
+
+\tf@thm=\write8
+\openout8 = `example.thm'.
+
+[146
+
+ <./backpage.pdf>] (./example.aux (./part1_introduction.aux)
+(./part2_introduction.aux) (./part2_reviewsOfBasic.aux)
+(./part2_TheDesignAndDevelopmentOfCIPRNG.aux)
+(./part2_StatisticalTestForRandomness.aux)
+(./part2_optimazationTechnologyChaoticIteration.aux) (./part2_StateOfTheArt.aux
+) (./part2_FPGADesign.aux) (./part2_CIPRNGUsedInApplication.aux)
+(./part3_Optical.aux) (./part4_conclusion.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred when \iftrue on line 325 was incomplete) 
+Here is how much of TeX's memory you used:
+ 13620 strings out of 493848
+ 198371 string characters out of 1152823
+ 372734 words of memory out of 3000000
+ 15361 multiletter control sequences out of 15000+50000
+ 89267 words of font info for 182 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 55i,19n,48p,1808b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texliv
+e/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/doublestroke/ds
+rom10.pfb></usr/share/texmf-texlive/fonts/type1/public/doublestroke/dsrom8.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/txfonts/rtxr.pfb></usr/share/texmf-texlive/fonts/type1/hoekwater/st
+maryrd/stmary10.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txex.p
+fb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texmf-texlive/font
+s/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helve
+tic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb><
+/usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-tex
+live/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on example.pdf (157 pages, 15323717 bytes).
+PDF statistics:
+ 2552 PDF objects out of 2984 (max. 8388607)
+ 685 named destinations out of 1000 (max. 500000)
+ 1417 words of extra memory for PDF output out of 10000 (max. 10000000)
+

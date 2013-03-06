@@ -1,0 +1,46 @@
+
+public class chaos_property_mix {
+	private int [] input;
+    prng p = new prng() ;
+	private int choose = 0;
+	
+	public void init(int [] x)
+	{
+		input = new int [x.length];
+		input = x;
+	}
+	
+	public void set_prng_index(int x)
+	{
+		choose = x;
+	}
+	
+	public void process()
+	{
+		switch(choose)
+		{
+		case 1: p.xorshift();
+		break;
+		
+		case 2: p.mix();
+		break;
+		
+		case 3: p.mix_chaotic();
+		break;
+		
+		default: System.out.println("no such prng to process");
+		System.exit(0);
+		
+		}
+		
+		//System.out.println("mix position: "+ (p.output() % input.length));
+		
+		input[(int)(p.output() % input.length)] = input [(int)(p.output() % input.length)] ^ 1;
+	}
+	
+	
+	public int []  output()
+	{
+		return input;
+	}
+}

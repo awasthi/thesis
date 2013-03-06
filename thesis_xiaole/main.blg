@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: part1_introduction.aux
+A level-1 auxiliary file: part2_reviewsOfBasic.aux
+A level-1 auxiliary file: part3_TheDesignAndDevelopmentOfCIPRNG.aux
+A level-1 auxiliary file: part4_StatisticalTestForRandomness.aux
+A level-1 auxiliary file: part5_optimazationTechnologyChaoticIteration.aux
+A level-1 auxiliary file: part6_FPGADesign.aux
+A level-1 auxiliary file: part7_CIPRNGUsedInApplication.aux
+The style file: plain.bst
+Database file #1: Thesis.bib
+Warning--to sort, need author or key in verilog
+Warning--to sort, need author or key in Frick
+Warning--to sort, need author or key in Delicious
+Warning--to sort, need author or key in java
+Warning--to sort, need author or key in nios
+Warning--can't use both author and editor fields in Knuth1998
+Warning--can't use both author and editor fields in Menezes1997
+Warning--can't use both author and editor fields in Robert1986
+Warning--empty publisher in Robert1986
+You've used 66 entries,
+            2118 wiz_defined-function locations,
+            914 strings with 15471 characters,
+and the built_in function-call counts, 23456 in all, are:
+= -- 2310
+> -- 1184
+< -- 18
++ -- 482
+- -- 405
+* -- 1671
+:= -- 3831
+add.period$ -- 199
+call.type$ -- 66
+change.case$ -- 390
+chr.to.int$ -- 0
+cite$ -- 75
+duplicate$ -- 847
+empty$ -- 1767
+format.name$ -- 405
+if$ -- 4903
+int.to.chr$ -- 0
+int.to.str$ -- 66
+missing$ -- 66
+newline$ -- 328
+num.names$ -- 124
+pop$ -- 435
+preamble$ -- 1
+purify$ -- 333
+quote$ -- 0
+skip$ -- 633
+stack$ -- 0
+substring$ -- 1443
+swap$ -- 198
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 244
+warning$ -- 9
+while$ -- 222
+width$ -- 68
+write$ -- 715
+(There were 9 warnings)

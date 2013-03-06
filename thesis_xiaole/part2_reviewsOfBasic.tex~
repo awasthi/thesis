@@ -1,0 +1,361 @@
+\part{First Part: Pseudo Random Number Generator Based on Chaotic Iteration}
+\chapter{General Notions}
+\label{General Notions}
+\minitoc
+ 
+This chapter, serving as the background of this thesis,  
+is devoted to basic notations and terminologies in the fields of random number and its classification.
+
+
+\section{Randomness}
+A random bit sequence could be interpreted as the result of the flips of an unbiased "fair" coin with sides
+that are labeled "0" and "1," with each flip having a probability of exactly $1/2$ of producing a "0" or "1."
+Furthermore, the flips are independent of each other: the result of any previous coin flip does not affect
+future coin flips. The unbiased "fair" coin is thus the perfect random bit stream generator, since the "0"
+and "1" values will be randomly distributed (and [0,1] uniformly distributed). All elements of the
+sequence are generated independently of each other, and the value of the next element in the sequence
+cannot be predicted, regardless of how many elements have already been produced.
+Obviously, the use of unbiased coins for cryptographic purposes is impractical. Nonetheless, the
+hypothetical output of such an idealized generator of a true random sequence serves as a benchmark for
+the evaluation of random and pseudorandom number generators.~\cite{ANDREW2008}
+
+\section{Types of Random Number Generators (RNGs)}
+A RNG is a computational or physical device designed to generate a sequence of numbers or symbols that lack any pattern, i.e. appear random.
+
+It is always a difficult task to generate good random number/sequence. Although it is accepted that rolling a dice or drawing cards is random these mechanical methods are not practical. in the past, random numbers are usually generated offline based on some dedicated setup or devices, and the sequences are stored in table ready for use. These random tables are still available in the world-wide-web or some data CDROMs.
+
+However, due to the online requirements and the security issues, random table becomes inappropriate, and hence different RNGs have been proposed, especially after the introduction of computer.
+
+In general, RNGs can be grouped into two classes, namely true random number gernerators and pseudo random number generators, depending on their sources of randomness. 
+RNGs can be classified as:
+\subsection{True Random Number Generators (TRNGs)}
+A TRNG is one which generates statistically independent and unbiased bits. These are also
+called as non-deterministic RNGs. In computing, a True random number generator is an apparatus that generates random numbers from a physical process. Such devices are often based on microscopic phenomena that generate a low-level, statistically random "noise" signal, such as thermal noise or the photoelectric effect or other quantum phenomena. These processes are, in theory, completely unpredictable, and the theory's assertions of unpredictability are subject to experimental test. A quantum-based hardware random number generator typically consists of a transducer to convert some aspect of the physical phenomena to an electrical signal, an amplifier and other electronic circuitry to bring the output of the transducer into the macroscopic realm, and some type of analog to digital converter to convert the output into a digital number, often a simple binary digit 0 or 1. By repeatedly sampling the randomly varying signal, a series of random numbers is obtained.
+
+\subsection{Pseudo Random Number Generators (PRNGs)}
+A pseudorandom number generator (PRNG), also known as a deterministic random bit generator (DRBG),~\cite{Barker05recommendationfor} is an algorithm for generating a sequence of numbers that approximates the properties of random numbers. The sequence is not truly random in that it is completely determined by a relatively small set of initial values, called the PRNG's state. Although sequences that are closer to truly random can be generated using hardware random number generators, pseudorandom numbers are important in practice for simulations (e.g., of physical systems with the Monte Carlo method), and are central in the practice of cryptography and procedural generation. Common classes of these algorithms are linear congruential generators, Lagged Fibonacci generators, linear feedback shift registers, feedback with carry shift registers, and generalised feedback shift registers. Recent instances of pseudorandom algorithms include Blum Blum Shub, Fortuna, and the Mersenne twister.
+
+
+\section{Cryptographically secure pseudo random number generators}
+
+
+A PRNG suitable for cryptographic applications is called a cryptographically secure PRNG (CSPRNG). A requirement for a CSPRNG is that an adversary not knowing the seed has only negligible advantage in distinguishing the generator's output sequence from a random sequence. In other words, while a PRNG is only required to pass certain statistical tests, a CSPRNG must pass all statistical tests that are restricted to polynomial time in the size of the seed. Though such property cannot be proven, strong evidence may be provided by reducing the CSPRNG to a known hard problem in mathematics (e.g., integer factorization). In general, years of review may be required before an algorithm can be certified as a CSPRNG.
+
+Some classes of CSPRNGs include the following:
+\begin{itemize}
+
+\item     Stream ciphers
+\item     Block ciphers running in counter or output feedback mode.
+\item     PRNGs that have been designed specifically to be cryptographically secure, such as Microsoft's Cryptographic 
+ Application Programming Interface function CryptGenRandom, the Yarrow algorithm (incorporated in Mac OS X and FreeBSD), and Fortuna.
+\item     Combination PRNGs which attempt to combine several PRNG primitive algorithms with the goal of removing any non-randomness.
+\item     Special designs based on mathematical hardness assumptions. Examples include Micali-Schnorr and the Blum Blum Shub algorithm, which provide a strong security proof. Such algorithms are rather slow compared to traditional constructions, and impractical for many applications.
+ 
+\end{itemize}
+A stream cipher is a cryptographic technique that encrypts binary digits individually, using a transformation that changes with time. This is contrasted to a block cipher, where a block of binary data is encrypted simultaneously, with the transformation usually being constant for each block.
+
+In specific applications, stream ciphers are more appropriate than block ciphers~\cite{Preneel03nessied20,Robshaw95streamciphers}:
+\begin{enumerate}
+\item Stream ciphers are generally faster than block ciphers, especially in hardware.
+\item Stream ciphers have less hardware complexity and less memory requirements for both hardware and software.
+\item Stream ciphers process the plaintext character by character, so no buffering is required to accumulate a full plaintext block (unlike block ciphers).
+\item Synchronous stream ciphers have no error propagation.
+\end{enumerate}
+
+\section{Stream Cipher}
+A stream cipher generates successive elements of the keystream based on an internal state. This state is updated in essentially two ways: if the state changes independently of the plaintext or ciphertext messages, the cipher is classified as a synchronous stream cipher. By contrast, self-synchronising stream ciphers update their state based on previous ciphertext digits.
+
+\subsection{One-Time Pad (Vernam Cipher)}
+In modern terminology, a Vernam cipher is a stream cipher in which the plaintext is XORed with a random or pseudorandom stream of data (the keystream) of the same length to generate the ciphertext. If the keystream is truly random and used only once, this is effectively a one-time pad. 
+
+Shannon~\cite{shannon-otp} showed that the one-time pad provides perfect security. This means
+that the conditional entropy of the message $M$ knowing the ciphertext $C$ is the same as the
+entropy of the original message, i.e. $H(M|C) = H(M)$. He also showed that the one-time
+pad is optimal in the sense that the previous conditions cannot be achieved with a key of
+size smaller than the message.
+
+The problem of the one-time pad is that we first have to agree on a key of the same
+length as the message. For most applications this is not practical. The next two schemes
+try to produce a ``random looking`` keystream from a short key and IV. By random looking,
+we mean that we cannot distinguish the keystream from a random sequence in a complexity
+less than trying all possible keys.
+
+\subsection{Synchronous stream ciphers}
+In a synchronous stream cipher a stream of pseudo-random digits is generated independently of the plaintext and ciphertext messages, and then combined with the plaintext (to encrypt) or the ciphertext (to decrypt). In the most common form, binary digits are used (bits), and the keystream is combined with the plaintext using the exclusive or operation (XOR). This is termed a binary additive stream cipher.
+
+In a synchronous stream cipher, the sender and receiver must be exactly in step for decryption to be successful. If digits are added or removed from the message during transmission, synchronisation is lost. To restore synchronisation, various offsets can be tried systematically to obtain the correct decryption. Another approach is to tag the ciphertext with markers at regular points in the output.
+
+If, however, a digit is corrupted in transmission, rather than added or lost, only a single digit in the plaintext is affected and the error does not propagate to other parts of the message. This property is useful when the transmission error rate is high; however, it makes it less likely the error would be detected without further mechanisms. Moreover, because of this property, synchronous stream ciphers are very susceptible to active attacks -- if an attacker can change a digit in the ciphertext, he might be able to make predictable changes to the corresponding plaintext bit; for example, flipping a bit in the ciphertext causes the same bit to be flipped in the plaintext.
+
+\subsection{Self-synchronizing stream ciphers}
+Another approach uses several of the previous N ciphertext digits to compute the keystream. Such schemes are known as self-synchronizing stream ciphers, asynchronous stream ciphers or ciphertext autokey (CTAK). The idea of self-synchronization was patented in 1946, and has the advantage that the receiver will automatically synchronise with the keystream generator after receiving N ciphertext digits, making it easier to recover if digits are dropped or added to the message stream. Single-digit errors are limited in their effect, affecting only up to N plaintext digits.
+
+An example of a self-synchronising stream cipher is a block cipher in cipher feedback (CFB) mode.
+
+
+
+\section{Chaos-based random number generators}
+Since the seventies, the use of chaotic dynamics for the generation of random sequences and cryptographical applications has raised a lot of interests. It is clearly pointed out by some researchers that there exists a close relationship between chaos and cryptography, and many research works have been witnessed in the last two decades.
+
+chaotic dynamics are usually studied in two different domains, the continuous time domain where the dynamics are generated from a chaotic system specified in differential equations, or a chaotic map quoted with recurrence relationship in the discrete time domain.
+
+chaos possesses several distinct propertie, including sensitivity to initial conditions, ergodicity and wide band spectrum. contributing its unpredictable and random manner in practice. Although it is still controversy to equate these properties with randomness and claim a chaos-based random number generator to be good enough, a lot of designs and applications, in particularly, related with the secure communications have been proposed.
+
+It is common to use a chaotic map for pseudo-random number generation. Due to the recent design of electonic circuits for the realization fo chaotic systems, it is also possible to generate the bit sequence by observing such dynamics, as a replacement of those physical random sources.
+
+\section{Continuous Chaos in Digital Computers}
+
+In the past two decades, the use of chaotic systems in the design of cryptosystems, PRNG, and hash functions, has become more and more frequent.
+Generally speaking, the chaos theory in the continuous field is used to analyze performances of related systems. 
+
+However, when chaotic systems are realized in digital computers with finite computing precisions, it is doubtful whether or not they can still preserve the desired dynamics of the continuous chaotic systems. Because most dynamical properties of chaos are meaningful only when dynamical systems evolve in the continuous phase space, these properties may become meaningless or ambiguous when the phase space is highly quantized (i.e., latticed) with a finite computing precision (in other words, dynamical degradation of continuous chaotic systems realized
+in finite computing precision). 
+
+The quantization errors, which are introduced into iterations of digital chaotic systems for every iteration, will make pseudo orbits depart from real ones with very complex and uncontrolled manners. Because of the sensitivity of chaotic systems on initial conditions, even ''trivial'' changes of computer arithmetic can definitely change pseudo orbits' structures.
+
+Although all quantization errors are absolutely deterministic when the finite precision and the arithmetic are fixed, it is technically impossible to know and deal with all errors in digital iterations. Some random perturbation models have been proposed to depict quantization errors in digital chaotic systems, but they cannot exactly predict the actual dynamics of studied digital chaotic systems and has been criticized because of their essentially deficiencies
+
+
+When chaotic systems are realized in finite precision, their dynamical properties will be deeply different from the properties of continuous-value systems and some dynamical degradation will arise, such as short cycle length and decayed distribution. This phenomenon has been reported and analyzed in various situations~\cite{Binder1986,Wheeler1989,Palmore1990,Blank1997,Li2005}.
+
+
+Therefore, continuous chaos may collapse into the digital world and the ideal way to generate pseudo-random sequences is to use Chaotic iterations.
+
+
+
+
+\section{Chaos for Discrete Dynamical Systems}
+
+Consider a metric space $(\mathcal{X},d)$ and a continuous function $f:\mathcal{X}\longrightarrow \mathcal{X}$, for one-dimensional dynamical systems of the form:
+\begin{equation}
+x^0 \in \mathcal{X} \textrm{  and } \forall n \in \mathds{N}^*, x^n=f(x^{n-1}),
+\label{Devaney}
+\end{equation}
+the following definition of chaotic behavior, formulated by Devaney~\cite{Dev89}, is widely accepted:
+
+\begin{definition}
+ A dynamical system of form~\ref{Devaney} is said to be chaotic if the following conditions hold.
+\begin{itemize}
+\item Topological transitivity:
+
+\begin{equation}
+\forall U,V \textrm{ open sets of } \mathcal{X}, ~\exists k>0, f^k(U) \cap V \neq \varnothing
+\end{equation}
+
+Intuitively, a topologically transitive map has points which eventually move under iteration from one arbitrarily small neighborhood to any other. Consequently, the dynamical system can not be decomposed into two disjoint open sets which are invariant under the map. Note that if a map possesses a dense orbit, then it is clearly topologically transitive.
+\item Density of periodic points in $\mathcal{X}$:
+
+Let $P=\{p\in \mathcal{X}|\exists n \in \mathds{N}^{\ast}:f^n(p)=p\}$ the set of periodic points of $f$. Then $P$ is dense in $\mathcal{X}$:
+
+\begin{equation}
+ \overline{P}=\mathcal{X}
+\end{equation}
+
+Intuitively, Density of periodic orbits means that every point in the space is approached arbitrarily closely by periodic orbits. Topologically mixing systems failing this condition may not display sensitivity to initial conditions, and hence may not be chaotic.
+\item Sensitive dependence on initial conditions:
+
+$\exists \varepsilon>0,$ $\forall x \in \mathcal{X},$ $\forall \delta >0,$ $\exists y \in \mathcal{X},$ $\exists n \in \mathbb{N},$ $d(x,y)<\delta$ and $d\left(f^n(x),f^n(y)\right) \geqslant \varepsilon.$
+
+Intuitively, a map possesses sensitive dependence on initial conditions if there exist points arbitrarily close to $x$ which eventually separate from $x$ by at least $\varepsilon$ under iteration of $f$. Not all points near $x$ need eventually separate from $x$ under iteration, but there must be at least one such point in every neighborhood of $x$. If a map possesses sensitive dependence on initial conditions, then for all practical purposes, the dynamics of the map defy numerical computation. Small errors in computation which are introduced by round-off may become magnified upon iteration. The results of numerical computation of an orbit, no matter how accurate, may bear no resemblance whatsoever with the real orbit.
+\end{itemize}
+
+\end{definition}
+When $f$ is chaotic, then the system $(\mathcal{X}, f)$ is chaotic and quoting Devaney: ``it is unpredictable because of the sensitive dependence on initial conditions. It cannot be broken down or decomposed into two subsystems which do not interact because of topological transitivity. And, in the midst of this random behavior, we nevertheless have an element of regularity.'' Fundamentally different  behaviors  are  consequently possible and occur in an unpredictable way.
+
+
+
+
+\section{Chaotic iterations}
+\label{subsection:Chaotic iterations}
+
+\begin{definition}
+\label{Chaotic iterations}
+The set $\mathds{B}$ denoting $\{0,1\}$, let $f:\mathds{B}^{\mathsf{N}%
+}\longrightarrow \mathds{B}^{\mathsf{N}}$ be an ``iteration'' function and $S\in \mathbb{S}
+$ be a chaotic strategy. Then, the so-called \emph{chaotic iterations} are defined by~\cite{Robert1986}:
+
+\begin{equation}
+\left\{\begin{array}{l}
+x^0\in \mathds{B}^{\mathsf{N}}, \\
+\forall n\in \mathds{N}^{\ast },\forall i\in \llbracket1;\mathsf{N}\rrbracket%
+,x_i^n=
+\left\{
+\begin{array}{ll}
+x_i^{n-1} & \text{if}~S^n\neq i \\
+f(x^{n-1})_{S^n}  & \text{if}~S^n=i.
+\end{array} 
+\right. 
+\end{array}
+\right.
+\end{equation}
+\end{definition}
+
+In other words, at the $n^{th}$ iteration, only the $S^{n}-$th cell is
+\textquotedblleft iterated\textquotedblright . Note that in a more general
+formulation, $S^n$ can be a subset of components and $f(x^{n-1})_{S^{n}}$ can
+be replaced by $f(x^{k})_{S^{n}}$, where $k < n$, describing for
+example delays transmission (see \emph{e.g.}~\cite{Bahi2000}). For the
+general definition of such chaotic iterations, see, e.g.~\cite{Robert1986}.
+
+Chaotic iterations generate a set of vectors (boolean vector in this paper),
+they are defined by an initial state $x^{0}$, an iteration function $f$, and a chaotic strategy $S$.
+The next subsection gives the outline proof that chaotic iterations satisfy Devaney's topological chaos property. Thus they can be used to define a new pseudo-random bit generator.
+
+\section{The generation of pseudorandom sequence}
+\label{The generation of pseudorandom sequence}
+\subsection{Blum Blum Shub}
+Blum Blum Shub generator~\cite{BBS} (usually denoted by BBS) takes the form:
+\begin{equation}
+\label{BBS Eq}
+x_{n+1}=x_n^2~ mod~ m  
+\end{equation}
+where $m$ is the product of  two prime numbers (these prime numbers  need to be congruent  to 3 modulus 4). 
+
+\subsection{The logistic map}
+
+%Generating a pseudorandom sequence from the orbit of a real chaotic system requires mapping the state of the system to integer domain. Various methods have been proposed for the conversion of a real sequence into an integer sequence, two of them are recalled bellow.
+
+The logistic map, given by:
+\begin{center}
+$x^{n+1}=\mu ~ x^{n}(1-x^{n})$, with $x^{0}\in(0,1)$, $\mu \in(3.99996,4]$,
+\end{center}
+
+\noindent was originally introduced as a demographic model by Pierre Fran\c cois Verhulst in 1838. In 1947, Ulam and Von Neumann ~\cite{ulam1947} studied it as a PRNG. This essentially requires mapping the states of the system $\left(x^n\right)_{n \in \mathds{N}}$ to $\{0,1\}^\mathds{N}$. A simple way for turning $x^n$ to a discrete bit symbol $r$ is by using a threshold function as it is shown in Algorithm~\ref{logisticmap1}.
+A second usual way to obtain an integer sequence from a real system is to chop off the leading bits after moving the decimal point of each $x$ to the right, as it is obtained in Algorithm~\ref{logisticmap2}.
+
+\begin{algorithm}
+\textbf{Input:} the internal state $x$ (a decimal number)\\
+\textbf{Output:} $r$ (a 1-bit word)
+\begin{algorithmic}[1]
+\STATE$x\leftarrow{4x(1-x)}$
+\IF{$x\textless0$}
+{
+\STATE$r\leftarrow0$;	
+}
+\ELSE
+{
+\STATE$r\leftarrow1$;	
+}\ENDIF
+\STATE return $r$\;
+\medskip
+\caption{An arbitrary round of logistic map 1}
+\label{logisticmap1}
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\textbf{Input:} the internal state $x$ (a decimal number)\\
+\textbf{Output:} $r$ (an integer)
+\begin{algorithmic}[1]
+\STATE$x\leftarrow{4x(1-x)}$
+\STATE$r\leftarrow{\lfloor10000000x\rfloor}$
+\STATE return $r$\;
+\medskip
+\caption{An arbitrary round of logistic map 2}
+\label{logisticmap2}
+\end{algorithmic}
+\end{algorithm}
+
+
+\subsection{XORshift}
+\label{XORshift}
+
+XORshift is a category of very fast PRNGs designed by George Marsaglia~\cite{Marsaglia2003}.
+It repeatedly uses the transform of \emph{exclusive or} (XOR) on a number with a bit shifted version of it. The state of a XORshift generator is a vector of bits. At each step, the next state is obtained by applying a given number of XORshift operations to $w$-bit blocks in the current state, where $w = 32$ or $64$. A XORshift operation is defined as follows. Replace the $w$-bit block by a bitwise XOR of the original block, with a shifted copy of itself by $a$ positions either to the right or to the left, where $ 0 < a < w$. This Algorithm~\ref{XORshift} has a period of $2^{32}-1=4.29\times10^9$.
+
+
+\begin{algorithm}
+\textbf{Input:} the internal state $z$ (a 32-bits word)\\
+\textbf{Output:} $y$ (a 32-bits word)
+\begin{algorithmic}[1]
+
+\STATE$z\leftarrow{z\oplus{(z\ll13)}}$;
+\STATE$z\leftarrow{z\oplus{(z\gg17)}}$;
+\STATE$z\leftarrow{z\oplus{(z\ll5)}}$;
+\STATE$y\leftarrow{z}$;
+\STATE return $y$\;
+\medskip
+\caption{An arbitrary round of XORshift algorithm}
+\label{XORshift}
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{ISAAC}
+ISAAC is an array-based PRNG and a stream cipher designed by Robert Jenkins (1996) to be cryptographically secure~\cite{Jenkins1996}. The name is an acronym for Indirection, Shift, Accumulate, Add and Count. The ISAAC algorithm has similarities with RC4. It uses an array of 256 32-bit integers as the internal state, writing the results to another 256-integer array, from which they are read one at a time until empty, at which point they are recomputed. Since it only takes about 19 32-bit operations for each 32-bit output word, it is extremely fast on 32-bit computers.\newline
+We give the key-stream procedure of ISAAC in Algorithm~\ref{ISAAC}. The internal state is $x$, the output array is $r$, and the inputs $a$, $b$, and $c$ are those computed in the previous round. % So we need the initial values of a,b, and c. Yes.
+The value $f(a,i)$ in Table~\ref{ISAAC} is a 32-bit word, defined for all $a$ and $i\in\{0,\dots,255\}$ as:
+
+\begin{equation}
+f(a,i) = \left\{\begin{array}{ll}
+a\ll13 & \text{if } i\equiv0~mod~4 , \\
+a\gg6 & \text{if } i\equiv1~mod~4 , \\
+a\ll2 & \text{if } i\equiv2~mod~4 , \\
+a\gg16 & \text{if } i\equiv3~mod~4 . \\
+\end{array}
+\right.
+\end{equation}
+
+\begin{algorithm}
+\textbf{Input:} $a$, $b$, $c$, and the internal state $x$\\
+\textbf{Output:} an array $r$ of 256 32-bit words
+\begin{algorithmic}[1]
+\STATE$c\leftarrow{c+1}$;
+\STATE$b\leftarrow{b+c}$;
+\WHILE{$i=0,\dots,255$}
+\STATE$s\leftarrow{x_i}$;
+\STATE$a\leftarrow{f(a,i)+x_{(i+128)~mod~256}}$;
+\STATE$x_i\leftarrow{a+b+x_{(x\gg2)~mod~256}}$;
+\STATE$r_i\leftarrow{s+x_{(x_i\gg10)~mod~256}}$;
+\STATE$b\leftarrow{r_i}$;
+\ENDWHILE
+\STATE return $r$\;
+\medskip
+\caption{An arbitrary round of ISAAC algorithm}
+\label{ISAAC}
+\end{algorithmic}
+\end{algorithm}
+
+\section{Version 1 CI algorithms}
+\label{Version 1 CI algorithms and examples}
+\subsection{Chaotic iterations as PRNG}
+\label{subsec Chaotic iterations as PRNG}
+Our generator denoted by CI(PRNG1,PRNG2) is designed by the following process. 
+
+Let $\mathsf{N} \in \mathds{N}^*, \mathsf{N} \geqslant 2$. Some chaotic iterations are fulfilled to generate a sequence $\left(x^n\right)_{n\in\mathds{N}} \in \left(\mathds{B}^\mathsf{N}\right)^\mathds{N}$ of boolean vectors: the successive states of the iterated system. Some of these vectors are randomly extracted and their components constitute our pseudorandom bit flow.
+\begin{algorithm}
+\textbf{Input:} the internal state $x$ (an array of $\mathsf{N}$ 1-bit words)\\
+\textbf{Output:} an array $r$ of $\mathsf{N}$ 1-bit words
+\begin{algorithmic}[1]
+
+\STATE$a\leftarrow{PRNG1()}$;
+\STATE$m\leftarrow{a~mod~2+c}$;
+\WHILE{$i=0,\dots,m$}
+\STATE$b\leftarrow{PRNG2()}$;
+\STATE$S\leftarrow{b~mod~\mathsf{N}}$;
+\STATE$x_S\leftarrow{ \overline{x_S}}$;
+\ENDWHILE
+\STATE$r\leftarrow{x}$;
+\STATE return $r$;
+\medskip
+\caption{An arbitrary round of the Version 1 CI generator}
+\label{Chaotic iteration}
+\end{algorithmic}
+\end{algorithm}
+
+Chaotic iterations are realized as follows. Initial state $x^0 \in \mathds{B}^\mathsf{N}$ is a boolean vector taken as a seed and chaotic strategy $\left(S^n\right)_{n\in\mathds{N}}\in \llbracket 1, \mathsf{N} \rrbracket^\mathds{N}$ is constructed with PRNG2. Lastly, iterate function $f$ is the vectorial boolean negation
+$$f_0:(x_1,...,x_\mathsf{N}) \in \mathds{B}^\mathsf{N} \longmapsto (\overline{x_1},...,\overline{x_\mathsf{N}}) \in \mathds{B}^\mathsf{N}.$$
+To sum up, at each iteration only $S^i$-th component of state $X^n$ is updated, as follows
+\begin{equation}
+x_i^n = \left\{\begin{array}{ll}x_i^{n-1} & \text{if } i \neq S^i, \\ \\ \overline{x_i^{n-1}} & \text{if } i = S^i. \\\end{array}\right.
+\end{equation}
+Finally, let $\mathcal{M}$ be a finite subset of $\mathds{N}^*$. Some $x^n$ are selected by a sequence $m^n$ as the pseudorandom bit sequence of our generator, $(m^n)_{n \in \mathds{N}} \in \mathcal{M}^\mathds{N}$ . So, the generator returns the following values: the components of $x^{m^0}$, followed by the components of $x^{m^0+m^1}$, followed by the components of $x^{m^0+m^1+m^2}$, \emph{etc.}
+In other words, the generator returns the following bits:\newline
+$$x_1^{m_0}x_2^{m_0}x_3^{m_0}\hdots x_\mathsf{N}^{m_0}x_1^{m_0+m_1}x_2^{m_0+m_1}\hdots x_\mathsf{N}^{m_0+m_1} x_1^{m_0+m_1+m_2}x_2^{m_0+m_1+m_2}\hdots$$
+%and its $k^{th}$ bit is equal to $$\displaystyle{x_{k+1 \text{ (mod }\mathsf{N}\text{)}}^{\sum_{i=0}^{\lfloor k/\mathsf{N} \rfloor}m_i}}.$$
+
+\noindent or the following integers:$$x^{m_0}x^{m_0+m_1}x^{m_0+m_1+m_2}\hdots$$
+\subsection{Version 1 CI PRNGs Algorithm}
+The basic design procedure of the novel generator is summed up in Algorithm~\ref{Chaotic iteration}.
+The internal state is $x$, the output array is $r$. $a$ and $b$ are those computed by PRNG1 and PRNG2. Lastly, $k$ and $\mathsf{N}$ are constants and \linebreak $\mathcal{M}=\{$k, k+1$\}$ ($k\geqslant 3\mathsf{N}$ is recommended).
+
+

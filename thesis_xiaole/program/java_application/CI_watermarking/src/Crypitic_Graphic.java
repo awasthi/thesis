@@ -1,0 +1,248 @@
+
+import java.awt.*;
+import java.awt.image.*;
+import java.io.*;
+
+import java.util.Iterator;
+import javax.imageio.*;
+import javax.imageio.stream.*;
+
+import javax.imageio.*;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+
+public class Crypitic_Graphic {
+
+    private BufferedImage output_img = null;
+    private set_order s1 = new set_order();
+    private set_order s2 = new set_order();
+    private read_file rf = new read_file();
+    private read_graphic rg = new read_graphic();
+    private int[] c_w;
+    private int[] c_h;
+    private int to_ecrypt = 0;
+    private String key_ecrypt = null;
+    public int length = 0, secret_key_length = 0;
+    public int progress = 0;
+    int diff_en = 0;
+    int saveas_error = 1;
+    int number_error = 1;
+    int graphic_error = 1;
+    int file_error = 1;
+    public int key_error = 0;
+    public int key_length = 0;
+    private int bin_length;
+    private int[] bin;
+    private int[] bin_queue;
+    private int[] pixels;
+    private chaos_property_mix cpm = new chaos_property_mix();
+
+    public void set_up_ecrypt(String f) {
+        to_ecrypt = 1;
+        key_ecrypt = f;
+    }
+
+    public void set_off_ecrypt() {
+        to_ecrypt = 0;
+        key_ecrypt = null;
+    }
+
+    public void process(String file, String graphic, String saveas) throws Exception {
+        rf.init(file);
+        rf.read_c();
+        //System.out.println(rf.output_c());
+        if (rf.file_error == 1) {
+            file_error = 1;
+        } else {
+            file_error = 0;
+        }
+
+
+
+        if (file_error == 0) {
+            if (to_ecrypt == 1) {
+                rf.encrypt(key_ecrypt);
+            }
+            bin_length = rf.output_bin().length;
+            bin = new int[bin_length];
+            bin = rf.output_bin();
+
+            s1.choose(1);
+            s1.set_all_nums(bin_length);
+            s1.set_ordered_nums(bin_length);
+            s1.process();
+            if (s1.number_error == 1) {
+                number_error = 1;
+            } else {
+                number_error = 0;
+            }
+
+
+            bin_queue = new int[bin_length];
+            bin_queue = s1.output();
+
+        }
+
+
+        rg.init(graphic);
+        rg.process();
+
+        if (rg.graphic_error == 1) {
+            graphic_error = 1;
+        } else {
+            graphic_error = 0;
+        }
+
+        if (graphic_error == 0) {
+            int pixel_num = rg.output_h() * rg.output_w();
+            s2.choose(4);
+            s2.set_all_nums(pixel_num);
+            int all_bin_length = bin_length + 32 * key_length;
+            s2.set_ordered_nums(all_bin_length);
+            s2.process();
+        }
+
+
+        if (s2.number_error == 1) {
+            number_error = 1;
+        } else {
+            number_error = 0;
+        }
+
+        char[] c_tmp;
+        c_tmp = new char[3];
+
+
+        if (saveas == null) {
+            saveas_error = 1;
+        } else {
+            saveas_error = 0;
+        }
+
+
+
+
+        if (number_error == 0 && saveas_error == 0 && graphic_error == 0 && key_error == 0) {
+            int[] insert_queue = new int[bin_length + 32 * key_length];
+            insert_queue = s2.output();
+            BufferedImage tmp_img;
+            tmp_img = rg.output_image();
+
+            output_img = tmp_img;// new BufferedImage(tmp_img.getWidth(),tmp_img.getHeight(),BufferedImage.TYPE_4BYTE_ABGR_PRE);
+            c_h = new int[bin_length + 32 * key_length];
+            c_w = new int[bin_length + 32 * key_length];
+
+            prng p1 = new prng();
+
+
+            length = (bin_length) / 16;
+            secret_key_length = key_length;
+
+
+            WritableRaster raster = tmp_img.getRaster();
+            WritableRaster out_raster = output_img.getRaster();
+            pixels = new int[raster.getWidth() * raster.getHeight() * 3];
+
+            raster.getPixels(0, 0, raster.getWidth(), raster.getHeight(), pixels);
+
+
+
+            for (int i = 0; i < key_length; i++) {
+
+                int tmp_key = 0, tmp_key_count = 0;
+                p1.mix();
+                tmp_key = (int) p1.output();
+                for (int j = 0; j < 32; j++) {
+                    c_h[i * 32 + j] = insert_queue[i * 32 + j] / rg.output_w();
+                    c_w[i * 32 + j] = insert_queue[i * 32 + j] % rg.output_w();
+                    pixels[insert_queue[i * 32 + j]] = (pixels[insert_queue[i * 32 + j]] - (pixels[insert_queue[i * 32 + j]] & 1) + ((tmp_key & 1)));
+
+                }
+
+
+
+
+
+            }
+
+            cpm.set_prng_index(1);
+
+
+            for (int i = 32 * key_length; i < bin_length + 32 * key_length; i++) {
+                c_h[i] = insert_queue[i] / rg.output_w();
+                c_w[i] = insert_queue[i] % rg.output_w();
+
+
+
+
+                pixels[insert_queue[i]] = (pixels[insert_queue[i]] - (pixels[insert_queue[i]] & 1) + bin[bin_queue[i - 32 * key_length]]);
+
+                //output_img.setRGB(c_w[i],c_h[i],pixels[insert_queue[i]]);
+                //System.out.println(pixels[insert_queue[i]]);
+
+                //System.out.println(bin[bin_queue[i-32*key_length]]);
+            }
+
+            out_raster.setPixels(0, 0, raster.getWidth(), raster.getHeight(), pixels);
+
+
+
+
+
+            try {
+
+                c_tmp[0] = saveas.charAt(saveas.length() - 3);
+                c_tmp[1] = saveas.charAt(saveas.length() - 2);
+                c_tmp[2] = saveas.charAt(saveas.length() - 1);
+
+
+
+                if ("png".equals(String.valueOf(c_tmp)) || "bmp".equals(String.valueOf(c_tmp))) {
+                    if (ImageIO.write(output_img, String.valueOf(c_tmp), new File(saveas))) {
+                        saveas_error = 0;
+                        diff_en = 1;
+                    } else {
+                        saveas_error = 1;
+                        diff_en = 0;
+                    }
+                } else {
+                    diff_en = 0;
+                }
+
+            } catch (IOException e) {
+                saveas_error = 1;
+                diff_en = 0;
+
+            }
+        }
+
+    }
+
+    public void diff() {
+        if (diff_en == 1) {
+            BufferedImage diff = rg.output_image();
+
+            for (int i = 0; i < diff.getWidth(); i++) {
+                for (int j = 0; j < diff.getHeight(); j++) {
+                    diff.setRGB(i, j, 0xffffffff);
+                }
+            }
+
+            for (int i = 0; i < c_w.length; i++) {
+                diff.setRGB(c_w[i], c_h[i], 0);
+            }
+
+
+            LoadAndShow test = new LoadAndShow(diff);
+            JFrame f = new JFrame();
+            f.add(new JScrollPane(test));
+            f.setSize(400, 400);
+            f.setLocation(200, 200);
+            f.setVisible(true);
+
+
+        }
+
+    }
+}

@@ -1,0 +1,177 @@
+\chapter{Introduction}
+\label{Introduction}
+\minitoc
+Alone with the rapid development of Internet and universal application of multimedia technology, 
+multimedia data including audio, image and video has been transmitted over insecure channels, it 
+implies the need to protect data and privacy in digital world. This development has revealed new major security issues. 
+For example, new security concerns have recently appeared because of the evolution of the Internet to support 
+such activities as e-Voting, VoD, and digital rights management~\cite{Zhu200675}. The random number generators 
+(RNGs) are very important cryptographic primitive widely used in the Internet security, because they are fundamental 
+in cryptosystems and information hiding schemes. 
+
+Random Number Generators (RNGs) are widely used in science and
+technology, it is a critical component in modern cryptographic
+systems, communication systems, statistical simulation systems and any
+scientific area incorporating Monte Carlo methods and many others
+\cite{quantum,communication,cryptography}.
+The Random statistical
+quality of the generated bit sequence is measured by two aspects: the
+unpredictability of the bit stream and the speed at which the random
+bits can be produced.  Other factors like system complexity, cost,
+reliability and so on, are also important for establishing successful
+RNGs.
+There are usually two methods for RNGs: one relates to
+deterministic algorithms implemented in hardware and software, the
+pseudo-random numbers are degenerated from a single 'seed', such
+generators are named pseudo-random number generators (PRNGs)~\cite{LEcuyer08}; 
+another one counts on high entropy signals, whether from purely
+nondeterministic and stochastic physical phenomena, or from
+deterministic but chaotic dynamical systems (necessarily mixed with an
+unavoidable noisy and smaller compound) ~\cite{fast,dice}. A potential
+advantage of the latter physical high entropy signal, resides in its
+deterministic features which might be used to achieve chaos
+synchronization as it has been already demonstrated
+\cite{pecora:prl90} and widely used for secure chaos communications
+\cite{argyris:nat05}. However, synchronization possibility of the
+random binary sequence extracted from the chaotic physical signal is
+still an open problem, which resolution could lead to the efficient
+and practical use of the Vernam cypher.
+
+For the PRNGs algorithms, it defined by a deterministic recurrent sequence in a finite state space, 
+usually a finite field or ring, and an output function mapping each state to an input value. 
+This is often either a real number in the interval $(0,1)$ or an integer in some finite range~\cite{LEcuyer08}.
+It can be easily implemented
+in any computational platform, however, they suffer from the
+vulnerability that the future sequence can be deterministically
+computed if the seed or internal state of the algorithm is discovered.
+The main advantages of PRNGs is that no hardware cost is added and the
+speed is only counted on processing hardware. Its algorithms are
+developed to prevent guessing of the initial conditions, and the rate
+might be slowed down because of increased complexity of such
+algorithms.
+
+Recently, some researchers have demonstrated 
+the possibility to use chaotic dynamical systems as 
+RNGs to reinforce the security of cryptographic algorithm, 
+because the unpredictability and distort-like property of chaotic dynamical 
+systems~\cite{Falcioni2005,Cecen2009,PO2004}. 
+These attempts are due to the hypothesis that digital chaotic systems can possibly reinforce the security 
+of cryptographic algorithms, because the behaviors of chaotic dynamical systems are very similar to those of 
+physical noise sources~\cite{Schuster1984}. Hence in \cite{cite-key}, chaos has even 
+been applied to strengthen some optical communications. Particularly,  
+the random-like, unpredictable dynamics of chaotic systems, 
+their inherent determinism and simplicity of realization suggest their potential for exploitation as RNGs.
+
+In chaotic cryptography, there are two main design paradigms: in the first
+paradigm chaotic cryptosystems are realized in analog circuits (mainly based on
+chaos synchronization technique)~\cite{PhysRevLett.64.821}, and in the second paradigm chaotic cryptosystems
+are realized in digital circuits or computers and do not depend on
+chaos synchronization technique. Generally speaking, synchronization based
+chaotic cryptosystems are generally designed for secure communications though
+noisy channels and cannot directly extended to design digital ciphers in pure
+cryptography. What's worse, many cryptanalytic works have shown that most
+synchronization based chaotic cryptosystems are not secure since it is possible
+to extract some information on secure chaotic parameters~\cite{BethLaMa94}. Therefore,
+although chaos synchronization is still actively studied in research of secure
+communications, the related ideas have less significance for conventional cryptographers.
+Since this dissertation is devoted to research lying between chaotic
+cryptography and traditional cryptography, only digital chaotic ciphers will be
+discussed in this dissertation.
+
+However, even though chaotic systems exhibit
+random-like behavior, they are not necessarily cryptographically secure in their discretized
+form, see e.g. ~\cite{HabutsuNSM91,Biham91cryptanalysisof}. The reason partly being that discretized chaotic functions do not automatically
+yield sufficiently complex behavior of the corresponding binary functions, which is
+a prerequisite for cryptographic security. It is therefore essential that the complexity of the
+binary functions is considered in the design phase such that necessary modifications can be
+made. Moreover, many suggested PRNG based on chaos suffer from reproducibility problems
+of the keystream due to the different handling of floating-point numbers on various processors,
+see e.g. ~\cite{Matthews:1984}.
+
+Chaotic dynamical systems are usually continuous and hence defined on the real numbers domain. The transformation from real numbers to integers may lead to the loss of the chaotic behavior. The conversion to integers needs a rigorous theoretical foundation.
+
+In this paper, some new chaotic pseudo-random bit generator is presented, which can also be used to obtain numbers uniformly distributed between 0 and 1. Indeed, these bits can be grouped $n$ by $n$, to obtain the floating part of $x \in [0,1]$ represented in binary numeral system. These generators are based on discrete chaotic iterations which satisfy Devaney's definition of chaos~\cite{guyeux09}. A rigorous  framework is introduced, where topological chaotic properties of the generator are shown. 
+
+The design goal of  these generators was to take advantage of the random-like properties of realvalued
+chaotic maps and, at the same time, secure optimal cryptographic properties. More precisely, the design was initiated by constructing a chaotic system
+on the integers domain instead of the real numbers domain.
+
+The quality of a PRNG is proven both by theoretical foundations and empirical validations. 
+Various statistical tests are available in the literature to check empirically the statistical quality of a given sequence.
+The most famous and important batteries of tests for evaluating PRNGs are: TestU01~\cite{Lecuyer2009}, 
+NIST (National Institute of Standards and Technology of the U.S. Government) and DieHARD suites~\cite{ANDREW2008,Marsaglia1996}, and Comparative test parameters~\cite{Menezes1997}.
+For various reasons, a generator can behave randomly according to some of these tests, but it can fail to pass some other tests. 
+So to pass a number of tests as large as possible is important to improve the confidence put in the randomness of a given generator~\cite{Turan2008}. 
+
+\section{Research Background and Significance}
+
+
+\section{Related work}
+In~\cite{guyeux09,guyeux10}, it is proven that chaotic iterations (CIs), a suitable tool for fast computing iterative algorithms, satisfies the topological chaotic property, as it is defined by Devaney~\cite{Dev89}.
+Indeed, we have obtained this PRNG by combining chaotic iterations and two generators based on the logistic map in~\cite{wang2009}.
+The resulted PRNG shows better statistical properties than each individual component alone.
+Additionally, various chaos properties have been established. 
+The advantage of having such chaotic dynamics for PRNGs lies, among other things, in their unpredictability character.
+These chaos properties, inherited from chaotic iterations, are not possessed by the two inputted generators.
+We have shown that, in addition of being chaotic, this generator can pass the NIST battery of tests, widely considered as a comprehensive and stringent battery of tests for cryptographic applications~\cite{ANDREW2008}.
+
+Then, in the papers~\cite{guyeuxTaiwan10,bgw10:ip}, we have achieved to improve the speed of the former PRNG by replacing the two logistic maps: we used two XORshifts in \cite{guyeuxTaiwan10}, and ISAAC with XORshift in \cite{bgw10:ip}. 
+Additionally, we have shown that the first generator is able to pass DieHARD tests \cite{guyeuxTaiwan10}, whereas the second one can pass TestU01 \cite{bgw10:ip}.
+
+In ~\cite{wbg10:ip,bfgw11:ij}, which is an extension of ~\cite{wang2009}, we have improved the speed, security, and evaluation of the former generator and of its application in information hiding. Then, a comparative study between various
+generators is carried out and statistical results are improved. Chaotic properties, statistical tests, and security analysis allow us to consider that this kind of generator has better characteristics and is capable to withstand attacks. 
+
+In prior literature, the iterate function is just the vectorial boolean negation. 
+It is then judicious to investigate whether other functions may replace the the vectorial boolean negation function in the above approach. In~\cite{bcgw11:ip}, we combined its own function and its
+own PRNGs to provide a new PRNG instance. and propose a method using Graph with strongly connected components as a selection criterion for chaotic iterate function. The approach
+developed along these lines solves this issue by providing
+a class of functions whose iterations are chaotic according
+to Devaney and such that resulting PRNG success statistical
+tests.
+
+Then we use the vectorial Boolean negation as a
+prototype and explain how to modify this iteration function
+without deflating the good properties of the associated generator in ~\cite{bfgw11:ip}.
+Simulation results and basic security analysis are then presented
+to evaluate the randomness of this new family of generators.
+
+\section{Thesis Goals}
+
+
+\section{Thesis Organization}
+
+
+\section{Abbreviations}
+\begin{tabular}{ll}\toprule
+\textbf{Abbreviation}& \textbf{Definition}\\\hline
+\textbf{RNGs}& Random Number Generators\\
+\textbf{TRNGs}& True Random Number Generators\\
+\textbf{PRNG}& Pseudo Random Number Generator\\
+\textbf{CSPRNG}& Cryptographically Secure Pseudo Random Number Generator\\
+\textbf{NIST}& National Institute of Standards and Technology\\
+\textbf{VOD}&Video on Demand\\\bottomrule
+\textbf{}& \\
+\end{tabular}
+ 
+
+\section{Mathematical Symbols}
+\begin{tabular}{@{}c@{}@{}l@{}}
+\textbf{Symbol} &\textbf{Meaning}\\
+$\llbracket 1;\mathsf{N} \rrbracket$ & $\rightarrow\{1,2,\hdots,N\}$ \\
+$S^{n}$ & $\rightarrow$ the $n^{th}$ term of a sequence $S=(S^{1},S^{2},\hdots)$ \\
+$v_{i}$ & $\rightarrow$ the $i^{th}$ component of a vector: $v=(v_{1},v_{2},\hdots, v_n)$\\
+$f^{k}$ & $\rightarrow$ $k^{th}$ composition of a function $f$ \\
+$\emph{strategy}$~ & $\rightarrow$ a sequence which elements belong in $%
+\llbracket 1;\mathsf{N} \rrbracket $ \\
+$mod$ & $\rightarrow$ a modulo or remainder operator\\
+$\mathbb{S}$ & $\rightarrow$ the set of all strategies \\
+$\mathbf{C}_n^k$ & $\rightarrow$ the binomial coefficient ${n \choose k} = \frac{n!}{k!(n-k)!}$\\
+$\oplus$ & $\rightarrow$ bitwise exclusive or \\
+%& $\begin{array}{r@{\;}l}\ f^{k}=\underbrace{f\circ ...\circ f} \\ \ k\ \text{times}\end{array}$\\
+$+$ & $\rightarrow$ the integer addition \\
+$\ll \text{and} \gg$ & $\rightarrow$ the usual shift operators \\
+$(\mathcal{X}, \text{d})$ & $\rightarrow$ a metric space  \\
+$\lfloor x \rfloor$ & $\rightarrow$ returns the highest integer smaller than $x$  \\
+$n!$ & $\rightarrow$ the factorial $n!=n\times(n-1)\times\dots\times1$\\
+$\mathds{N}^{\ast }$ & $\rightarrow$ the set of positive integers \{1,2,3,...\}
+\end{tabular}

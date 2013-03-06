@@ -1,0 +1,359 @@
+\chapter{Application Example}
+\label{Application Example}
+\minitoc
+
+\subsection{Introduction}
+
+Information hiding is now an integral part of Internet technologies. In the field of social search engines, for example, contents like pictures or movies are tagged with descriptive labels by contributors, and search results are determined by these descriptions. These collaborative taggings, used for example in Flickr~\cite{Frick} and Delicious~\cite{Delicious} websites, contribute to the development of a Semantic Web, in which every Web page contains machine-readable metadata that describe its content. Information hiding technologies can be used for embedding these metadata. The advantage of its use is the possibility to realize  social search without websites and databases: descriptions are directly embedded into media, whatever their formats. Robustness is required in this situation, as descriptions should resist to modifications like resizing, compression, and format conversion.
+
+The Internet security field is also concerned by watermarking technologies. Steganography and cryptography are supposed to be used by terrorists to communicate through the Internet. Furthermore, in the areas of defense or in industrial espionage, many information leaks using steganographic techniques have been discovered. Lastly, watermarking is often cited as a possible solution to digital rights managements issues, to counteract piracy of digital work in an Internet based entertainment world~\cite{Nakashima2003}.
+
+
+\subsection{Definition of a Chaos-Based Information Hiding Scheme}
+\label{sec:Algo}
+
+Let us now introduce our information hiding scheme based on CI generator.
+
+
+\subsubsection{Most and least significant coefficients}
+
+Let us define the notions of most and least significant coefficients of an image.
+
+\begin{Definition}
+\label{definitionMSC}
+For a given image, most significant coefficients (in short MSCs), are coefficients that allow the description of the relevant part of the image, \emph{i.e.}, its richest part (in terms of embedding information), through a sequence of bits.
+\end{Definition}
+
+For example, in a spatial description of a grayscale image, a definition of MSCs can be the sequence constituted by the first four bits of each pixel (see Figure~\ref{fig:MSCLC}). In a discrete cosine frequency domain description, each $8\times 8$ block of the carrier image is mapped onto a list of 64 coefficients. The energy of the image is mostly contained in a determined part of themselves, which can constitute a possible sequence of MSCs.
+
+\begin{Definition}
+\label{definitionLSC}
+By least significant coefficients (LSCs), we mean a translation of some insignificant parts of a medium in a sequence of bits (insignificant can be understand as: ``which can be altered without sensitive damages'').
+\end{Definition}
+
+These LSCs can be, for example, the last three bits of the gray level of each pixel (see Figure~\ref{fig:MSCLC}). Discrete cosine, Fourier, and wavelet transforms can be used also to generate LSCs and MSCs. Moreover, these definitions can be extended to other types of media.
+
+
+
+
+\begin{figure}[htb]
+
+\begin{minipage}[b]{1.0\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/lena512.pdf,width=4cm}}
+  \centerline{(a) Lena.}
+\end{minipage}
+
+\begin{minipage}[b]{.48\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/lena_msb_678.pdf,width=4cm}}
+  \centerline{(b) MSCs of Lena.}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.48\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/lena_lsb_1234_facteur17.pdf,width=4cm}}
+  \centerline{(c) LSCs of Lena ($\times 17$).}
+\end{minipage}
+%
+\caption{Example of most and least significant coefficients of Lena.}
+\label{fig:MSCLC}
+%
+\end{figure}
+
+
+LSCs are used during the embedding stage. Indeed, some of the least significant coefficients of the carrier image will be chaotically chosen by using our PRNG. These bits will be either switched or replaced by the bits of the watermark. The MSCs are only useful in case of authentication; mixture and embedding stages depend on them. Hence, a coefficient should not be defined at the same time as a MSC and a LSC: the last can be altered while the first is needed to extract the watermark.
+
+\subsubsection{Stages of the scheme}
+
+Our CI generator-based information hiding scheme consists of two stages: (1) mixture of the watermark and (2) its embedding.
+
+\paragraph{Watermark mixture}
+
+Firstly, for security reasons, the watermark can be mixed before its embedding into the image. A first way to achieve this stage is to apply the bitwise exclusive or (XOR) between the watermark and the New CI generator. In this paper, we introduce a new mixture scheme based on chaotic iterations. Its chaotic strategy, which depends on our PRNG, will be highly sensitive to the MSCs, in the case of an authenticated watermarking.%For the detail of this stage see Sections \ref{Geometric} below.
+
+\paragraph{Watermark embedding}
+
+Some LSCs will be switched, or substituted by the bits of the possibly mixed watermark. To choose the sequence of LSCs to be altered, a number of integers, less than or equal to the number $\mathsf{M}$ of LSCs corresponding to a chaotic sequence $U$, is generated from the chaotic strategy used in the mixture stage. Thus, the $U^{k}$-th least significant coefficient of the carrier image is either switched, or substituted by the $k^{th}$ bit of the possibly mixed watermark. In case of authentication, such a procedure leads to a choice of the LSCs which are highly dependent on the MSCs~\cite{guyeux10}.
+
+On the one hand, when the switch is chosen, the watermarked image is obtained from the original image whose LSBs $L = \mathds{B}^{\mathsf{M}}$ are replaced by the result of some chaotic iterations. Here, the iterate function is the vectorial boolean negation,
+\begin{equation}
+f_0:(x_1,...,x_\mathsf{M}) \in \mathds{B}^\mathsf{M} \longmapsto (\overline{x_1},...,\overline{x_\mathsf{M}}) \in \mathds{B}^\mathsf{M},
+\end{equation}
+the initial state is $L$, and the strategy is equal to $U$. In this case, the whole embedding stage satisfies the topological chaos properties~\cite{guyeux10}, but the original medium is required to extract the watermark. On the other hand, when the selected LSCs are substituted by the watermark, its extraction can be done without the original cover (blind watermarking). In this case, the selection of LSBs still remains chaotic because of the use of the New CI generator, but the whole process does not satisfy topological chaos~\cite{guyeux10}. The use of chaotic iterations is reduced to the mixture of the watermark. See the following sections for more detail.
+
+\paragraph{Extraction}
+
+The chaotic strategy can be regenerated even in the case of an authenticated watermarking, because the MSCs have not changed during the embedding stage. Thus, the few altered LSCs can be found, the mixed watermark can be rebuilt, and the original watermark can be obtained. In case of a switch, the result of the previous chaotic iterations on the watermarked image should be the original cover. The probability of being watermarked decreases when the number of differences increase.
+
+If the watermarked image is attacked, then the MSCs will change. Consequently, in case of authentication and due to the high sensitivity of our PRNG, the LSCs designed to receive the watermark will be completely different. Hence, the result of the recovery will have no similarity with the original watermark.
+
+The chaos-based data hiding scheme is summed up in Figure~\ref{fig:organigramme}.
+
+\begin{figure}[htb]
+\centerline{\epsfig{figure=Medias/organigramme22.pdf,width=8.cm}}
+\caption{The chaos-based data hiding decision tree.}
+\label{fig:organigramme}
+\end{figure}
+
+
+
+\section{Experimental protocol}
+
+
+In this subsection, a concrete example is given: a watermark is encrypted and embedded into a cover image using the scheme presented in the previous section and CI(XORshift, XORshift). The carrier image is the well-known Lena, which is a 256 grayscale image, and the watermark is the $64\times 64$ pixels binary image depicted in Figure~\ref{Original images}.
+
+
+\begin{figure}[!t]
+\centering
+\subfloat [The original image]{\includegraphics[scale=0.23]{lena512.pdf}}
+\hfil
+\subfloat [The watermark]{\includegraphics[scale=0.4]{invader1.pdf}%
+}
+\caption{Original images}
+\label{Original images}
+\end{figure}
+
+
+\begin{figure}[!t]
+\centering
+\subfloat [Differences with the original]{\includegraphics[scale=0.42]{lenaDiff2.pdf}%
+}
+\hfil
+\subfloat [Encrypted watermark]{\includegraphics[scale=0.4]{invader_chiffre1.pdf}%
+}
+\caption{Encrypted watermark and differences}
+\label{Encrypted watermark and differences}
+\end{figure}
+
+The watermark is encrypted by using chaotic iterations: the initial state $x^{0}$ is the watermark, considered as a boolean vector, the iteration function is the vectorial logical negation, and the chaotic strategy $(S^{k})_{k\in \mathds{N}}$ is defined with CI(XORshift, XORshift), where initial parameters constitute the secret key and $N=64$. Thus, the encrypted watermark is the last boolean vector generated by these chaotic iterations. An example of such an encryption is given in Figure~\ref{Encrypted watermark and differences}.
+
+
+Let $L$ be the $256^3$ booleans vector constituted by the three last bits of each pixel of Lena and $U^k$ defined by the sequence:
+\begin{equation}
+\left\{
+\begin{array}{lll}
+U^{0} & = & S^{0} \\
+U^{n+1} & = & S^{n+1}+2\times U^{n}+n ~ [mod ~ 256^3]%
+\end{array}%
+\right.
+\end{equation}
+The watermarked Lena $I_w$ is obtained from the original Lena, whose three last bits are replaced by the result of $64^2$ chaotic iterations with initial state $L$ and strategy $U$ (see Figure~\ref{Encrypted watermark and differences}).
+
+The extraction of the watermark can be obtained in the same way. Remark that the map $\theta \mapsto 2\theta $ of the torus, which is the famous dyadic transformation (a well-known example of topological chaos~\cite{Dev89}), has been chosen to make $(U^{k})_{k \leqslant 64^2}$ highly sensitive to the strategy. As a consequence, $(U^{k})_{k \leqslant 64^2}$ is highly sensitive to the alteration of the image: any significant modification of the watermarked image will lead to a completely different extracted watermark, thus giving a way to authenticate media through the Internet.
+
+\begin{table*}[!t]
+\renewcommand{\arraystretch}{1.3}
+\caption{SP 800-22 test results ($\mathbb{P}_T$)}
+\label{The passing rate}
+\centering
+\begin{tabular}{|l||c|c|c|c|c|}
+\hline
+Method & New CI ($m^n=y^n~mod~N$)& New CI (no mark)& Old CI & New CI ($g_1()$)&New CI ($g_2()$)\\ \hline\hline
+
+%$w^{j}$ & $\{1,..,8\}$ & $\{1,..,8\}$ & $\{1,..,8\}$ & $\{1,..,5\}$ & $\{1,..,5\}$ &$\{1,..,5\}$ \\ \hline \hline
+Frequency (Monobit) Test 			&0.0004&0.0855	&0.595549&0.474986 &0.419\\ \hline
+Frequency Test within a Block  		&0&0	&0.554420&0.897763&0.6786\\ \hline
+Runs Test  					&0.2896&0.5544	&0.455937&0.816537&0.3345\\ \hline
+Longest Run of Ones in a Block Test 		&0.0109&0.4372	&0.016717&0.798139&0.8831 \\ \hline
+Binary Matrix Rank Test  			&0&0.6579	&0.616305&0.262249&0.7597\\ \hline
+Discrete Fourier Transform (Spectral) Test 	&0&0	&0.000190&0.007160&0.0008 \\ \hline
+Non-overlapping Template Matching Test* 	&0.020071&0.37333&0.532252&0.449916& 0.51879\\ \hline
+Overlapping Template Matching Test	&0&0	 &0.334538&0.514124 	&0.2492\\ \hline
+Maurer's ``Universal Statistical'' Test  	&0.6993&0.9642	&0.032923&0.678686&0.1296\\ \hline
+Linear Complexity Test 			&0.3669&0.924	&0.401199&0.657933 &0.3504\\ \hline
+Serial Test* (m=10) 			&0&0.28185&0.013396&0.425346 	&0.2549\\ \hline
+Approximate Entropy Test (m=10) 	&0&0.3838	&0.137282&0.637119 	&0.7597\\ \hline
+Cumulative Sums (Cusum) Test* 		&0&0	&0.046464&0.279680&0.34245\\ \hline
+Random Excursions Test* 			&0.46769&0.34788&0.503622&0.287409 &0.18977\\ \hline
+Random Excursions Variant Test* 		&0.28779&0.46505&0.347772&0.486686& 0.26563\\ \hline
+Success 				&8/15&11/15	& 15/15 & 15/15 	&15/15\\ \hline
+\hline
+\end{tabular}
+\end{table*}
+
+Let us now evaluate the robustness of the proposed method.
+
+
+\section{Robustness evaluation}
+
+In what follows, the embedding domain is the spatial domain, CI(XORshift,XORshift) with parameters $....$ has been used to encrypt the watermark, MSCs are the four first bits of each pixel (useful only in case of authentication), and LSCs are the three next bits.
+
+To prove the efficiency and the robustness of the proposed algorithm, some
+attacks are applied to our chaotic watermarked image. For each attack, a
+similarity percentage with the watermark is computed, this percentage is the
+number of equal bits between the original and the extracted watermark, shown
+as a percentage. Let us notice that a result less than or equal to $50\%$
+implies that the image has probably not been watermarked.
+
+\paragraph{Zeroing attack}
+
+In this kind of attack, a watermarked image is zeroed, such as in Figure \ref{fig:LenaAttack}(a). In this case, the results in Table 1 have been obtained.
+
+\begin{figure}[htb]
+\begin{minipage}[b]{.48\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/lennaDecoupe100px,width=3.3cm}}
+  \centerline{(a) Cropping attack}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.48\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/lennaTourne25d.pdf,width=3.3cm}}
+  \centerline{(b) Rotation attack}
+\end{minipage}
+\caption{Watermarked Lena after attacks.}
+\label{fig:LenaAttack}
+\end{figure}
+
+
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|c||c|c|}
+\hline
+\multicolumn{2}{|c||}{UNAUTHENTICATION}  & \multicolumn{2}{c|}{AUTHENTICATION}\\ 
+\hline
+Size (pixels) & Similarity & Size (pixels) & Similarity \\
+ \hline
+10 & 99.08\% & 10 & 91.77\% \\
+50 & 97.31\% & 50 & 55.43\% \\
+100 & 92.43\% & 100 & 51.52\% \\
+200 & 70.75\% & 200 & 50.60\% \\
+\hline
+\end{tabular}
+\end{footnotesize}\\
+\vspace{0.5cm}
+\textbf{Table. 1}. ~Cropping attacks
+\end{center}
+
+
+In Figure \ref{fig:Dechiffrement_invader}, the decrypted watermarks are shown after a crop of 50 pixels and after a crop of 10 pixels, in the authentication case.
+
+\begin{figure}[htb]
+\begin{minipage}[b]{1.0\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/invaderDechiffreDecoupe100px.pdf,width=2cm}}
+  \centerline{(a) Unauthentication ($50\times 50$).}
+\end{minipage}
+%
+\begin{minipage}[b]{.48\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/invaderDechiffreDecoupeAuth100px.pdf,width=2cm}}
+  \centerline{(b) Authentication  ($50\times 50$).}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.48\linewidth}
+  \centering
+ \centerline{\epsfig{figure=Medias/invaderDechiffreDecoupeAuth50px.pdf,width=2cm}}
+  \centerline{(c) Authentication  ($10\times 10$).}
+\end{minipage}
+%
+\caption{Extracted watermark after a cropping attack.}
+\label{fig:Dechiffrement_invader}
+%
+\end{figure}
+
+
+By analyzing the similarity percentage between the original and the
+extracted watermark, we can conclude that in case of unauthentication, the
+watermark still remains after a zeroing attack: the desired robustness is
+reached. It can be noticed that zeroing sizes and percentages are rather
+proportional.
+
+In case of authentication, even a small change of the carrier image (a crop
+by $10\times 10$ pixels) leads to a really different extracted watermark.
+In this case, any attempt to alter the carrier image will be signaled, the
+image is well authenticated.
+
+\paragraph{Rotation attack}
+
+Let $r_{\theta }$ be the rotation of angle $\theta $ around the center $%
+(128, 128)$ of the carrier image. So, the transformation $r_{-\theta }\circ
+r_{\theta }$ is applied to the watermarked image, which is altered as in Figure \ref{fig:LenaAttack}. The results in Table 2 have been obtained.
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|c||c|c|}
+\hline
+\multicolumn{2}{|c||}{UNAUTHENTICATION}  & \multicolumn{2}{c|}{AUTHENTICATION}\\ 
+\hline
+Angle (degree) & Similarity & Angle (degree) & Similarity \\
+ \hline
+2 & 96.44\% & 2 & 73.40\% \\
+5 & 93.32\% & 5 & 60.56\% \\
+10 & 90.68\% & 10 & 52.11\% \\
+25 & 78.13\% & 25 & 51.97\% \\
+\hline
+\end{tabular}
+\end{footnotesize}\\
+\vspace{0.5cm}
+\textbf{Table. 2}. ~Rotation attacks
+
+\end{center}
+
+
+
+
+The same conclusion as above can be declaimed: this watermarking method
+satisfies the desired properties.
+
+\paragraph{JPEG compression}
+
+A JPEG compression is applied to the watermarked image, depending on a
+compression level. Let us notice that this attack leads to a change of
+the representation domain (from spatial to DCT domain). In this case, the results in Table 3 have been obtained.
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|c||c|c|}
+\hline
+\multicolumn{2}{|c||}{UNAUTHENTICATION}  & \multicolumn{2}{c|}{AUTHENTICATION}\\ 
+\hline
+Compression & Similarity & Compression & Similarity \\
+ \hline
+2 & 85.76\% & 2 & 56.42\% \\
+5 & 67.62\% & 5 & 52.12\% \\
+10 & 62.43\% & 10 & 48.22\% \\
+20 & 54.74\% & 20 & 49.07\% \\
+\hline
+\end{tabular}
+\end{footnotesize}\\
+\vspace{0.5cm}
+\textbf{Table. 3}. ~JPEG compression attacks
+\end{center}
+
+A very good authentication through JPEG attack is obtained. As for the
+unauthentication case, the watermark still remains after a compression level
+equal to 10. This is a good result if we take into account the fact that we
+use spatial embedding.
+
+\paragraph{Gaussian noise}
+
+Watermarked image can be also attacked by the addition of a Gaussian noise, depending on a standard deviation. In this case, the results in Table 4 have been obtained.
+
+
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{|c|c||c|c|}
+\hline
+\multicolumn{2}{|c||}{UNAUTHENTICATION}  & \multicolumn{2}{c|}{AUTHENTICATION}\\ 
+\hline
+Standard dev. & Similarity & Standard dev. & Similarity \\
+ \hline
+1 & 81.14\% & 1 & 55.57\% \\
+2 & 75.01\% & 2 & 52.63\% \\
+3 & 67.64\% & 3 & 52.68\% \\
+5 & 57.48\% & 5 & 51.34\% \\
+\hline
+\end{tabular}
+\end{footnotesize}\\
+\vspace{0.5cm}
+\textbf{Table. 4}. ~Gaussian noise attacks
+\end{center}
+
+
+Once again we remark that good results are obtained, especially if we keep in
+mind that a spatial representation domain has been chosen.

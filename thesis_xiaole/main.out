@@ -1,0 +1,126 @@
+\BOOKMARK [0][]{chapter.1}{Introduction}{}
+\BOOKMARK [1][]{section.1.1}{Research Background and Significance}{chapter.1}
+\BOOKMARK [1][]{section.1.2}{Related work}{chapter.1}
+\BOOKMARK [1][]{section.1.3}{Thesis Goals}{chapter.1}
+\BOOKMARK [1][]{section.1.4}{Thesis Organization}{chapter.1}
+\BOOKMARK [1][]{section.1.5}{Abbreviations}{chapter.1}
+\BOOKMARK [1][]{section.1.6}{Mathematical Symbols}{chapter.1}
+\BOOKMARK [-1][]{part.1}{I First Part: Pseudo Random Number Generator Based on Chaotic Iteration}{}
+\BOOKMARK [0][]{chapter.2}{General Notions}{part.1}
+\BOOKMARK [1][]{section.2.1}{Randomness}{chapter.2}
+\BOOKMARK [1][]{section.2.2}{Types of Random Number Generators \(RNGs\)}{chapter.2}
+\BOOKMARK [2][]{subsection.2.2.1}{True Random Number Generators \(TRNGs\)}{section.2.2}
+\BOOKMARK [2][]{subsection.2.2.2}{Pseudo Random Number Generators \(PRNGs\)}{section.2.2}
+\BOOKMARK [1][]{section.2.3}{Cryptographically secure pseudo random number generators}{chapter.2}
+\BOOKMARK [1][]{section.2.4}{Stream Cipher}{chapter.2}
+\BOOKMARK [2][]{subsection.2.4.1}{One-Time Pad \(Vernam Cipher\)}{section.2.4}
+\BOOKMARK [2][]{subsection.2.4.2}{Synchronous stream ciphers}{section.2.4}
+\BOOKMARK [2][]{subsection.2.4.3}{Self-synchronizing stream ciphers}{section.2.4}
+\BOOKMARK [1][]{section.2.5}{Chaos-based random number generators}{chapter.2}
+\BOOKMARK [1][]{section.2.6}{Continuous Chaos in Digital Computers}{chapter.2}
+\BOOKMARK [1][]{section.2.7}{Chaos for Discrete Dynamical Systems}{chapter.2}
+\BOOKMARK [1][]{section.2.8}{Chaotic iterations}{chapter.2}
+\BOOKMARK [1][]{section.2.9}{The generation of pseudorandom sequence}{chapter.2}
+\BOOKMARK [2][]{subsection.2.9.1}{Blum Blum Shub}{section.2.9}
+\BOOKMARK [2][]{subsection.2.9.2}{The logistic map}{section.2.9}
+\BOOKMARK [2][]{subsection.2.9.3}{XORshift}{section.2.9}
+\BOOKMARK [2][]{subsection.2.9.4}{ISAAC}{section.2.9}
+\BOOKMARK [1][]{section.2.10}{Version 1 CI algorithms}{chapter.2}
+\BOOKMARK [2][]{subsection.2.10.1}{Chaotic iterations as PRNG}{section.2.10}
+\BOOKMARK [2][]{subsection.2.10.2}{Version 1 CI PRNGs Algorithm}{section.2.10}
+\BOOKMARK [0][]{chapter.3}{The Design And Development Of CIPRNG}{part.1}
+\BOOKMARK [1][]{section.3.1}{Development of Version 1 CI Algorithm}{chapter.3}
+\BOOKMARK [2][]{subsection.3.1.1}{On the periodicity of chaotic orbit}{section.3.1}
+\BOOKMARK [2][]{subsection.3.1.2}{Security Analysis}{section.3.1}
+\BOOKMARK [2][]{subsection.3.1.3}{An Efficient, Cryptographically Secure, PRNG Based On Version 1 CI}{section.3.1}
+\BOOKMARK [1][]{section.3.2}{Version 2 CIPRNG Algorithm}{chapter.3}
+\BOOKMARK [2][]{subsection.3.2.1}{Presentation}{section.3.2}
+\BOOKMARK [2][]{subsection.3.2.2}{The seed}{section.3.2}
+\BOOKMARK [2][]{subsection.3.2.3}{Sequence m of returned states}{section.3.2}
+\BOOKMARK [2][]{subsection.3.2.4}{Chaotic strategy}{section.3.2}
+\BOOKMARK [2][]{subsection.3.2.5}{Version 2 CI Algorithm}{section.3.2}
+\BOOKMARK [2][]{subsection.3.2.6}{Illustrative Example of Version 2 CI \(XORshift, XORshift\)}{section.3.2}
+\BOOKMARK [2][]{subsection.3.2.7}{Security Analysis}{section.3.2}
+\BOOKMARK [1][]{section.3.3}{Version 3 LUT CI\(XORshift,XORshift\) algorithms}{chapter.3}
+\BOOKMARK [2][]{subsection.3.3.1}{Introduction}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.2}{Sequence m}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.3}{Defining the chaotic strategy S with a LUT}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.4}{LUT CI\(XORshift,XORshift\) Algorithm}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.5}{LUT CI\(XORshift,XORshift\) example of use}{section.3.3}
+\BOOKMARK [2][]{subsection.3.3.6}{Security Analysis}{section.3.3}
+\BOOKMARK [1][]{section.3.4}{New version \(Version 4\) of CI}{chapter.3}
+\BOOKMARK [2][]{subsection.3.4.1}{XOR CIPRNG}{section.3.4}
+\BOOKMARK [2][]{subsection.3.4.2}{Introduction}{section.3.4}
+\BOOKMARK [2][]{subsection.3.4.3}{Security Analysis}{section.3.4}
+\BOOKMARK [2][]{subsection.3.4.4}{Efficient cryptographic secure PRNG based on CI}{section.3.4}
+\BOOKMARK [0][]{chapter.4}{Randomness Of CIPRNGs}{part.1}
+\BOOKMARK [1][]{section.4.1}{Some famous statistical tests of random number generators}{chapter.4}
+\BOOKMARK [2][]{subsection.4.1.1}{NIST statistical test suite}{section.4.1}
+\BOOKMARK [2][]{subsection.4.1.2}{Diehard battery of tests}{section.4.1}
+\BOOKMARK [2][]{subsection.4.1.3}{Comparative test parameters}{section.4.1}
+\BOOKMARK [2][]{subsection.4.1.4}{TestU01 Statistical Test}{section.4.1}
+\BOOKMARK [1][]{section.4.2}{Test results for some PRNGs}{chapter.4}
+\BOOKMARK [2][]{subsection.4.2.1}{Results of NIST}{section.4.2}
+\BOOKMARK [2][]{subsection.4.2.2}{Results of Diehard}{section.4.2}
+\BOOKMARK [2][]{subsection.4.2.3}{Results of comparative test parameters}{section.4.2}
+\BOOKMARK [2][]{subsection.4.2.4}{Results of TestU01}{section.4.2}
+\BOOKMARK [2][]{subsection.4.2.5}{Conclusion}{section.4.2}
+\BOOKMARK [1][]{section.4.3}{Test results and comparative analysis for Version 1 CI}{chapter.4}
+\BOOKMARK [2][]{subsection.4.3.1}{How to choose good parameters}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.2}{Results of NIST}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.3}{Results of Diehard}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.4}{Results of comparative test parameters}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.5}{Results of TestU01}{section.4.3}
+\BOOKMARK [2][]{subsection.4.3.6}{Conclusion}{section.4.3}
+\BOOKMARK [1][]{section.4.4}{Test results and comparative analysis for Version 2 CI}{chapter.4}
+\BOOKMARK [2][]{subsection.4.4.1}{Results of NIST}{section.4.4}
+\BOOKMARK [2][]{subsection.4.4.2}{Results of Diehard}{section.4.4}
+\BOOKMARK [2][]{subsection.4.4.3}{Results of comparative test parameters}{section.4.4}
+\BOOKMARK [2][]{subsection.4.4.4}{Results of TestU01}{section.4.4}
+\BOOKMARK [2][]{subsection.4.4.5}{Conclusion}{section.4.4}
+\BOOKMARK [1][]{section.4.5}{Test results and comparative analysis for Version 3 LUT CI}{chapter.4}
+\BOOKMARK [2][]{subsection.4.5.1}{Results of NIST}{section.4.5}
+\BOOKMARK [2][]{subsection.4.5.2}{Results of Diehard}{section.4.5}
+\BOOKMARK [2][]{subsection.4.5.3}{Results of comparative test parameters}{section.4.5}
+\BOOKMARK [2][]{subsection.4.5.4}{Results of TestU01}{section.4.5}
+\BOOKMARK [2][]{subsection.4.5.5}{Conclusion}{section.4.5}
+\BOOKMARK [1][]{section.4.6}{Tests results and comparative analysis for Version 4 CI}{chapter.4}
+\BOOKMARK [2][]{subsection.4.6.1}{Results of NIST}{section.4.6}
+\BOOKMARK [2][]{subsection.4.6.2}{Results of Diehard}{section.4.6}
+\BOOKMARK [2][]{subsection.4.6.3}{Results of comparative test parameters}{section.4.6}
+\BOOKMARK [2][]{subsection.4.6.4}{Results of TestU01}{section.4.6}
+\BOOKMARK [2][]{subsection.4.6.5}{Conclusion}{section.4.6}
+\BOOKMARK [1][]{section.4.7}{Assessment of two chaotic iterations schemes based on XORshift Generator}{chapter.4}
+\BOOKMARK [2][]{subsection.4.7.1}{NIST}{section.4.7}
+\BOOKMARK [2][]{subsection.4.7.2}{Diehard}{section.4.7}
+\BOOKMARK [2][]{subsection.4.7.3}{Comparative test parameters}{section.4.7}
+\BOOKMARK [2][]{subsection.4.7.4}{A flexible output}{section.4.7}
+\BOOKMARK [0][]{chapter.5}{An optimization technique on pseudorandom generators based on chaotic iterations}{part.1}
+\BOOKMARK [1][]{section.5.1}{About some Well-known PRNGs}{chapter.5}
+\BOOKMARK [2][]{subsection.5.1.1}{Introduction}{section.5.1}
+\BOOKMARK [2][]{subsection.5.1.2}{Details of some Existing Generators}{section.5.1}
+\BOOKMARK [1][]{section.5.2}{statistical tests}{chapter.5}
+\BOOKMARK [2][]{subsection.5.2.1}{NIST statistical tests suite}{section.5.2}
+\BOOKMARK [2][]{subsection.5.2.2}{DieHARD battery of tests}{section.5.2}
+\BOOKMARK [1][]{section.5.3}{Results and discussion}{chapter.5}
+\BOOKMARK [2][]{subsection.5.3.1}{Tests based on the Single CIPRNG}{section.5.3}
+\BOOKMARK [2][]{subsection.5.3.2}{Tests based on the Mixed CIPRNG}{section.5.3}
+\BOOKMARK [2][]{subsection.5.3.3}{Tests based on the Multiple CIPRNG}{section.5.3}
+\BOOKMARK [2][]{subsection.5.3.4}{Results Summary}{section.5.3}
+\BOOKMARK [0][]{chapter.6}{FPGA Acceleration of CIPRNGs}{part.1}
+\BOOKMARK [1][]{section.6.1}{introduction}{chapter.6}
+\BOOKMARK [1][]{section.6.2}{FPGA design}{chapter.6}
+\BOOKMARK [2][]{subsection.6.2.1}{CI Version selection}{section.6.2}
+\BOOKMARK [2][]{subsection.6.2.2}{Design of XORshift}{section.6.2}
+\BOOKMARK [2][]{subsection.6.2.3}{Design of BBS}{section.6.2}
+\BOOKMARK [2][]{subsection.6.2.4}{Design of the Version 4 CI}{section.6.2}
+\BOOKMARK [0][]{chapter.7}{Applications in cryptology}{part.1}
+\BOOKMARK [1][]{section.7.1}{Application example of the use of the proposed PRNG}{chapter.7}
+\BOOKMARK [1][]{section.7.2}{Introduction}{chapter.7}
+\BOOKMARK [1][]{section.7.3}{Definition of a Chaos-Based Information Hiding Scheme}{chapter.7}
+\BOOKMARK [2][]{subsection.7.3.1}{Most and least significant coefficients}{section.7.3}
+\BOOKMARK [2][]{subsection.7.3.2}{Stages of the scheme}{section.7.3}
+\BOOKMARK [1][]{section.7.4}{Software Implementation Experiment Protocol}{chapter.7}
+\BOOKMARK [1][]{section.7.5}{Hardware Implementation Experiment Protocol}{chapter.7}
+\BOOKMARK [1][]{section.7.6}{Robustness evaluation}{chapter.7}
+\BOOKMARK [0][]{section*.7}{Bibliography}{part.1}

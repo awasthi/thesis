@@ -1,0 +1,357 @@
+\documentclass[french,book,nopubpage,nodocumentinfo]{upmethodology-document}
+
+\usepackage{amsmath,amssymb}             % AMS Math
+% \usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=1.5in,right=1.3in,top=1.1in,bottom=1.1in,includefoot,includehead,headheight=13.6pt]{geometry}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage{marvosym}
+% Table of contents for each chapter
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{minitoc}
+\setcounter{minitocdepth}{2}
+\mtcindent=15pt
+% Use \minitoc where to put a table of contents
+\usepackage{color}
+\usepackage{aecompl}
+
+% Glossary / list of abbreviations
+\usepackage{cite}
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{List of Abbreviations}
+\newcommand{\cha}{{\sqcup\!\sqcup}\,}
+\makenomenclature
+
+% My pdf code
+
+\usepackage{ifpdf}
+
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+  \DeclareGraphicsExtensions{.jpg}
+  \usepackage[a4paper,pagebackref,hyperindex=true]{hyperref}
+\else
+  \usepackage{graphicx}
+  \DeclareGraphicsExtensions{.ps,.eps}
+  \usepackage[a4paper,dvipdfm,pagebackref,hyperindex=true]{hyperref}
+\fi
+
+\graphicspath{{.}{images/}}
+
+% nicer backref links
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+\ifcase #1 %
+(Not cited.)%
+\or
+(Cited on page~#2.)%
+\else
+(Cited on pages~#2.)%
+\fi}
+\renewcommand*{\backrefsep}{, }
+\renewcommand*{\backreftwosep}{ and~}
+\renewcommand*{\backreflastsep}{ and~}
+
+% Links in pdf
+\usepackage{color}
+\definecolor{linkcol}{rgb}{0,0,0.4} 
+\definecolor{citecol}{rgb}{0.5,0,0} 
+
+% Change this to change the informations included in the pdf file
+
+% See hyperref documentation for information on those parameters
+
+\hypersetup
+{
+bookmarksopen=true,
+pdftitle="Utilization of chaotic dynamics for generating pseudorandom numbers in different contexts",
+pdfauthor="Xiaole FANG", 
+%pdftoolbar=false, % toolbar hidden
+pdfmenubar=true, %menubar shown
+pdfhighlight=/O, %effect of clicking on a link
+colorlinks=true, %couleurs sur les liens hypertextes
+pdfpagemode=None, %aucun mode de page
+pdfpagelayout=SinglePage, %ouverture en simple page
+pdffitwindow=true, %pages ouvertes entierement dans toute la fenetre
+linkcolor=linkcol, %couleur des liens hypertextes internes
+citecolor=citecol, %couleur des liens pour les citations
+urlcolor=linkcol %couleur des liens pour les url
+}
+
+% definitions.
+% -------------------
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+% Some useful commands and shortcut for maths:  partial derivative and stuff
+
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\def\abs{\operatorname{abs}}
+\def\argmax{\operatornamewithlimits{arg\,max}}
+\def\argmin{\operatornamewithlimits{arg\,min}}
+\def\diag{\operatorname{Diag}}
+\newcommand{\eqRef}[1]{(\ref{#1})}
+
+\usepackage{rotating}                    % Sideways of figures & tables
+%\usepackage{bibunits}
+%\usepackage[sectionbib]{chapterbib}          % Cross-reference package (Natural BiB)
+%\usepackage{natbib}                  % Put References at the end of each chapter
+                                         % Do not put 'sectionbib' option here.
+                                         % Sectionbib option in 'natbib' will do.
+\usepackage{fancyhdr}                    % Fancy Header and Footer
+
+\usepackage{txfonts}                     % Public Times New Roman text & math font
+  
+%%% Fancy Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancy Header Style Options
+
+\pagestyle{fancy}                       % Sets fancy header and footer
+\fancyfoot{}                            % Delete current footer settings
+
+%\renewcommand{\chaptermark}[1]{         % Lower Case Chapter marker style
+%  \markboth{\chaptername\ \thechapter.\ #1}}{}} %
+
+%\renewcommand{\sectionmark}[1]{         % Lower case Section marker style
+%  \markright{\thesection.\ #1}}         %
+
+\fancyhead[LE,RO]{\bfseries\thepage}    % Page number (boldface) in left on even
+% pages and right on odd pages
+\fancyhead[RE]{\bfseries\nouppercase{\leftmark}}      % Chapter in the right on even pages
+\fancyhead[LO]{\bfseries\nouppercase{\rightmark}}     % Section in the left on odd pages
+
+\let\headruleORIG\headrule
+\renewcommand{\headrule}{\color{black} \headruleORIG}
+\renewcommand{\headrulewidth}{1.0pt}
+\usepackage{colortbl}
+\arrayrulecolor{black}
+
+\fancypagestyle{plain}{
+  \fancyhead{}
+  \fancyfoot{}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+
+%%% Clear Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Clear Header Style on the Last Empty Odd pages
+\makeatletter
+
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+  \hbox{}%
+  \thispagestyle{empty}%              % Empty header styles
+  \newpage%
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+\makeatother
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Prints your review date and 'Draft Version' (From Josullvn, CS, CMU)
+\newcommand{\reviewtimetoday}[2]{\special{!userdict begin
+    /bop-hook{gsave 20 710 translate 45 rotate 0.8 setgray
+      /Times-Roman findfont 12 scalefont setfont 0 0   moveto (#1) show
+      0 -12 moveto (#2) show grestore}def end}}
+% You can turn on or off this option.
+% \reviewtimetoday{\today}{Draft Version}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\newenvironment{maxime}[1]
+{
+\vspace*{0cm}
+\hfill
+\begin{minipage}{0.5\textwidth}%
+%\rule[0.5ex]{\textwidth}{0.1mm}\\%
+\hrulefill $\:$ {\bf #1}\\
+%\vspace*{-0.25cm}
+\it 
+}%
+{%
+
+\hrulefill
+\vspace*{0.5cm}%
+\end{minipage}
+}
+
+\let\minitocORIG\minitoc
+\renewcommand{\minitoc}{\minitocORIG \vspace{1.5em}}
+
+\usepackage{multirow}
+\usepackage{slashbox}
+
+\newenvironment{bulletList}%
+{ \begin{list}%
+	{$\bullet$}%
+	{\setlength{\labelwidth}{25pt}%
+	 \setlength{\leftmargin}{30pt}%
+	 \setlength{\itemsep}{\parsep}}}%
+{ \end{list} }
+
+
+\renewcommand{\epsilon}{\varepsilon}
+
+% centered page environment
+
+\newenvironment{vcenterpage}
+{\newpage\vspace*{\fill}\thispagestyle{empty}\renewcommand{\headrulewidth}{0pt}}
+{\vspace*{\fill}}
+
+\usepackage{epstopdf}
+\usepackage{dsfont,,epsfig,psfrag,stmaryrd,amsfonts,mathrsfs,booktabs,algorithmic} % Add all your packages here
+\usepackage{alltt}
+\usepackage[standard]{ntheorem}
+%\usepackage{floatflt}
+%\usepackage{caption}
+%\usepackage[font=footnotesize,caption]{subfig}
+\usepackage{array}
+\renewcommand{\theequation}{\arabic{equation}}
+\usepackage{subfigure}
+\usepackage{rotating}
+
+
+
+
+
+\newcommand{\JFC}[1]{\begin{color}{green}\textit{#1}\end{color}}
+\newcommand{\CG}[1]{\begin{color}{blue}\textit{#1}\end{color}}
+
+\newcommand{\Fig}[1]{Fig.~\ref{#1}}
+\newcommand{\Algo}[1]{\textbf{\ref{#1}}}
+
+
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+
+\begin{document}
+\begin{titlepage}
+
+
+
+
+% Upper part of the page
+\vspace*{-4cm}
+
+ \includegraphics[scale=0.2]{tluhp}
+\hrule
+\textsc{D\'epartement informatique
+            \hfill\'Ecole doctorale SPIM\\UFR ST}\\
+          
+\begin{center}
+\noindent \Huge \textbf{P H D\ \ T H E S I S} \\
+\vspace*{0.3cm}
+\noindent \large {to obtain the title of} \\
+\vspace*{0.3cm}
+\noindent \LARGE \textbf{PhD of Science} \\
+\vspace*{0.3cm}
+\noindent \large {Defended by\\}
+\noindent \LARGE Xiaole \textsc{FANG} \\
+%\textsc{\LARGE University of Beer}\\[1.5cm]
+%
+%\textsc{\Large Final year project}\\[0.5cm]
+
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries Utilization of chaotic dynamics for generating pseudorandom numbers in various contexts}\\[0.4cm]
+
+\HRule \\[1.5cm]
+
+\noindent \Large Thesis Advisors:  Jacques \textsc{M. Bahi} and Laurent \textsc{Larger}\\
+\vspace*{0.2cm}
+\end{center}
+
+\textbf{Jury :} \\
+\begin{center}
+\noindent \large 
+\begin{tabular}{llcl}
+      \textit{Reviewers :}	&   \textsc{Pierre Spit\'{e}ri}, Emeritus Professor		& - & IRIT-ENSEEIHT \\
+				&   \textsc{Gilles Mill\'{e}rioux }, Professor		& - &  University of Lorraine\\
+      \textit{Advisors :}	&  \textsc{Jacques M. Bahi}, Professor		& - & University of Franche-Comt\'{e} \\
+&  \textsc{Laurent Larger}, Professor		& - & University of Franche-Comt\'{e} \\
+      \textit{President :}	&  \textsc{}		& - & \\
+      \textit{Examinators :}   &  \textsc{Christophe Guyeux}, Assistant Professor        & - &  University of Franche-Comt\'{e}\\
+      				&  \textsc{Philippe Guillot}, Assistant Professor			& - & University of Paris 8\\
+      				& \textsc{}		& - & \\
+      \textit{Invited :}		&  \textsc{}		& - & 
+\end{tabular}
+
+
+% Bottom of the page
+{\includegraphics[width=0.15\textwidth]{tlloria}\\[1cm] 
+\large \today}
+
+\end{center}
+
+\end{titlepage}
+\sloppy
+\titlepage
+
+
+\pagenumbering{roman}
+
+ \cleardoublepage
+
+\section*{Acknowledgments}
+
+Last thing to do :-)
+
+% Technical support from Le m\'esocentre de calcul de Franche-Comt\'e is gratefully acknowledged. 
+% We are also grateful to Xiaole Fang for the calculations of Comparative test parameters and Kamel Mazouzi for his helpful comments on cluster computing.
+
+\tableofcontents
+
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
+%%%%%%%%%%%%%%%%%%%%%%%%%55
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COVER PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\label{thesis}
+\include{part1_introduction}
+\include{part2_introduction}
+\include{part2_reviewsOfBasic}
+\include{part2_TheDesignAndDevelopmentOfCIPRNG}
+\include{part2_StatisticalTestForRandomness}
+%\include{part2_CIPRNGFamily}
+\include{part2_optimazationTechnologyChaoticIteration}
+\include{part2_StateOfTheArt}
+\include{part2_FPGADesign}
+\include{part2_CIPRNGUsedInApplication}
+\include{part3_Optical}
+\include{part4_conclusion}
+
+
+\bibliographystyle{unsrt}
+\bibliography{Thesis}
+
+
+\begin{vcenterpage}
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+{\large\textbf{Abstract:}}
+As any well-designed information security application uses a very large quantity of good pseudorandom numbers, inefficient generation of these numbers can be a significant bottleneck in various situations. Consequently, pseudorandom number generators (PRNGs) are very important primitives widely used in numerous applications like numerical simulations or security. For instance, they are one of the most fundamental component that any cryptosystem has to embed, in order to generate encryption keys or keystreams in symmetric ciphers.\\
+Nowadays, due to the distinct properties of chaos, including random-like dynamics and high sensitivity on initial conditions, the use of chaos in random number generation and cryptographical applications has aroused tremendous interests. In previous researches, a technique that applies some well-defined discrete iterations, satisfying the reputed Devaney's definition of chaos, has been developed. It has been proven that the generators embedding these chaotic iterations (CIs) produce truly chaotic random numbers.\\
+In this thesis, the schemes that generate pseudorandom number based on discrete chaotic iterations are rethought and optimized.
+This manuscript contains mainly two parts. 
+In the first part, the original methods are firstly researched deeper and proven to be crytographically secure, and secondly two faster generators with better statistical performance are introduced. Then the statistical analysis of the chaotic iterations methods for random number generators are summarized, while their strength and weakness are also commented, which lead us to improve the generation rate of such generators.  These generators based on chaotic iterations are then redesigned specifically for Field Programmable Gate Array (FPGA) hardware. Finally, practical applications that implement CI technology in software and hardware are expressed, and their evaluations are also done.
+
+In the second part, a scheme using optoelectronic chaotic signal to generate random streams is studied. In 2009, Reidler \emph{et al.} published a paper entitled ``An optical ultrafast random bit generator'', in which they presented a physical system for random number generation based on a chaotic semiconductor laser. This generator is claimed to reach potentially the extremely high rate of 300 Gb/s. This method is analyzed in the thesis, and the discussion about actual origin of the randomness and the actually reachable bit rate have been given. We show that the actual binary sequence randomness is corresponding more to complex mixing of noisy components performed by digital post-processing operations, than to chaotic properties of the signal. We also address the issue of a proper way to use chaotic motion in RNGs, which is shown to necessarily involve MSB instead of the LSB. Then, at the end of the manuscript, two examples of adapting chaotic iterations with simulated chaotic waveform to generate random sequences are shown, 
+and finally NIST test suite is used 
+to evaluate the randomnesses.
+
+{\large\textbf{Keywords:}}
+Chaotic sequences; Statistical tests; Discrete chaotic iterations; Information hiding; FPGA; Optoelectronic
+\\
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+\end{vcenterpage}
+
+
+\end{document}

@@ -1,0 +1,121 @@
+
+public class set_order {
+	private int prng_index;
+	private int num_all;
+	private int num_used;
+	private long [] sign;
+	private int [] queue;
+	int number_error = 0;
+	
+	public void choose(int x)
+	{
+		prng_index = x;
+	}//use to assign prng index value 1 for XORshift
+	
+	
+	public void set_all_nums(int x)
+	{
+		num_all = x;
+	}//assign all quantity of all numbers
+
+	public void set_ordered_nums(int x)
+	{
+		num_used = x;
+	}//assign quantity of numbers needed to be arranged
+	
+	public void process()
+	{
+		sign = new long [(int)num_all] ;
+		queue = new int [(int)num_used];
+		prng p = new prng();
+		
+		
+		if(num_all<num_used)
+		{
+			number_error = 1;
+		}
+		else
+		{
+			number_error = 0;
+		}
+		if (number_error==0)
+		{
+		
+			for(int i =0; i<num_all; i++)		
+			{
+			
+				sign[i] = 0;
+		
+			}
+		
+			switch(prng_index)
+			{
+			case 1:{
+				for(int i = 0;i < num_used; i++)
+				{
+					p.xorshift();
+					if(sign[(int)(p.output()%num_all)]==0)
+					{
+						sign[(int)(p.output()%num_all)] = 1;
+						queue[i] = (int)(p.output()%num_all);
+					}
+					else
+					{
+						i--;
+					}
+				}
+			break;
+			}
+			
+			case 2:{
+				for(int i = 0;i < num_used; i++)
+				{
+					p.mix();
+					if(sign[(int)(p.output()%num_all)]==0)
+					{
+						sign[(int)(p.output()%num_all)] = 1;
+						queue[i] = (int)(p.output()%num_all);
+					}
+					else
+					{
+						i--;
+					}
+				}
+			break;
+			}
+			
+			case 3:{
+				for(int i = 0;i < num_used; i++)
+				{
+					p.mix_chaotic();
+					if(sign[(int)(p.output()%num_all)]==0)
+					{
+						sign[(int)(p.output()%num_all)] = 1;
+						queue[i] = (int)(p.output()%num_all);
+					}
+					else
+					{
+						i--;
+					}
+				}
+			break;
+			}
+			
+			default: {System.out.println("input index error!");
+			System.exit(0);
+			}
+			
+			}
+			
+			
+		}
+		
+	}//doing the random arrangement!
+	
+	
+	public int [] output()
+	{
+		return queue;
+	}
+	
+}

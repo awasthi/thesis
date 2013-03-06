@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: part1_introduction.aux
+A level-1 auxiliary file: part2_reviewsOfBasic.aux
+A level-1 auxiliary file: part3_Design.aux
+The style file: plain.bst
+Database file #1: Thesis.bib
+Warning--can't use both author and editor fields in Menezes1997
+Warning--can't use both author and editor fields in Robert1986
+Warning--empty publisher in Robert1986
+You've used 50 entries,
+            2118 wiz_defined-function locations,
+            820 strings with 12880 characters,
+and the built_in function-call counts, 18849 in all, are:
+= -- 1846
+> -- 1035
+< -- 14
++ -- 416
+- -- 359
+* -- 1382
+:= -- 3138
+add.period$ -- 155
+call.type$ -- 50
+change.case$ -- 320
+chr.to.int$ -- 0
+cite$ -- 53
+duplicate$ -- 654
+empty$ -- 1340
+format.name$ -- 359
+if$ -- 3884
+int.to.chr$ -- 0
+int.to.str$ -- 50
+missing$ -- 54
+newline$ -- 253
+num.names$ -- 102
+pop$ -- 341
+preamble$ -- 1
+purify$ -- 278
+quote$ -- 0
+skip$ -- 479
+stack$ -- 0
+substring$ -- 1147
+swap$ -- 153
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 182
+warning$ -- 3
+while$ -- 181
+width$ -- 52
+write$ -- 554
+(There were 3 warnings)

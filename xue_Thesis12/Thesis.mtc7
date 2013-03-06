@@ -1,0 +1,14 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Application example of the use of the proposed PRNG}{\reset@font\mtcSfont 89}{section.7.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Introduction}{\reset@font\mtcSfont 89}{section.7.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Definition of a Chaos-Based Information Hiding Scheme}{\reset@font\mtcSfont 91}{section.7.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.1}Most and least significant coefficients}{\reset@font\mtcSSfont 91}{subsection.7.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.2}Stages of the scheme}{\reset@font\mtcSSfont 92}{subsection.7.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.3.2.1}Watermark mixture}{\reset@font\mtcSSSfont 93}{subsubsection.7.3.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.3.2.2}Watermark embedding}{\reset@font\mtcSSSfont 93}{subsubsection.7.3.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.3.2.3}Extraction}{\reset@font\mtcSSSfont 93}{subsubsection.7.3.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}Experimental protocol}{\reset@font\mtcSfont 94}{section.7.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.5}Robustness evaluation}{\reset@font\mtcSfont 95}{section.7.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.5.0.4}Zeroing attack}{\reset@font\mtcSSSfont 96}{subsubsection.7.5.0.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.5.0.5}Rotation attack}{\reset@font\mtcSSSfont 97}{subsubsection.7.5.0.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.5.0.6}JPEG compression}{\reset@font\mtcSSSfont 97}{subsubsection.7.5.0.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.5.0.7}Gaussian noise}{\reset@font\mtcSSSfont 97}{subsubsection.7.5.0.7}}

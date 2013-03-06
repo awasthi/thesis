@@ -1,0 +1,13 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Randomness}{\reset@font\mtcSfont 5}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Types of Random Number Generators (RNGs)}{\reset@font\mtcSfont 6}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}True Random Number Generators (TRNGs)}{\reset@font\mtcSSfont 6}{subsection.2.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Pseudo Random Number Generators (PRNGs)}{\reset@font\mtcSSfont 6}{subsection.2.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Cryptographically secure pseudo random number generators}{\reset@font\mtcSfont 7}{section.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Stream Cipher}{\reset@font\mtcSfont 8}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}One-Time Pad (Vernam Cipher)}{\reset@font\mtcSSfont 8}{subsection.2.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Synchronous stream ciphers}{\reset@font\mtcSSfont 8}{subsection.2.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Self-synchronizing stream ciphers}{\reset@font\mtcSSfont 9}{subsection.2.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Chaos-based random number generators}{\reset@font\mtcSfont 9}{section.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Continuous Chaos in Digital Computers}{\reset@font\mtcSfont 9}{section.2.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Chaos for Discrete Dynamical Systems}{\reset@font\mtcSfont 10}{section.2.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.8}Chaotic iterations}{\reset@font\mtcSfont 11}{section.2.8}}

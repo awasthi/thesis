@@ -1,0 +1,423 @@
+\documentclass[a4paper,11pt,twoside]{ThesisStyle}
+
+\usepackage{amsmath,amssymb}             % AMS Math
+% \usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=1.5in,right=1.3in,top=1.1in,bottom=1.1in,includefoot,includehead,headheight=13.6pt]{geometry}
+\renewcommand{\baselinestretch}{1.05}
+
+% Table of contents for each chapter
+
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{minitoc}
+\setcounter{minitocdepth}{2}
+\mtcindent=15pt
+% Use \minitoc where to put a table of contents
+
+\usepackage{aecompl}
+
+% Glossary / list of abbreviations
+
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{List of Abbreviations}
+
+\makenomenclature
+
+% My pdf code
+
+\usepackage{ifpdf}
+
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+  \DeclareGraphicsExtensions{.jpg}
+  \usepackage[a4paper,pagebackref,hyperindex=true]{hyperref}
+\else
+  \usepackage{graphicx}
+  \DeclareGraphicsExtensions{.ps,.eps}
+  \usepackage[a4paper,dvipdfm,pagebackref,hyperindex=true]{hyperref}
+\fi
+
+\graphicspath{{.}{images/}}
+
+% nicer backref links
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+\ifcase #1 %
+(Not cited.)%
+\or
+(Cited on page~#2.)%
+\else
+(Cited on pages~#2.)%
+\fi}
+\renewcommand*{\backrefsep}{, }
+\renewcommand*{\backreftwosep}{ and~}
+\renewcommand*{\backreflastsep}{ and~}
+
+% Links in pdf
+\usepackage{color}
+\definecolor{linkcol}{rgb}{0,0,0.4} 
+\definecolor{citecol}{rgb}{0.5,0,0} 
+
+% Change this to change the informations included in the pdf file
+
+% See hyperref documentation for information on those parameters
+
+\hypersetup
+{
+bookmarksopen=true,
+pdftitle="Design and Use of Anatomical Atlases for Radiotherapy",
+pdfauthor="Olivier COMMOWICK", 
+pdfsubject="Creation of atlases and atlas based segmentation", %subject of the document
+%pdftoolbar=false, % toolbar hidden
+pdfmenubar=true, %menubar shown
+pdfhighlight=/O, %effect of clicking on a link
+colorlinks=true, %couleurs sur les liens hypertextes
+pdfpagemode=None, %aucun mode de page
+pdfpagelayout=SinglePage, %ouverture en simple page
+pdffitwindow=true, %pages ouvertes entierement dans toute la fenetre
+linkcolor=linkcol, %couleur des liens hypertextes internes
+citecolor=citecol, %couleur des liens pour les citations
+urlcolor=linkcol %couleur des liens pour les url
+}
+
+% definitions.
+% -------------------
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+
+% Some useful commands and shortcut for maths:  partial derivative and stuff
+
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\def\abs{\operatorname{abs}}
+\def\argmax{\operatornamewithlimits{arg\,max}}
+\def\argmin{\operatornamewithlimits{arg\,min}}
+\def\diag{\operatorname{Diag}}
+\newcommand{\eqRef}[1]{(\ref{#1})}
+
+\usepackage{rotating}                    % Sideways of figures & tables
+%\usepackage{bibunits}
+%\usepackage[sectionbib]{chapterbib}          % Cross-reference package (Natural BiB)
+%\usepackage{natbib}                  % Put References at the end of each chapter
+                                         % Do not put 'sectionbib' option here.
+                                         % Sectionbib option in 'natbib' will do.
+\usepackage{fancyhdr}                    % Fancy Header and Footer
+
+\usepackage{txfonts}                     % Public Times New Roman text & math font
+  
+%%% Fancy Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fancy Header Style Options
+
+\pagestyle{fancy}                       % Sets fancy header and footer
+\fancyfoot{}                            % Delete current footer settings
+
+%\renewcommand{\chaptermark}[1]{         % Lower Case Chapter marker style
+%  \markboth{\chaptername\ \thechapter.\ #1}}{}} %
+
+%\renewcommand{\sectionmark}[1]{         % Lower case Section marker style
+%  \markright{\thesection.\ #1}}         %
+
+\fancyhead[LE,RO]{\bfseries\thepage}    % Page number (boldface) in left on even
+% pages and right on odd pages
+\fancyhead[RE]{\bfseries\nouppercase{\leftmark}}      % Chapter in the right on even pages
+\fancyhead[LO]{\bfseries\nouppercase{\rightmark}}     % Section in the left on odd pages
+
+\let\headruleORIG\headrule
+\renewcommand{\headrule}{\color{black} \headruleORIG}
+\renewcommand{\headrulewidth}{1.0pt}
+\usepackage{colortbl}
+\arrayrulecolor{black}
+
+\fancypagestyle{plain}{
+  \fancyhead{}
+  \fancyfoot{}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+
+%%% Clear Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Clear Header Style on the Last Empty Odd pages
+\makeatletter
+
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+  \hbox{}%
+  \thispagestyle{empty}%              % Empty header styles
+  \newpage%
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+\makeatother
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Prints your review date and 'Draft Version' (From Josullvn, CS, CMU)
+\newcommand{\reviewtimetoday}[2]{\special{!userdict begin
+    /bop-hook{gsave 20 710 translate 45 rotate 0.8 setgray
+      /Times-Roman findfont 12 scalefont setfont 0 0   moveto (#1) show
+      0 -12 moveto (#2) show grestore}def end}}
+% You can turn on or off this option.
+% \reviewtimetoday{\today}{Draft Version}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\newenvironment{maxime}[1]
+{
+\vspace*{0cm}
+\hfill
+\begin{minipage}{0.5\textwidth}%
+%\rule[0.5ex]{\textwidth}{0.1mm}\\%
+\hrulefill $\:$ {\bf #1}\\
+%\vspace*{-0.25cm}
+\it 
+}%
+{%
+
+\hrulefill
+\vspace*{0.5cm}%
+\end{minipage}
+}
+
+\let\minitocORIG\minitoc
+\renewcommand{\minitoc}{\minitocORIG \vspace{1.5em}}
+
+\usepackage{multirow}
+\usepackage{slashbox}
+
+\newenvironment{bulletList}%
+{ \begin{list}%
+	{$\bullet$}%
+	{\setlength{\labelwidth}{25pt}%
+	 \setlength{\leftmargin}{30pt}%
+	 \setlength{\itemsep}{\parsep}}}%
+{ \end{list} }
+
+
+\renewcommand{\epsilon}{\varepsilon}
+
+% centered page environment
+
+\newenvironment{vcenterpage}
+{\newpage\vspace*{\fill}\thispagestyle{empty}\renewcommand{\headrulewidth}{0pt}}
+{\vspace*{\fill}}
+
+
+\usepackage{dsfont,,epsfig,psfrag,stmaryrd,amsfonts,mathrsfs,booktabs,algorithmic} % Add all your packages here
+\usepackage{alltt}
+\usepackage[standard]{ntheorem}
+%\usepackage{floatflt}
+%\usepackage{caption}
+%\usepackage[font=footnotesize,caption]{subfig}
+\usepackage{array}
+\renewcommand{\theequation}{\arabic{equation}}
+\usepackage{subfigure}
+
+
+
+
+
+
+\newcommand{\JFC}[1]{\begin{color}{green}\textit{#1}\end{color}}
+\newcommand{\CG}[1]{\begin{color}{blue}\textit{#1}\end{color}}
+
+\newcommand{\Fig}[1]{Fig.~\ref{#1}}
+\newcommand{\Algo}[1]{\textbf{\ref{#1}}}
+
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\noindent {\large \textbf{UNIVERSITY OF FRANCHE-COMTE}} \\
+\vspace*{0.3cm}
+\noindent {\LARGE \textbf{DOCTORAL SCHOOL SPIM}} \\
+\noindent \textbf{Fento-St\\ (DISC) } \\
+\vspace*{0.5cm}
+\noindent \Huge \textbf{P H D\ \ T H E S I S} \\
+\vspace*{0.3cm}
+\noindent \large {to obtain the title of} \\
+\vspace*{0.3cm}
+\noindent \LARGE \textbf{PhD of Science} \\
+\vspace*{0.3cm}
+\noindent \Large of the University of Franche-Comte \\
+\noindent \Large \textbf{Specialty : \textsc{Computer Science}}\\
+\vspace*{0.4cm}
+\noindent \large {Defended by\\}
+\noindent \LARGE Xiaole \textsc{FANG} \\
+\vspace*{0.8cm}
+\noindent {\Huge \textbf{USE OF CHAOTIC DYNAMICS FOR GENERATING PSEUDO-RANDOM NUMBERS IN DIFFERENT CONTEXTS}} \\
+\vspace*{0.8cm}
+\noindent \Large Thesis Advisor:  Jacques \textsc{Bahi} and Laurent \textsc{Larger}\\
+\vspace*{0.2cm}
+\noindent \large defended on February 28, 2013 
+\vspace*{0.5cm}
+\end{center}
+\noindent \large \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+\textbf{Jury :} \\
+\begin{center}
+\noindent \large 
+\begin{tabular}{llcl}
+      \textit{Reviewers :}	&   \textsc{ }		& - &   \\
+				&   \textsc{ }		& - &  \\
+      \textit{Advisor :}	&  \textsc{}		& - &  \\
+      \textit{President :}	&  \textsc{}		& - & \\
+      \textit{Examinators :}   &  \textsc{}          & - & \\
+      				&  \textsc{}			& - & \\
+      				& \textsc{}		& - & \\
+      \textit{Invited :}		&  \textsc{}		& - & 
+\end{tabular}
+\end{center}
+\end{titlepage}
+\sloppy
+\titlepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
+%%%%%%%%%%%%%%%%%%%%%%%%%55
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COVER PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Introduction}
+\label{Introduction}
+\minitoc
+
+The development and popularity of the Internet and its recent role in everyday life implies the need to protect data and privacy in digital world. This development has revealed new major security issues. For example, new security concerns have recently appeared because of the evolution of the Internet to support such activities as e-Voting, VoD, and digital rights management~\cite{Zhu200675}. Pseudorandom number generators (PRNGs) play an important role in all of these emerging techniques, because they are fundamental in cryptosystems and information hiding schemes. 
+
+PRNGs are typically defined by a deterministic recurrent sequence in a finite state space, usually a finite field or ring, and an output function mapping each state to an input value. 
+This is often either a real number in the interval $(0,1)$ or an integer in some finite range~\cite{LEcuyer08}. 
+Indeed, the generated sequence is not truly random, as it is completely determined by a relatively small set of initial values, called the PRNG's state space. 
+Compared to hardware-based approaches, these PRNGs are more easy to generate and process, they are reproducible, but nevertheless are less closer to truly random behavior. 
+PRNGs are often based on logical operations like bitwise exclusive or (XOR) and on circular shift of bit vectors. 
+However the security level of some PRNGs of this kind has revealed to be inadequate by today's standards. 
+
+Recently, some researchers have explored the possibility to use chaotic dynamical systems as PRNGs~\cite{Falcioni2005,Cecen2009,PO2004}. 
+These attempts are due to the hypothesis that digital chaotic systems can possibly reinforce the security of cryptographic algorithms, because the behaviors of chaotic dynamical systems are very similar to those of physical noise sources~\cite{Schuster1984}. 
+Their sensitivity to initial conditions and their broadband spectrum make them good candidates to generate cryptographically secure PRNGs. Particularly,  
+the random-like, unpredictable dynamics of chaotic systems, their inherent determinism and simplicity of realization suggest their potential for exploitation as PRNGs.
+
+In chaotic cryptography, there are two main design paradigms: in the first
+paradigm chaotic cryptosystems are realized in analog circuits (mainly based on
+chaos synchronization technique)~\cite{PhysRevLett.64.821}, and in the second paradigm chaotic cryptosystems
+are realized in digital circuits or computers and do not depend on
+chaos synchronization technique. Generally speaking, synchronization based
+chaotic cryptosystems are generally designed for secure communications though
+noisy channels and cannot directly extended to design digital ciphers in pure
+cryptography. What's worse, many cryptanalytic works have shown that most
+synchronization based chaotic cryptosystems are not secure since it is possible
+to extract some information on secure chaotic parameters~\cite{BethLaMa94}. Therefore,
+although chaos synchronization is still actively studied in research of secure
+communications, the related ideas have less significance for conventional cryptographers.
+Since this dissertation is devoted to research lying between chaotic
+cryptography and traditional cryptography, only digital chaotic ciphers will be
+discussed in this dissertation.
+
+However, even though chaotic systems exhibit
+random-like behavior, they are not necessarily cryptographically secure in their discretized
+form, see e.g. ~\cite{HabutsuNSM91,Biham91cryptanalysisof}. The reason partly being that discretized chaotic functions do not automatically
+yield sufficiently complex behavior of the corresponding binary functions, which is
+a prerequisite for cryptographic security. It is therefore essential that the complexity of the
+binary functions is considered in the design phase such that necessary modifications can be
+made. Moreover, many suggested PRNG based on chaos suffer from reproducibility problems
+of the keystream due to the different handling of floating-point numbers on various processors,
+see e.g. ~\cite{Matthews:1984}.
+
+Chaotic dynamical systems are usually continuous and hence defined on the real numbers domain. The transformation from real numbers to integers may lead to the loss of the chaotic behavior. The conversion to integers needs a rigorous theoretical foundation.
+
+In this paper, some new chaotic pseudo-random bit generator is presented, which can also be used to obtain numbers uniformly distributed between 0 and 1. Indeed, these bits can be grouped $n$ by $n$, to obtain the floating part of $x \in [0,1]$ represented in binary numeral system. These generators are based on discrete chaotic iterations which satisfy Devaney's definition of chaos~\cite{guyeux09}. A rigorous  framework is introduced, where topological chaotic properties of the generator are shown. 
+
+The design goal of  these generators was to take advantage of the random-like properties of realvalued
+chaotic maps and, at the same time, secure optimal cryptographic properties. More precisely, the design was initiated by constructing a chaotic system
+on the integers domain instead of the real numbers domain.
+
+The quality of a PRNG is proven both by theoretical foundations and empirical validations. 
+Various statistical tests are available in the literature to check empirically the statistical quality of a given sequence.
+The most famous and important batteries of tests for evaluating PRNGs are: TestU01~\cite{Lecuyer2009}, 
+NIST (National Institute of Standards and Technology of the U.S. Government) and DieHARD suites~\cite{ANDREW2008,Marsaglia1996}, and Comparative test parameters~\cite{Menezes1997}.
+For various reasons, a generator can behave randomly according to some of these tests, but it can fail to pass some other tests. 
+So to pass a number of tests as large as possible is important to improve the confidence put in the randomness of a given generator~\cite{Turan2008}. 
+
+\section{Research Background and Significance}
+
+
+\section{Related work}
+In~\cite{guyeux09,guyeux10}, it is proven that chaotic iterations (CIs), a suitable tool for fast computing iterative algorithms, satisfies the topological chaotic property, as it is defined by Devaney~\cite{Dev89}.
+Indeed, we have obtained this PRNG by combining chaotic iterations and two generators based on the logistic map in~\cite{wang2009}.
+The resulted PRNG shows better statistical properties than each individual component alone.
+Additionally, various chaos properties have been established. 
+The advantage of having such chaotic dynamics for PRNGs lies, among other things, in their unpredictability character.
+These chaos properties, inherited from chaotic iterations, are not possessed by the two inputted generators.
+We have shown that, in addition of being chaotic, this generator can pass the NIST battery of tests, widely considered as a comprehensive and stringent battery of tests for cryptographic applications~\cite{ANDREW2008}.
+
+Then, in the papers~\cite{guyeuxTaiwan10,bgw10:ip}, we have achieved to improve the speed of the former PRNG by replacing the two logistic maps: we used two XORshifts in \cite{guyeuxTaiwan10}, and ISAAC with XORshift in \cite{bgw10:ip}. 
+Additionally, we have shown that the first generator is able to pass DieHARD tests \cite{guyeuxTaiwan10}, whereas the second one can pass TestU01 \cite{bgw10:ip}.
+
+In ~\cite{wbg10:ip,bfgw11:ij}, which is an extension of ~\cite{wang2009}, we have improved the speed, security, and evaluation of the former generator and of its application in information hiding. Then, a comparative study between various
+generators is carried out and statistical results are improved. Chaotic properties, statistical tests, and security analysis allow us to consider that this kind of generator has better characteristics and is capable to withstand attacks. 
+
+In prior literature, the iterate function is just the vectorial boolean negation. 
+It is then judicious to investigate whether other functions may replace the the vectorial boolean negation function in the above approach. In~\cite{bcgw11:ip}, we combined its own function and its
+own PRNGs to provide a new PRNG instance. and propose a method using Graph with strongly connected components as a selection criterion for chaotic iterate function. The approach
+developed along these lines solves this issue by providing
+a class of functions whose iterations are chaotic according
+to Devaney and such that resulting PRNG success statistical
+tests.
+
+Then we use the vectorial Boolean negation as a
+prototype and explain how to modify this iteration function
+without deflating the good properties of the associated generator in ~\cite{bfgw11:ip}.
+Simulation results and basic security analysis are then presented
+to evaluate the randomness of this new family of generators.
+
+\section{Thesis Goals}
+
+
+\section{Thesis Organization}
+
+
+\section{Abbreviations}
+\begin{tabular}{ll}\toprule
+\textbf{Abbreviation}& \textbf{Definition}\\\hline
+\textbf{RNGs}& Random Number Generators\\
+\textbf{TRNGs}& True Random Number Generators\\
+\textbf{PRNG}& Pseudo Random Number Generator\\
+\textbf{CSPRNG}& Cryptographically Secure Pseudo Random Number Generator\\
+\textbf{NIST}& National Institute of Standards and Technology\\
+\textbf{VOD}&Video on Demand\\\bottomrule
+\textbf{}& \\
+\end{tabular}
+ 
+
+\section{Mathematical Symbols}
+\begin{tabular}{@{}c@{}@{}l@{}}
+\textbf{Symbol} &\textbf{Meaning}\\
+$\llbracket 1;\mathsf{N} \rrbracket$ & $\rightarrow\{1,2,\hdots,N\}$ \\
+$S^{n}$ & $\rightarrow$ the $n^{th}$ term of a sequence $S=(S^{1},S^{2},\hdots)$ \\
+$v_{i}$ & $\rightarrow$ the $i^{th}$ component of a vector: $v=(v_{1},v_{2},\hdots, v_n)$\\
+$f^{k}$ & $\rightarrow$ $k^{th}$ composition of a function $f$ \\
+$\emph{strategy}$~ & $\rightarrow$ a sequence which elements belong in $%
+\llbracket 1;\mathsf{N} \rrbracket $ \\
+$mod$ & $\rightarrow$ a modulo or remainder operator\\
+$\mathbb{S}$ & $\rightarrow$ the set of all strategies \\
+$\mathbf{C}_n^k$ & $\rightarrow$ the binomial coefficient ${n \choose k} = \frac{n!}{k!(n-k)!}$\\
+$\oplus$ & $\rightarrow$ bitwise exclusive or \\
+%& $\begin{array}{r@{\;}l}\ f^{k}=\underbrace{f\circ ...\circ f} \\ \ k\ \text{times}\end{array}$\\
+$+$ & $\rightarrow$ the integer addition \\
+$\ll \text{and} \gg$ & $\rightarrow$ the usual shift operators \\
+$(\mathcal{X}, \text{d})$ & $\rightarrow$ a metric space  \\
+$\lfloor x \rfloor$ & $\rightarrow$ returns the highest integer smaller than $x$  \\
+$n!$ & $\rightarrow$ the factorial $n!=n\times(n-1)\times\dots\times1$\\
+$\mathds{N}^{\ast }$ & $\rightarrow$ the set of positive integers \{1,2,3,...\}
+\end{tabular}
+
+
+
+\bibliographystyle{plain}
+\bibliography{Thesis}
+\end{document}

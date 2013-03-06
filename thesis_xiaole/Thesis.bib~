@@ -1,0 +1,848 @@
+@Article{ LEcuyer08,
+	title = "Comparison of Point Sets and Sequences for Quasi-Monte Carlo and for Random Number Generation",
+	booktitle = "SETA",
+	author = "Pierre L'ecuyer",
+	journal = "SETA",
+	pages = "1--17",
+	year = "2008",
+	ee = "http://dx.doi.org/10.1007/978-3-540-85912-3_1"
+}
+
+@article{DavidRC2003643,
+title = "URNG: A portable optimization technique for software applications requiring pseudo-random numbers",
+journal = "Simulation Modelling Practice and Theory",
+volume = "11",
+number = "7?C8",
+pages = "643 - 654",
+year = "2003",
+note = "",
+issn = "1569-190X",
+doi = "10.1016/j.simpat.2003.08.007",
+url = "http://www.sciencedirect.com/science/article/pii/S1569190X03001011",
+author = "David R.C. and Hill",
+keywords = "Pseudo-random numbers",
+keywords = "Unrolling",
+keywords = "Optimization",
+keywords = "Stochastic",
+keywords = "Simulation"
+}
+
+@article{Bojani200663,
+title = "FPGA for pseudorandom generator cryptanalysis",
+journal = "Microprocessors and Microsystems",
+volume = "30",
+number = "2",
+pages = "63 - 71",
+year = "2006",
+note = "",
+issn = "0141-9331",
+doi = "10.1016/j.micpro.2005.04.005",
+url = "http://www.sciencedirect.com/science/article/pii/S0141933105000402",
+author = "Slobodan Bojanic and Gabriel Caffarena and Slobodan Petrovic and Octavio Nieto-Taladriz",
+keywords = "FPGA",
+keywords = "Cryptanalysis",
+keywords = "Edit distance",
+keywords = "Pseudorandom generator",
+keywords = "Dynamic programming"
+}
+
+@article{Danger:2009:HST:1645457.1645933,
+ author = {Danger, J. -L. and Guilley, S. and Hoogvorst, P.},
+ title = {High speed true random number generator based on open loop structures in FPGAs},
+ journal = {Microelectron. J.},
+ issue_date = {November, 2009},
+ volume = {40},
+ number = {11},
+ month = nov,
+ year = {2009},
+ issn = {0026-2692},
+ pages = {1650--1656},
+ numpages = {7},
+ url = {http://dx.doi.org/10.1016/j.mejo.2009.02.004},
+ doi = {10.1016/j.mejo.2009.02.004},
+ acmid = {1645933},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {00.00.-x, Cryptography, FPGA, Metastability, Security, TRNG},
+}
+
+@inproceedings{Tsoi:2003:CFT:938383.938400,
+ author = {Tsoi, K. H. and Leung, K. H. and Leong, P. H. W.},
+ title = {Compact FPGA-based True and Pseudo Random Number Generators},
+ booktitle = {Proceedings of the 11th Annual IEEE Symposium on Field-Programmable Custom Computing Machines},
+ series = {FCCM '03},
+ year = {2003},
+ isbn = {0-7695-1979-2},
+ pages = {51--},
+ url = {http://dl.acm.org/citation.cfm?id=938383.938400},
+ acmid = {938400},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+
+
+@book{quantum,
+	Author = {Nielsen,M.A. and Chuang,I.L.},
+	Date-Added = {2011-07-05 13:24:44 +0200},
+	Date-Modified = {2011-07-05 13:26:53 +0200},
+	Publisher = {Cambridge Univ. Press},
+	Title = {Quantum Computation and Quantum Information},
+	Year = {2000}}
+	
+	
+@book{communication,
+	Author = {Gallager R.G.},
+	Date-Added = {2011-07-05 13:31:19 +0200},
+	Date-Modified = {2011-07-05 13:32:15 +0200},
+	Publisher = {Cambridge Univ. Press},
+	Title = {Principles of Digital Communication},
+	Year = {2008}}
+
+	
+@inproceedings{bfg12a:ip,
+inhal = {no},
+domainehal = {INFO:INFO_DC, INFO:INFO_CR, INFO:INFO_MO},
+equipe = {and},
+classement = {ACTI},
+author = {Bahi, Jacques and Fang, Xiaole and Guyeux, Christophe},
+title = {An optimization technique on pseudorandom generators based on chaotic iterations},
+booktitle = {INTERNET'2012, 4-th Int. Conf. on Evolving Internet},
+pages = {31--36},
+address = {Venice, Italy},
+month = jun,
+year = 2012,
+
+}
+
+@Article{ Kocarev2001,
+	author = "L. Kocarev",
+	title = "Chaos-based cryptography: a brief overview",
+	journal = "IEEE Circ Syst Mag",
+	year = "2001",
+	volume = "7",
+	pages = "6--21",
+	owner = "qianxue",
+	timestamp = "2009.11.09"
+}
+
+@PhDThesis{ GuyeuxThese10,
+	author = "Christophe Guyeux",
+	title = "Le d{\'e}sordre des it{\'e}rations chaotiques et leur utilit{\'e} en s{\'e}curit{\'e} informatique",
+	school = "Universit{\'e} de Franche-Comt{\'e}",
+	year = "2010",
+	owner = "christophe",
+	timestamp = "2010.12.21"
+}
+
+@Misc{ Frick,
+	title = "The Frick Collection, http://www.frick.org/",
+	comment = "http://www.frick.org/",
+	type = "web page",
+	url = "http://www.frick.org/"
+}
+
+@Misc{ Delicious,
+	title = "Delicious social bookmarking, http://delicious.com/",
+	comment = "http://delicious.com/",
+	type = "web page",
+	url = "http://delicious.com/"
+}
+
+@Misc{ java,
+	title = "JAVA the programming language, http://www.java.com/en/",
+	comment = "http://www.java.com/en/",
+	type = "web page",
+	url = "http://www.java.com/en/"
+}
+
+@Book{ ita09,
+	title = "Introduction to Algorithms",
+	author = "T. H. Cormen and C. E. Leiserson and R. L. Rivest and C. Stein",
+	edition = "3rd ed.",
+	year = "2009",
+	series = "3rd ed.",
+	publisher = "MIT press"
+}
+
+@InProceedings{ gfb10:ip,
+	author = "Christophe Guyeux and Nicolas Friot and Jacques M. Bahi",
+	title = "Chaotic iterations versus Spread-spectrum: chaos and stego security",
+	booktitle = "IIH-MSP'10, 6-th Int. Conf. on Intelligent Information Hiding and Multimedia Signal Processing",
+	year = "2010",
+	pages = "***--***",
+	address = "Darmstadt, Germany",
+	month = oct,
+	note = "To appear",
+	classement = "ACTI",
+	equipe = "and",
+	inhal = "no",
+	owner = "christophe",
+	timestamp = "2010.07.13"
+}
+
+@Article{ shannon-otp,
+	author = "C. Shannon",
+	interhash = "0c15e2ae21f0ff1fbcdfc222fc4ee00a",
+	intrahash = "b07c0c91f6c750562d884d919065a6e8",
+	journal = "Bell System Technical Journal, Vol 28, pp. 656--715",
+	title = "Communication Theory of Secrecy Systems",
+	year = 1949,
+	timestamp = "2010-01-26T20:03:21.000+0100",
+	keywords = "imported",
+	added-at = "2010-01-26T20:03:21.000+0100",
+	biburl = "http://www.bibsonomy.org/bibtex/2b07c0c91f6c750562d884d919065a6e8/nmenke",
+	month = "Oktober"
+}
+
+@Misc{ Preneel03nessied20,
+	author = "Bart Preneel and B. Preneel and Elisabeth Oswald and Alex Biryukov and E. Oswald and Bart Van Rompay and Sean Murphy and Louis Granboulan and Juliette White and Emmanuelle Dottax and S. Murphy and Alex Dent and J. White and Eli Biham and Elad Barkan and Orr Dunkelman and Markus Dichtl and Stefan Pyka and Markus Schafheutle and H{\aa}vard Raddum and Matthew Parker and Pascale Serf and E. Biham and E. Barkan and O. Dunkelman and J. {-j. Quisquater} and Mathieu Ciet and Francesco Sica and Lars Knudsen and M. Parker and H. Raddum",
+	title = "NESSIE D20 - NESSIE security report",
+	year = "2003"
+}
+
+@Article{ Palmore1990,
+	title = "Computer arithmetic, chaos and fractals ",
+	author = "J. Palmore and C. Herring",
+	journal = "Physica D",
+	pages = "99--110",
+	volume = "42",
+	year = "1990"
+}
+
+@Article{ Wheeler1989,
+	title = "Problems with chaotic cryptosystems",
+	author = "D. D. Wheeler",
+	journal = "Cryptologia",
+	pages = "243--250",
+	volume = "XIII",
+	number = "3",
+	year = "1989"
+}
+
+@misc{nios,
+title = {Introduction to the Altera Nios II Soft Processor},
+howpublished = {http://coen.boisestate.edu/smloo/files/2011/11/},
+year = "2011",
+note = {Accessed: 30/09/2012}
+}
+
+@Article{BBS,
+	author = 			 {Lenore Blum and Manuel Blum and Michael Shub},
+	title = 			 {A Simple Unpredictable Pseudo-Random Number Generator},
+	journal = 		 {SIAM Journal on Computing},
+	year = 				 {1986},
+	volume = 	 {15},
+	pages = 		 {364--383},
+}
+
+@Article{vmd,
+	author = 			 {F. Montoya Vitini and J. Monoz Masque and A. Peinado Dominguez},
+	title = 			 {Bound for linear complexity of BBS sequences},
+	journal = 		 {Electronics Letters},
+	year = 				 {1998},
+	volume = 	 {34},
+	pages = 		 {450--451},
+}
+
+@misc{verilog,
+  title = {Verilog HDL},
+  howpublished = {http://www.verilog.com/IEEEVerilog.html},
+  year = "2008",
+  note = {Accessed: 30/09/2012}
+}
+
+@article{DBLP:journals/corr/abs-1112-5239,
+  author    = {Jacques M. Bahi and
+               Rapha{\"e}l Couturier and
+               Christophe Guyeux and
+               Pierre-Cyrille H{\'e}am},
+  title     = {Efficient and Cryptographically Secure Generation of Chaotic
+               Pseudorandom Numbers on GPU},
+  journal   = {CoRR},
+  volume    = {abs/1112.5239},
+  year      = {2011},
+  ee        = {http://arxiv.org/abs/1112.5239},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@Article{ wang2009,
+	author = "Qianxue Wang and Christophe Guyeux and Jacques Bahi",
+	title = "A novel pseudo-random generator based on discrete chaotic iterations for cryptographic applications",
+	journal = "INTERNET '09",
+	year = "2009",
+	pages = "71--76",
+	booktitle = "First International Conference on Evolving Internet",
+	owner = "qianxue",
+	timestamp = "2009.10.29"
+}
+
+@Misc{ Robshaw95streamciphers,
+	author = "M. J. B. Robshaw",
+	title = "Stream Ciphers",
+	year = "1995"
+}
+
+@Article{ wbg10:ip,
+	author = "Qianxue Wang and Jacques Bahi and Christophe Guyeux and Xaole Fang",
+	title = "Randomness quality of {CI} chaotic generators. Application to Internet security",
+	booktitle = "INTERNET'2010. The 2nd Int. Conf. on Evolving Internet",
+	year = "2010",
+	pages = "125--130 ",
+	address = "Valencia, Spain",
+	month = sep,
+	publisher = "IEEE seccion ESPANIA",
+	journal = "INTERNET10",
+	classement = "ACTI",
+	equipe = "and",
+	inhal = "no",
+	owner = "christophe",
+	timestamp = "2010.07.13"
+}
+
+@Book{ Dev89,
+	title = "An Introduction to Chaotic Dynamical Systems",
+	publisher = "Redwood City: Addison-Wesley",
+	year = "1989",
+	author = "R. L. Devaney",
+	edition = "2nd",
+	owner = "guyeux",
+	timestamp = "27/01/2008"
+}
+
+@Article{ guyeux10,
+	author = "Jacques Bahi and Christophe Guyeux",
+	title = "Topological chaos and chaotic iterations, application to Hash functions",
+	booktitle = "WCCI'10, IEEE World Congress on Computational Intelligence",
+	year = "2010",
+	pages = "1--7",
+	address = "Barcelona, Spain",
+	month = jul,
+	publisher = "IEEE",
+	journal = "Neural Networks (IJCNN2010)",
+	equipe = "and",
+	inhal = "no",
+	owner = "christophe",
+	timestamp = "2010.04.11"
+}
+
+@Book{ Robert1986,
+	title = "Discrete Iterations: A Metric Study",
+	year = "1986",
+	editor = "Springer-Verlag",
+	author = "F. Robert",
+	volume = "6",
+	series = "Springer Series in Computational Mathematics",
+	owner = "guyeux",
+	timestamp = "17/02/2008"
+}
+
+@InProceedings{ guyeuxTaiwan10,
+	author = "Jacques Bahi and Christophe Guyeux and Qianxue Wang",
+	title = "Improving random number generators by chaotic iterations. Application in data hiding",
+	booktitle = "ICCASM 2010, Int. Conf. on Computer Application and System Modeling",
+	year = "2010",
+	pages = "V13--643--V13--647",
+	address = "Taiyuan, China",
+	month = oct,
+	publisher = "IEEE",
+	note = "to appear",
+	classement = "ACTI",
+	equipe = "and",
+	inhal = "no"
+}
+
+@Article{ Banks92,
+	author = "J. Banks and J. Brooks and G. Cairns and P. Stacey",
+	title = "On Devaney's Definition of Chaos",
+	journal = "Amer. Math. Monthly",
+	year = "1992",
+	volume = "99",
+	pages = "332--334",
+	__markedentry = "[guyeux]",
+	keywords = "(c+)",
+	owner = "guyeux",
+	timestamp = "27/01/2008"
+}
+
+@inproceedings{bfg12b:ip,
+inhal = {no},
+domainehal = {INFO:INFO_DC, INFO:INFO_CR, INFO:INFO_MO},
+equipe = {and},
+classement = {ACTI},
+author = {Bahi, Jacques and Fang, Xiaole and Guyeux, Christophe},
+title = {State-of-the-art in Chaotic Iterations based pseudorandom numbers generators Application in Information Hiding},
+booktitle = {IHTIAP'2012, 1-st Workshop on Information Hiding Techniques for Internet Anonymity and Privacy},
+pages = {90--95},
+address = {Venice, Italy},
+month = jun,
+year = 2012,
+
+}
+
+@Article{ bfgw11:ij,
+	author = "Jacques Bahi and Xiaole Fang and Christophe Guyeux and Qianxue Wang",
+	title = "Evaluating Quality of Chaotic Pseudo-Random Generators. Application to Information Hiding",
+	journal = "IJAS, International Journal On Advances in Security",
+	volume = "*",
+	number = "*",
+	pages = "***--***",
+	year = 2011,
+	note = "Accepted manuscript. To appear",
+	classement = "ACLNI",
+	domainehal = "INFO:INFO\_DC, INFO:INFO\_CR, INFO:INFO\_MO",
+	equipe = "and",
+	impact-factor = "\#",
+	inhal = "no",
+	isi-acro = "\#"
+}
+
+@Article{ Bahi2000,
+	author = "Jacques Bahi",
+	title = "Boolean totally asynchronous iterations",
+	journal = "Int. Journal of Mathematical Algorithms",
+	year = "2000",
+	volume = "1",
+	pages = "331--346",
+	owner = "guyeux",
+	timestamp = "17/02/2008"
+}
+
+@Article{ Ladd20092140,
+	title = "A fast random number generator for stochastic simulations",
+	author = "Anthony J.C. Ladd",
+	journal = "Computer Physics Communications",
+	pages = "2140--2142",
+	volume = "180",
+	number = "11",
+	year = "2009",
+	issn = "0010-4655",
+	note = "",
+	keywords = "Random number generators",
+	url = "http://www.sciencedirect.com/science/article/pii/S0010465509001994",
+	doi = "DOI: 10.1016/j.cpc.2009.06.019"
+}
+
+@Article{ Li2005,
+	title = "On the dynamical degradation of digital piecewise linear chaotic maps",
+	author = "S. Li and G. Chen and X. Mou",
+	journal = "Bifurcation an Chaos",
+	pages = "3119--3151",
+	volume = "15",
+	number = "10",
+	year = "2005"
+}
+
+@InProceedings{ Barker05recommendationfor,
+	title = "Recommendation for Key Management Part 1: General",
+	booktitle = "NIST Special Publication 800-57, August 2005, National Institute of Standards and Technology. Available at http://csrc.nist.gov/publications/nistpubs/800-57/SP800-57-Part1.pdf",
+	author = "Elaine Barker and William Barker and William Burr and William Polk and Miles Smid",
+	year = "2005"
+}
+
+@Book{ Knuth1998,
+	title = "The Art of Computer Programming, Volume 2: Seminumerical Algorithms",
+	author = "D. E. Knuth",
+	editor = "Reading and Mass and {third edition}",
+	publisher = "Addison-Wesley",
+	year = "1998",
+	owner = "qianxue",
+	timestamp = "2010.02.05"
+}
+
+@Article{ Schuster1984,
+	title = "Deterministic Chaos An introduction",
+	author = "H. G. Schuster",
+	journal = "Physik Verlag",
+	volume = "Weinheim",
+	year = "1984",
+	owner = "qianxue",
+	timestamp = "2009.01.31"
+}
+
+@Article{ Blank1997,
+	title = "Discreteness and Continuity in Problems of Chaotic Dynamics ",
+	author = "M. Blank",
+	journal = "Translations of Mathematical Monographs",
+	volume = "161",
+	year = "1997"
+}
+
+@Article{ Binder1986,
+	title = "Simulating chaotic behavior with finite-state machines ",
+	author = "P. M. Binder and R. V. Jensen",
+	journal = "Physical Review A ",
+	pages = "4460--4463",
+	volume = "34",
+	number = "5",
+	year = "1986"
+}
+
+@Article{ PO2004,
+	title = "Evidence of the correlation between positive Lyapunov exponents and good chaotic random number sequences",
+	author = "L. Po-Han and C. Yi and P. Soo-Chang and C. Yih-Yuh",
+	journal = "Computer Physics Communications",
+	pages = "187--203",
+	volume = "160",
+	year = "2004",
+	owner = "qianxue",
+	timestamp = "2009.01.22"
+}
+
+@Article{ Cecen2009,
+	title = "A new hybrid nonlinear congruential number generator based on higher functional power of logistic maps",
+	author = "S. Cecen and R. M. Demirer and C. Bayrak",
+	journal = "Chaos, Solitons and Fractals",
+	pages = "847--853",
+	volume = "42",
+	year = "2009",
+	owner = "qianxue",
+	timestamp = "2009.12.16"
+}
+
+@Article{ Falcioni2005,
+	title = "Properties making a chaotic system a good Pseudo Random Number Generator",
+	author = "M. Falcioni and L. Palatella and S. Pigolotti and A. Vulpiani",
+	journal = "arXiv",
+	volume = "nlin/0503035",
+	year = "2005",
+	owner = "qianxue",
+	timestamp = "2009.01.26"
+}
+
+@InCollection{ Zhu200675,
+	title = "Multimedia Encryption",
+	booktitle = "Multimedia Security Technologies for Digital Rights Management",
+	author = "Bin B. Zhu",
+	editor = "Wenjun Zeng and Heather Yu and Ching-Yung Lin",
+	publisher = "Academic Press",
+	address = "Burlington",
+	pages = "75--109",
+	edition = "",
+	year = "2006",
+	isbn = "978-0-12-369476-8",
+	url = "http://www.sciencedirect.com/science/article/pii/B9780123694768500063",
+	doi = "DOI: 10.1016/B978-012369476-8/50006-3"
+}
+
+@Article{ PhysRevLett.64.821,
+	title = "Synchronization in chaotic systems",
+	author = "Louis Pecora and Thomas Carroll",
+	journal = "Physical Review Letters",
+	pages = "821--824",
+	volume = "64",
+	year = "1990"
+}
+
+@InProceedings{ bgw10:ip,
+	author = "Jacques Bahi and Christophe Guyeux and Qianxue Wang",
+	title = "A Pseudo Random Numbers Generator Based on Chaotic Iterations. Application to Watermarking",
+	booktitle = "WISM 2010, Int. Conf. on Web Information Systems and Mining",
+	pages = "202--211",
+	series = "LNCS",
+	volume = 6318,
+	url = "http://dx.doi.org/10.1007/978-3-642-16515-3_26",
+	doi = "10.1007/978-3-642-16515-3\_26",
+	address = "Sanya, China",
+	month = oct,
+	year = 2010,
+	classement = "ACTI",
+	domainehal = "INFO:INFO\_DC, INFO:INFO\_CR, INFO:INFO\_MO",
+	equipe = "and",
+	inhal = "no"
+}
+
+@Article{ Nakashima2003,
+	author = "Y. Nakashima and R. Tachibana and N. Babaguchi",
+	title = "Watermarked Movie Soundtrack Finds the Position of the Camcorder in a Theater",
+	journal = "IEEE Transactions on Multimedia",
+	year = "2009",
+	note = "Accepted for future publication Multimedia"
+}
+
+@Article{ Matthews:1984,
+	title = "On the derivation of a Chaotic encryption algorithm",
+	author = "R. Matthews",
+	publisher = "Taylor \& Francis, Inc.",
+	address = "Bristol, PA, USA",
+	journal = "Cryptologia",
+	pages = "29--41",
+	volume = "8",
+	month = "January",
+	year = "1984",
+	issn = "0161-1194",
+	url = "http://portal.acm.org/citation.cfm?id=67071.67073",
+	acmid = "67073",
+	issue = "1",
+	numpages = "13"
+}
+
+@InProceedings{ bcgw11:ip,
+	inhal = "no",
+	domainehal = "INFO:INFO\_DC, INFO:INFO\_CR, INFO:INFO\_MO",
+	equipe = "and",
+	classement = "ACTIN",
+	author = "Jacques Bahi and Jean-Fran\c{c}ois Couchot and Christophe Guyeux and Qianxue Wang",
+	title = "Class of Trustworthy Pseudo Random Number Generators",
+	booktitle = "INTERNET 2011, the 3-rd Int. Conf. on Evolving Internet",
+	pages = "***--***",
+	address = "Luxembourg, Luxembourg",
+	month = jun,
+	year = 2011,
+	note = "To appear"
+}
+
+@InProceedings{ bfgw11:ip,
+	inhal = "no",
+	domainehal = "INFO:INFO\_DC, INFO:INFO\_CR, INFO:INFO\_MO",
+	equipe = "and",
+	classement = "ACTI",
+	author = "Jacques Bahi and Xiaole Fang and Christophe Guyeux and Qianxue Wang",
+	title = "On the design of a family of {CI} pseudo-random number generators",
+	booktitle = "WICOM'11, 7th Int. IEEE Conf. on Wireless Communications, Networking and Mobile Computing",
+	pages = "***--***",
+	address = "Wuhan, China",
+	month = sep,
+	year = 2011,
+	note = "To appear"
+}
+
+@Article{ Tarjanscc72,
+	author = "R. Tarjan",
+	title = "Depth-first search and linear graph algorithms",
+	journal = SIAM,
+	year = "1972",
+	volume = "1",
+	number = "2",
+	pages = "146--160",
+	OPTannote = "",
+	OPTkey = "",
+	OPTmonth = "",
+	OPTnote = ""
+}
+
+@InBook{ BethLaMa94,
+	title = "Cryptanalysis of Cryptosystems Based on Remote Chaos Replication",
+	booktitle = "Proceedings of the 14th Annual International Cryptology Conference on Advances in Cryptology",
+	series = "CRYPTO '94",
+	author = "Thomas Beth and Dejan E. Lazic and A. Mathias",
+	publisher = "Springer-Verlag",
+	address = "London, UK",
+	pages = "318--331",
+	year = "1994",
+	isbn = "3-540-58333-5",
+	url = "http://portal.acm.org/citation.cfm?id=646759.705835",
+	acmid = "705835",
+	numpages = "14"
+}
+
+@InBook{ Biham91cryptanalysisof,
+	title = "Cryptanalysis of the chaotic-map cryptosystem suggested at EUROCRYPT'91",
+	booktitle = "Proceedings of the 10th annual international conference on Theory and application of cryptographic techniques",
+	series = "EUROCRYPT'91",
+	author = "Eli Biham",
+	publisher = "Springer-Verlag",
+	location = "Brighton, UK",
+	address = "Berlin, Heidelberg",
+	pages = "532--534",
+	year = "1991",
+	isbn = "3-540-54620-0",
+	url = "http://portal.acm.org/citation.cfm?id=1754868.1754931",
+	acmid = "1754931",
+	numpages = "3"
+}
+
+@Article{combined_lcg,
+    author = "L'Ecuyer, P.",
+	title = "Efficient and portable combined random number generators",
+	journal = "Communications of the ACM",
+	volume = "31",
+	number = "6",
+	pages = "742--749",
+	year = "1988",
+}
+
+@Misc{ Lecuyer2009,
+	title = "TestU01: A Software Library in ANSI C for Empirical Testing of Random Number Generators. ",
+	author = "Richard Simard and Universit{\'e} De Montr{\'e}al",
+	year = "2002"
+}
+
+@Article{ Turan2008,
+	author = "M. S. Turan and A Doganaksoy and S Boztas",
+	title = "On Independence and Sensitivity of Statistical Randomness Tests",
+	journal = "SETA 2008",
+	year = "2008",
+	volume = "LNCS 5203",
+	pages = "18--29",
+	owner = "qianxue",
+	timestamp = "2010.03.29"
+}
+
+@article{fast,
+  Author =	 {Uchida, A. and Amano, K. and Inoue, I. and Hirano,
+                  K. and Naito, S. and Someya, H. and Oowada, I. and
+                  Kurashige, T. and Shiki, M. and Yoshimori, S. and
+                  Yoshimura, K. and Davis, P.},
+  Date-Added =	 {2011-07-05 14:02:35 +0200},
+  Date-Modified ={2011-07-05 14:06:08 +0200},
+  Journal =	 {Nature Photonics},
+  Pages =	 {728 -- 732},
+  Title =	 {Fast physical random bit generation with chaotic
+                  semiconductor lasers},
+  Volume =	 2,
+  Year =	 2008
+}
+
+@article{cite-key,
+	Annote = {10.1038/465041a},
+	Author = {Larger, Laurent and Dudley, John M.},
+	Date = {2010/05/06/print},
+	Date-Added = {2012-09-04 14:57:16 +0000},
+	Date-Modified = {2012-09-04 14:57:16 +0000},
+	Day = {06},
+	Isbn = {0028-0836},
+	Journal = {Nature},
+	M3 = {10.1038/465041a},
+	Month = {05},
+	Number = {7294},
+	Pages = {41--42},
+	Publisher = {Nature Publishing Group},
+	Title = {Nonlinear dynamics: Optoelectronic chaos},
+	Ty = {JOUR},
+	Url = {http://dx.doi.org/10.1038/465041a},
+	Volume = {465},
+	Year = {2010},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1038/465041a}}
+
+@Article{pecora:prl90,
+  author =	 {Pecora, Louis M. and Carroll, Thomas L.},
+  title =	 {Synchronization in chaotic systems},
+  journal =	 "Physical Review Letters",
+  year =	 1990,
+  volume =	 64,
+  number =	 8,
+  pages =	 {821--824}
+}
+
+@Article{argyris:nat05,
+  author =	 {Argyris, Apostolis and Syvridis, Dimitris and
+                  Larger, Laurent and Annovazzi--Lodi, Valerio and
+                  Colet, Pere and Fischer, Ingo and Garcia--Ojalvo,
+                  Jordi and Mirasso, Claudio R. and Pesquera, Luis and
+                  Shore, Alan K.},
+  title =	 {Chaos--based communications at high bit rates using
+                  commercial fiber--optic links},
+  journal =	 "Nature",
+  year =	 2005,
+  volume =	 438,
+  pages =	 {343--346}
+}
+
+@article{dice,
+	Author = {Thomas E. Murphy and Rajarshi Roy},
+	Date-Added = {2011-07-05 14:02:35 +0200},
+	Date-Modified = {2011-07-05 14:06:08 +0200},
+	Journal = {Nature Photonics},
+	Pages = {714 -- 715},
+	Title = {Chaotic lasers: The world's fastest dice},
+	Volume = {2},
+	Year = {2008}}
+
+@Book{ Menezes1997,
+	title = "Handbook of applied cryptography",
+	author = "A. Menezes and Paul C. van Oorschot and S. Vanstone",
+	editor = "Bocarton",
+	publisher = "CRC Press",
+	year = "1997",
+	owner = "qianxue",
+	timestamp = "2010.04.13"
+}
+
+@book{cryptography,
+	Author = {Stinson,D.R},
+	Date-Added = {2011-07-05 13:29:01 +0200},
+	Date-Modified = {2011-07-05 13:30:11 +0200},
+	Publisher = {CRC Press},
+	Title = {Cryptography: Theory and Practice},
+	Year = {1995}}
+
+@Article{ Jenkins1996,
+	author = "R. J. Jenkins",
+	title = "ISAAC",
+	journal = "Fast Software Encryption",
+	year = "1996",
+	pages = "41--49",
+	owner = "qianxue",
+	timestamp = "2009.10.28"
+}
+
+@Article{ ulam1947,
+	author = "S. M. Ulam and J. V. Neumann",
+	title = "On combination of stochastic and deterministic processes",
+	journal = "Amer. Math. Soc.",
+	year = "1947",
+	volume = "53",
+	pages = "1120",
+	owner = "qianxue",
+	timestamp = "2009.01.27"
+}
+
+@Article{ Marsaglia2003,
+	author = "G. Marsaglia",
+	title = "Xorshift RNGs",
+	journal = "Journal of Statistical Software",
+	year = "2003",
+	volume = "8(14)",
+	pages = "1--6",
+	owner = "qianxue",
+	timestamp = "2009.10.28"
+}
+
+@Misc{ ANDREW2008,
+	title = "A statistical test suite for random and pseudorandom number generators for cryptographic applications",
+	author = "Andrew Rukhin and Juan Soto and James Nechvatal and Elaine Barker and Stefan Leigh and Mark Levenson and David Banks and Alan Heckert and James Dray and San Vo and Andrew Rukhin and Juan Soto and Miles Smid and Stefan Leigh and Mark Vangel and Alan Heckert and James Dray and Lawrence E Bassham Iii",
+	year = "2001"
+}
+
+@Misc{ Marsaglia1996,
+	title = "Diehard Battery of Tests of Randomness",
+	author = "G. Marsaglia",
+	howpublished = "Florida State University",
+	year = "1995",
+	keywords = "bibtex-import",
+	citeulike-article-id = "1123733",
+	posted-at = "2007-02-26 22:01:41",
+	priority = "2"
+}
+
+@Article{ guyeux09,
+	title = "Hash functions using chaotic iterations",
+	author = "Christophe Guyeux and Jacques Bahi",
+	publisher = "Multi Science Publishing",
+	journal = "Journal of Algorithms \& Computational Technology",
+	pages = "167--182",
+	volume = "4",
+	number = "2",
+	year = "2010",
+	owner = "guyeux",
+	timestamp = "2009.07.12"
+}
+
+@InBook{ HabutsuNSM91,
+	title = "A secret key cryptosystem by iterating a chaotic map",
+	booktitle = "Proceedings of the 10th annual international conference on Theory and application of cryptographic techniques",
+	series = "EUROCRYPT'91",
+	author = "Toshiki Habutsu and Yoshifumi Nishio and Iwao Sasase and Shinsaku Mori",
+	publisher = "Springer-Verlag",
+	location = "Brighton, UK",
+	address = "Berlin, Heidelberg",
+	pages = "127--140",
+	year = "1991",
+	isbn = "3-540-54620-0",
+	url = "http://portal.acm.org/citation.cfm?id=1754868.1754883",
+	acmid = "1754883",
+	numpages = "14"
+}
+
+

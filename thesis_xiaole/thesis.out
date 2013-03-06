@@ -1,0 +1,49 @@
+\BOOKMARK [0][]{chapter.1}{Introduction}{}
+\BOOKMARK [1][]{section.1.1}{Research Background and Significance}{chapter.1}
+\BOOKMARK [1][]{section.1.2}{Related work}{chapter.1}
+\BOOKMARK [1][]{section.1.3}{Thesis Goals}{chapter.1}
+\BOOKMARK [1][]{section.1.4}{Thesis Organization}{chapter.1}
+\BOOKMARK [1][]{section.1.5}{Abbreviations}{chapter.1}
+\BOOKMARK [1][]{section.1.6}{Mathematical Symbols}{chapter.1}
+\BOOKMARK [0][]{chapter.2}{General Notions}{}
+\BOOKMARK [1][]{section.2.1}{Randomness}{chapter.2}
+\BOOKMARK [1][]{section.2.2}{Types of Random Number Generators \(RNGs\)}{chapter.2}
+\BOOKMARK [2][]{subsection.2.2.1}{True Random Number Generators \(TRNGs\)}{section.2.2}
+\BOOKMARK [2][]{subsection.2.2.2}{Pseudo Random Number Generators \(PRNGs\)}{section.2.2}
+\BOOKMARK [1][]{section.2.3}{Cryptographically secure pseudo random number generators}{chapter.2}
+\BOOKMARK [1][]{section.2.4}{Stream Cipher}{chapter.2}
+\BOOKMARK [2][]{subsection.2.4.1}{One-Time Pad \(Vernam Cipher\)}{section.2.4}
+\BOOKMARK [2][]{subsection.2.4.2}{Synchronous stream ciphers}{section.2.4}
+\BOOKMARK [2][]{subsection.2.4.3}{Self-synchronizing stream ciphers}{section.2.4}
+\BOOKMARK [1][]{section.2.5}{Chaos-based random number generators}{chapter.2}
+\BOOKMARK [1][]{section.2.6}{Continuous Chaos in Digital Computers}{chapter.2}
+\BOOKMARK [1][]{section.2.7}{Chaos for Discrete Dynamical Systems}{chapter.2}
+\BOOKMARK [1][]{section.2.8}{Chaotic iterations}{chapter.2}
+\BOOKMARK [1][]{section.2.9}{The generation of pseudorandom sequence}{chapter.2}
+\BOOKMARK [2][]{subsection.2.9.1}{Blum Blum Shub}{section.2.9}
+\BOOKMARK [2][]{subsection.2.9.2}{The logistic map}{section.2.9}
+\BOOKMARK [2][]{subsection.2.9.3}{XORshift}{section.2.9}
+\BOOKMARK [2][]{subsection.2.9.4}{ISAAC}{section.2.9}
+\BOOKMARK [1][]{section.2.10}{Version 1 CI algorithms}{chapter.2}
+\BOOKMARK [2][]{subsection.2.10.1}{Chaotic iterations as PRNG}{section.2.10}
+\BOOKMARK [2][]{subsection.2.10.2}{Version 1 CI PRNGs Algorithm}{section.2.10}
+\BOOKMARK [0][]{chapter.3}{Development of Version 1 CI Algorithm}{}
+\BOOKMARK [1][]{section.3.1}{On the periodicity of chaotic orbit}{chapter.3}
+\BOOKMARK [1][]{section.3.2}{Security Analysis}{chapter.3}
+\BOOKMARK [2][]{subsection.3.2.1}{Algorithm expression conversion}{section.3.2}
+\BOOKMARK [2][]{subsection.3.2.2}{Proof}{section.3.2}
+\BOOKMARK [1][]{section.3.3}{An Efficient, Cryptographically Secure, PRNG Based On Version 1 CI}{chapter.3}
+\BOOKMARK [0][]{chapter.4}{Version 2 CI Algorithm}{}
+\BOOKMARK [1][]{section.4.1}{Presentation}{chapter.4}
+\BOOKMARK [1][]{section.4.2}{The seed}{chapter.4}
+\BOOKMARK [1][]{section.4.3}{Sequence m of returned states}{chapter.4}
+\BOOKMARK [1][]{section.4.4}{Chaotic strategy}{chapter.4}
+\BOOKMARK [1][]{section.4.5}{New CI\(XORshift, XORshift\) Algorithm}{chapter.4}
+\BOOKMARK [1][]{section.4.6}{Illustrative Example}{chapter.4}
+\BOOKMARK [0][]{chapter.5}{Version 3 LUT CI\(XORshift,XORshift\) algorithms}{}
+\BOOKMARK [1][]{section.5.1}{Introduction}{chapter.5}
+\BOOKMARK [1][]{section.5.2}{Sequence m}{chapter.5}
+\BOOKMARK [1][]{section.5.3}{Defining the chaotic strategy S with a LUT}{chapter.5}
+\BOOKMARK [1][]{section.5.4}{LUT CI\(XORshift,XORshift\) Algorithm}{chapter.5}
+\BOOKMARK [1][]{section.5.5}{LUT CI\(XORshift,XORshift\) example of use}{chapter.5}
+\BOOKMARK [0][]{section*.2}{Bibliography}{}

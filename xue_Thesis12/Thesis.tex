@@ -1,0 +1,115 @@
+\documentclass[a4paper,11pt,twoside]{ThesisStyle}
+
+\include{formatAndDefs}
+
+\begin{document}
+
+\include{TitlePage}
+
+\dominitoc
+
+\pagenumbering{roman}
+
+ \cleardoublepage
+
+\section*{Acknowledgments}
+
+Last thing to do :-)
+
+% Technical support from Le m\'esocentre de calcul de Franche-Comt\'e is gratefully acknowledged. 
+% We are also grateful to Xiaole Fang for the calculations of Comparative test parameters and Kamel Mazouzi for his helpful comments on cluster computing.
+
+\tableofcontents
+
+\mainmatter
+
+\include{Introduction}
+
+\include{ReviewofBasics}
+
+
+\include{DesignofCIPRNG}
+
+
+\include{StatisticalTestsforRandomness}
+
+
+\include{Securityanalysis}
+
+
+\include{ThefamilyofCIPRNG}
+
+
+\include{ApplicationofRNG}
+
+
+\include{FinalConclusion}
+
+
+% \include{Classification}
+
+
+% \include{ChaoticPRNG}
+
+
+\appendix
+
+% \include{Appendix1}
+
+% \bibliographystyle{ThesisStyle}
+\bibliographystyle{plain}
+\bibliography{Thesis}
+
+%\printnomenclature
+
+\cleardoublepage
+\begin{vcenterpage}
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+\begin{center}
+{\large\textbf{Design and Use of Numerical Anatomical Atlases for Radiotherapy\\}}
+\end{center}
+{\large\textbf{Abstract:}}
+Due to the rapid development of the Internet in recent years, the need to find new tools to reinforce trust and security through the Internet has became a major concern. The discovery of new pseudo-random number generators with a strong level of security is thus becoming a hot topic. Although some mechanical ways, such as tossing a coin or roling a dice, are commonly accepted as good random sources, they are obviously not be able to fulfill the requirements of most of the real-world applications, in wich high throughput and good quality are generally required.\\
+For more than half century, different random generators have been proposed. Recently, we have witnessed an active involvement of another branch of sciences in this topic, in particularly, aiming for cryptographical applications. Due to the distinct properties of chaos, including random-like dynamics, high sensitivity on initial conditions and system parameters, etc, the use of chaos in random number generation and crytographical applications has aroused tremendous interests.\\
+However, the actual realization environment is usually ignored in most of the chaos-designs, for which an infinite precision is commonly assumed.as pinted out by some researchers, if a chaotic system is to be implemented in finite precision, its dynamics will be greatly deviated from its original one, and hence some nice properties will be vanished.\\
+In this thesis, a new scheme to generate pseudo random number is presented, the generators are based on discrete chaotic iterations which satisfy Devaney's definition of chaos. A rigorous framework is introduced, where topological chaotic properties of the generator are shown. Two practical designs of these chaos-based random number generators are showed. With such chaotic iterations, the statistical quality of the generated random sequence can be greatly improved and fulfil the up-to-date standards. From the experiments, the comparison between these two designs are investigated in details. The second designed technique outperforms the first one, both in terms of performance and speed.\\
+In the above research, the iteration function for chaotic iterations is the vectorial Boolean negation as a prototype. we propose a method using Graph with strongly connected components as a selecton criterion and modifying the iteration function without deflating the good properties of the associated generator.
+Simulation results and basic security analysis are then presented
+to evaluate the randomness of this new family of generators.\\
+Finally, an illustration in the field of data hiding is presented and the robustness of the obtained data hiding algorithm against attacks is evaluated.
+
+{\large\textbf{Keywords:}}
+Internet security; Chaotic sequences; Statistical tests; Discrete chaotic iterations; Information hiding.
+\\
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+\end{vcenterpage}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

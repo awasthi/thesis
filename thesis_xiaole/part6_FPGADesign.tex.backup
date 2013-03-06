@@ -1,0 +1,19 @@
+\chapter{FPGA Acceleration of CIPRNGs}
+In this chapter, the proposition is to improve widely the efficient of the formerly proposed generators, without any lack of chaos properties. To do that, Field programmable gate array (FPGA) method is proposed.
+
+\section{introduction}
+Nowadays, FPGAs are very successfully applied to implement random sequence generation due to its ability in highly parallelizable task \cite{Bojani200663, Danger:2009:HST:1645457.1645933, Tsoi:2003:CFT:938383.938400}. Such device allows us to generate pseudorandom numbers with remarkable speed. In these and other implementations, FPGA has advantages in performance, design time, power consumption, flexibility, cost and so on.
+
+According to the previous chapters' description, it has proven that the chaotic iterations (CIs), to be a very decent tool for computing iterative algorithms, satisfies the chaos property, as it is defined by Devaney. The chaotic behaviour of CIs is developed attempt to obtain an unpredictable PRNG, in \cite{DBLP:journals/corr/abs-1112-5239}, its efficient implementations on GPU have been designed in, expressing that a very large quantity of pseudorandom numbers can be generated per second. Here, generators based on chaotic iteration is designed specifically for FPGA hardware, with that, the rate of generation can be hugely increased.
+
+\section{FPGA design}
+\label{FPGA design}
+In order to take benefits from the computing power of FPGA, a whole processing needs to spread into several independent blocks  of threads that can be computed simultaneously. In general,  the larger the number of  threads is, the more logistic elements of FPGA are used, and the less branching  instructions are used  (if,  while,  ...),  the  better the  performances  on  FPGA  is. Obviously, having these requirements in  mind, suitable CIPRNG algorithms which produce random numbers with chaotic properties should be chosen to apply to FPGA. According to the comparison in Chapter~\ref{Statistical Tests for Randomness}, it can be seen that Version 1 and Version 4 CI algorithms are most adaptable of all, the loop processing of them are both able to be replaced by parallel computing to increase the efficiency. Then the Verilog-HDL~\cite{verilog} is used to help program. 
+
+\subsection{Analysis}
+In this subsection, the processing procedure of Version 1 and Version 4 are analyzed, which help the FPGA adaption. To be noticed, the CIPRNGs used here are both proven to be cryptographically secure (check Section~\ref{Security Analysis Version 1 CI} and Section~\ref{Security Analysis}) by using BBS PRNG.
+\begin{description}
+ \item[Version 1 CI] There are  
+\end{description}
+
+
