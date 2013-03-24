@@ -24,7 +24,7 @@
 %%--------------------
 %% Set the title, subtitle, defense date, and
 %% the registration number of the PhD thesis
-\declarethesis[Utilization of chaotic dynamics for generating pseudorandom numbers in various contexts]{Utilisation de Dyanamique Chaotique Pour la Génération de Nombres Pseudo-Aléatoires Dans Différents Contextes}{4 Mars 2013}{XXX}
+\declarethesis[Utilization of chaotic dynamics for generating pseudorandom numbers in various contexts]{Utilisation de Dynamiques Chaotiques pour la Génération de Nombres Pseudo-Aléatoires dans Différents Contextes }{4 Mars 2013}{XXX}
 
 %%--------------------
 %% Set the author of the PhD thesis
@@ -37,17 +37,17 @@
 \addjury{Gilles}{Mill\'{e}rioux}{Rapporteur}{Professeur à l'Universit\'{e} de Lorraine}
 \addjury{Jacques}{M. Bahi}{Directeur de thèse}{Professeur à l'Universit\'{e} de Franche-Comt\'{e}}
 \addjury{Laurent}{Larger}{Directeur de thèse}{Professeur à l'Universit\'{e} de Franche-Comt\'{e}}
-\addjury{Christophe}{Guyeux}{Examinateur}{Maître Assistant à l'Universit\'{e} de Franche-Comt\'{e}}
-\addjury{Philippe}{Guillot}{Examinateur}{Maître Assistant à l'Université de Paris 8}
+\addjury{Christophe}{Guyeux}{Examinateur}{Maître de Conférences à l'Universit\'{e} de Franche-Comt\'{e}}
+\addjury{Philippe}{Guillot}{Examinateur}{Maître de Conférences à l'Université de Paris 8}
 
 %%--------------------
 %% Set the English abstract
 
-\
+\vspace*{-100cm}
 \thesisabstract[english]{
 In this thesis, the schemes that generate pseudorandom number based on discrete chaotic
 iterations are rethought and optimized. This manuscript contains mainly two parts. In the
-first part, the original methods are firstly researched deeper and proven to be crytographically secure, and secondly two faster generators with better statistical performance are
+first part, two novel generators with better statistical performance are
 introduced. Then the statistical analysis of the chaotic iterations methods for random number generators are summarized, while their strength and weakness are also commented,
 which lead us to improve the generation rate of such generators. These generators based
 on chaotic iterations are then redesigned specifically for FPGA. Finally, practical applications that implement CI technology in software
@@ -67,7 +67,7 @@ suite is used to evaluate the randomnesses.}
 %% Set the French abstract
 \thesisabstract[french]{
 Ce manuscrit contient principalement deux parties.
-Dans la première, les générateurs évoquées ci-dessus ont d'abord été étudiés de manière plus approfondie, en montrant en particuliers qu'ils peuvent être cryptographiquement sûrs. Puis, deux générateurs plus rapides et aux meilleures performances ont été introduits. Une analyse statistique plus poussée portant sur l'ensemble des générateurs utilisant les itérations chaotiques a été menée, afin de comparer les forces et faiblesses de chacun. Ces générateurs ont enfin été réécrits pour être embarqués dans des FPGA, et une comparaison des générateurs logiciel et matériel au-travers d'une application
+Dans la première, les générateurs évoquées ci-dessus ont d'abord été étudiés de manière plus approfondie. Puis, deux générateurs plus rapides et aux meilleures performances ont été introduits. Une analyse statistique plus poussée portant sur l'ensemble des générateurs utilisant les itérations chaotiques a été menée, afin de comparer les forces et faiblesses de chacun. Ces générateurs ont enfin été réécrits pour être embarqués dans des FPGA, et une comparaison des générateurs logiciel et matériel au-travers d'une application
 touchant au tatouage numérique a été menée.
 Dans la seconde partie, un schéma utilisant un signal chaotique optoélectronique à des fins de génération de pseudo-aléas a été étudié. En effet, en 2009, Reidler et al. ont publié un article intitulé "An optical ultra-fast random bit generator", dans lequel ils ont présenté un système physique permettant la génération de nombres aléatoires basés sur un laser chaotique. D'après ses auteurs, ce générateur atteindrait le taux spectaculaire de 300 gigabits par seconde. Cette méthode est analysée dans cette thèse, et une discussion est menée, portant sur la réelle origine de l'aléas, ainsi que sur le taux effectivement atteignable par un tel procédé. Nous montrons qu'en fait le caractère aléatoire des suites produites provient plus du mélange complexe de la composante bruit avec les opérations de traitement numérique du signal discrétisé, que du chaos déterministe. Nous nous sommes alors intéressés à la manière de parvenir à une source réellement chaotique et déterministe dans ces générateurs physiques, et nous 
 avons montré qu'il fallait utiliser le bit de poids fort du signal échantillonné, et non celui de poids faible.
@@ -290,8 +290,7 @@ urlcolor=linkcol %couleur des liens pour les url
 
 
 \section*{Acknowledgments}
-
-Last thing to do :-)
+last to do it :)
 
 \tableofcontents
 
@@ -313,12 +312,13 @@ Last thing to do :-)
 \include{part2_TheDesignAndDevelopmentOfCIPRNG}
 \include{part2_StatisticalTestForRandomness}
 %\include{part2_CIPRNGFamily}
-\include{part2_optimazationTechnologyChaoticIteration}
+%\include{part2_optimazationTechnologyChaoticIteration}
 \include{part2_StateOfTheArt}
-\include{part2_FPGADesign}
+%%\include{part2_FPGADesign}
 \include{part2_CIPRNGUsedInApplication}
 \include{part3_Optical}
 \include{part4_conclusion}
+\include{appendix}
 %--------------------
 % The content of the PhD thesis
 \bibliographystyle{unsrt}

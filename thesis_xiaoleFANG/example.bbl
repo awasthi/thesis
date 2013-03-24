@@ -1,0 +1,796 @@
+\begin{thebibliography}{100}
+
+\bibitem{wang2009}
+Qianxue Wang, Christophe Guyeux, and Jacques Bahi.
+\newblock A novel pseudo-random generator based on discrete chaotic iterations
+  for cryptographic applications.
+\newblock {\em INTERNET '09}, pages 71--76, 2009.
+
+\bibitem{wbg10:ip}
+Qianxue Wang, Jacques Bahi, Christophe Guyeux, and Xaole Fang.
+\newblock Randomness quality of {CI} chaotic generators. application to
+  internet security.
+\newblock {\em INTERNET10}, pages 125--130, September 2010.
+
+\bibitem{Pulch20121477}
+Roland Pulch.
+\newblock Polynomial chaos for boundary value problems of dynamical systems.
+\newblock {\em Applied Numerical Mathematics}, 62(10):1477 -- 1490, 2012.
+\newblock Selected Papers from NUMDIFF-12.
+
+\bibitem{begining_chaos}
+T.~N. Palmer.
+\newblock Edward norton lorenz. 23 may 1917 to 16 april 2008.
+\newblock {\em Biographical Memoirs of Fellows of the Royal Society},
+  55:139--155, 2009.
+
+\bibitem{liyorke1975}
+Tien-Yien Li and James~A. Yorke.
+\newblock {Period Three Implies Chaos}.
+\newblock {\em The American Mathematical Monthly}, 82(10):985--992, December
+  1975.
+
+\bibitem{Elnashaie20073295}
+Said~S.E.H. Elnashaie and John~R. Grace.
+\newblock Complexity, bifurcation and chaos in natural and man-made lumped and
+  distributed systems.
+\newblock {\em Chemical Engineering Science}, 62(13):3295 -- 3325, 2007.
+\newblock Frontier of Chemical Engineering - Multi-scale Bridge between
+  Reductionism and Holism.
+
+\bibitem{Chen20117258}
+Guoxin Chen.
+\newblock A simple adaptive feedback control method for chaos and hyper-chaos
+  control.
+\newblock {\em Applied Mathematics and Computation}, 217(17):7258 -- 7264,
+  2011.
+
+\bibitem{Tian1997128}
+Lixin Tian, Zengrong Liu, and Li~Yang.
+\newblock Can the linear operator in physics cause chaos?
+\newblock {\em Communications in Nonlinear Science and Numerical Simulation},
+  2(2):128 -- 131, 1997.
+
+\bibitem{Chotorlishvili2010103}
+L.~Chotorlishvili and A.~Ugulava.
+\newblock Quantum chaos and its kinetic stage of evolution.
+\newblock {\em Physica D: Nonlinear Phenomena}, 239(3-4):103 -- 122, 2010.
+
+\bibitem{Yu2004341}
+Zu-Guo Yu, Vo~Anh, and Ka-Sing Lau.
+\newblock Chaos game representation of protein sequences based on the detailed
+  hp model and their multifractal and correlation analyses.
+\newblock {\em Journal of Theoretical Biology}, 226(3):341 -- 348, 2004.
+
+\bibitem{Su12231}
+Inti Suarez.
+\newblock Mastering chaos in ecology.
+\newblock {\em Ecological Modelling}, 117(2-3):305 -- 314, 1999.
+
+\bibitem{ElSayed2013148}
+A.M.A. El-Sayed, A.~Elsaid, H.M. Nour, and A.~Elsonbaty.
+\newblock Dynamical behavior, chaos control and synchronization of a
+  memristor-based advp circuit.
+\newblock {\em Communications in Nonlinear Science and Numerical Simulation},
+  18(1):148 -- 170, 2013.
+
+\bibitem{Wu2009632}
+Jun Wu, Jian Lu, and Jiaquan Wang.
+\newblock Application of chaos and fractal models to water quality time series
+  prediction.
+\newblock {\em Environmental Modelling Software}, 24(5):632 -- 636, 2009.
+
+\bibitem{Lee199671}
+Joon~Suh Lee and Kun~Soo Chang.
+\newblock Applications of chaos and fractals in process systems engineering.
+\newblock {\em Journal of Process Control}, 6(2-3):71 -- 87, 1996.
+\newblock Process Systems Engineering.
+
+\bibitem{Aihara2012199}
+Kazuyuki Aihara.
+\newblock Chaos and its applications.
+\newblock {\em Procedia IUTAM}, 5(0):199 -- 203, 2012.
+\newblock IUTAM Symposium on 50 Years of Chaos: Applied and Theoretical.
+
+\bibitem{Wu20104363}
+Wenjuan Wu, Zengqiang Chen, and W.H. Ip.
+\newblock Complex nonlinear dynamics and controlling chaos in a cournot duopoly
+  economic model.
+\newblock {\em Nonlinear Analysis: Real World Applications}, 11(5):4363 --
+  4377, 2010.
+
+\bibitem{Du20092493}
+Jian guo Du, Tingwen Huang, and Zhaohan Sheng.
+\newblock Analysis of decision-making in economic chaos control.
+\newblock {\em Nonlinear Analysis: Real World Applications}, 10(4):2493 --
+  2501, 2009.
+
+\bibitem{Sunada2012190}
+Satoshi Sunada, Takahisa Harayama, Kenichi Arai, Jun Muramatsu, Kazuyuki
+  Yoshimura, Ken Tsuzuki, Peter Davis, and Atsushi Uchida.
+\newblock Theory and experiments of fast non-deterministic random bit
+  generation using on-chip chaos lasers.
+\newblock {\em Procedia IUTAM}, 5(0):190 -- 194, 2012.
+\newblock IUTAM Symposium on 50 Years of Chaos: Applied and Theoretical.
+
+\bibitem{Gon1999109}
+Jorge~A. Gonzalez and Ramiro Pino.
+\newblock A random number generator based on unpredictable chaotic functions.
+\newblock {\em Computer Physics Communications}, 120(2-3):109 -- 114, 1999.
+
+\bibitem{kellert1994wake}
+S.H. Kellert.
+\newblock {\em In the wake of chaos: unpredictable order in dynamical systems}.
+\newblock Science and its conceptual foundations. University of Chicago Press,
+  1994.
+
+\bibitem{Eckhardt87}
+Roger Eckhardt.
+\newblock {Stan Ulam, John von Neumann, and the Monte Carlo Method}.
+\newblock {\em Los Alamos Science}, (10):131--143, 1987.
+
+\bibitem{Wu20051195}
+Chen Wu, Zhengjie Xu, Wei Lin, and Jiong Ruan.
+\newblock Stochastic properties in devaney's chaos.
+\newblock {\em Chaos, Solutions \& Fractals}, 23(4):1195 -- 1199, 2005.
+
+\bibitem{gleick2011chaos}
+J.~Gleick.
+\newblock {\em Chaos: Making a New Science}.
+\newblock Open Road, 2011.
+
+\bibitem{Matthews:1984:DLE:67071.67073}
+R.~Matthews.
+\newblock On the derivation of a chaotic encryption algorithm.
+\newblock {\em Cryptologia}, 8(1):29--41, January 1984.
+
+\bibitem{ethesis69}
+M.~E. Bianco and D.~A. Reed.
+\newblock {\em An encryption system based on chaos theory}.
+\newblock US Patent No. 5048086, 1991.
+
+\bibitem{ethesis74}
+V.~A. Protopopescu, R.~T. Santoro, and J.~S. Tollover.
+\newblock {\em Fast and secure encryption decryption method based on chaotic
+  dynamics}.
+\newblock US Patent No. 5479513, 1995.
+
+\bibitem{ethesis67}
+R.~Forre.
+\newblock The henon attractor as a keystream generator.
+\newblock {\em In Advances in Cryptology \- EuroCrypt}, 91:76--81, 1991.
+
+\bibitem{ethesis95}
+Fabrizio Argenti, Simone Benzi, Enrico Del~Re, and Roberto Genesio.
+\newblock Stream cipher system based on chaotic maps.
+\newblock {\em Proceedings of SPIE: Mathematics and Applications of Data/Image
+  Coding, Compression, and Encryption III}, 4122:10--17, 2000.
+
+\bibitem{ethesis75}
+T.~{Kohda} and A.~{Tsuneda}.
+\newblock {Chaotic bit sequences for stream cipher cryptography and their
+  correlation functions}.
+\newblock In J.~M. {Elmirghani}, editor, {\em Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series}, volume 2612 of {\em
+  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series},
+  pages 86--97, December 1995.
+
+\bibitem{ethesis22}
+Li~Shujun, Mou Xuanqin, and Cai Yuanlong.
+\newblock Pseudo-random bit generator based on couple chaotic systems and its
+  applications in stream-cipher cryptography.
+\newblock In {\em Proceedings of the Second International Conference on
+  Cryptology in India: Progress in Cryptology}, INDOCRYPT '01, pages 316--329,
+  London, UK, UK, 2001. Springer-Verlag.
+
+\bibitem{ethesis117}
+Naoki Masuda and Kazuyuki Aihara.
+\newblock Cryptosystems with discretized chaotic maps.
+\newblock {\em IEEE Trans. Circuits and Systems}, 49(10):28--40, 2002.
+
+\bibitem{ethesis86}
+Christopher~F. Woodcock and Nigel~P. Smart.
+\newblock p-adic chaos and random number generation.
+\newblock {\em Experimental Mathematics}, 7(4):333--342, 1998.
+
+\bibitem{ethesis61}
+G.~M. Bernstein and M.~A. Lieberman.
+\newblock Secure random number generation using chaotic circuits. ieee trans.
+\newblock {\em Secure random number generation using chaotic circuits},
+  37(9):1157--1164, 1989.
+
+\bibitem{Cohen1988113}
+Joel~E. Cohen.
+\newblock Threshold phenomena in random structures.
+\newblock {\em Discrete Applied Mathematics}, 19(1-3):113 -- 128, 1988.
+
+\bibitem{Gay2001197}
+David Gay and Nathalie McCarthy.
+\newblock Effects of phase-conjugate feedback on the modal content and noise
+  characteristics of a cw argon ion laser: experimental results.
+\newblock {\em Optics Communications}, 193(1-6):197 -- 205, 2001.
+
+\bibitem{Opendak1994570}
+M.~Opendak and P.~Wildenhain.
+\newblock On the analysis of the decay of a small number of radioactive atoms
+  in radiochemical solar neutrino experiments.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 345(3):570
+  -- 575, 1994.
+
+\bibitem{Larger2004609}
+Laurent Larger and Jean-Pierre Goedgebuer.
+\newblock Encryption using chaotic dynamics for optical telecommunications.
+\newblock {\em Comptes Rendus Physique}, 5(6):609 -- 611, 2004.
+\newblock Cryptography using optical chaos.
+
+\bibitem{fast}
+A.~Uchida, K.~Amano, I.~Inoue, K.~Hirano, S.~Naito, H.~Someya, I.~Oowada,
+  T.~Kurashige, M.~Shiki, S.~Yoshimori, K.~Yoshimura, and P.~Davis.
+\newblock Fast physical random bit generation with chaotic semiconductor
+  lasers.
+\newblock {\em Nature Photonics}, 2:728 -- 732, 2008.
+
+\bibitem{ultrafast2009}
+I.~Reidler, Y.~Aviad, M.~Rosenbluh, and I.~Kanter.
+\newblock Ultrahigh-speed random nuber generation based on a chaotic
+  semiconductor laser.
+\newblock {\em Physical Review Letters}, 103(2):24 -- 28, Jul 2009.
+
+\bibitem{ultrafast2010}
+Ido Kanter, Yaara Aviad, Igor Reidler, Elad Cohen, and Michael Rosenbluh.
+\newblock An optical ultrafast random bit generator.
+\newblock {\em Nature Photonics}, 4(1):58 -- 61, 2010.
+
+\bibitem{guyeux09}
+Christophe Guyeux and Jacques Bahi.
+\newblock Hash functions using chaotic iterations.
+\newblock {\em Journal of Algorithms \& Computational Technology},
+  4(2):167--182, 2010.
+
+\bibitem{guyeux10}
+Jacques Bahi and Christophe Guyeux.
+\newblock Topological chaos and chaotic iterations, application to hash
+  functions.
+\newblock {\em Neural Networks (IJCNN2010)}, pages 1--7, July 2010.
+
+\bibitem{Dev89}
+R.~L. Devaney.
+\newblock {\em An Introduction to Chaotic Dynamical Systems}.
+\newblock Redwood City: Addison-Wesley, 2nd edition, 1989.
+
+\bibitem{ANDREW2008}
+Andrew Rukhin, Juan Soto, James Nechvatal, Elaine Barker, Stefan Leigh, Mark
+  Levenson, David Banks, Alan Heckert, James Dray, San Vo, Andrew Rukhin, Juan
+  Soto, Miles Smid, Stefan Leigh, Mark Vangel, Alan Heckert, James Dray, and
+  Lawrence E~Bassham Iii.
+\newblock A statistical test suite for random and pseudorandom number
+  generators for cryptographic applications, 2001.
+
+\bibitem{guyeuxTaiwan10}
+Jacques Bahi, Christophe Guyeux, and Qianxue Wang.
+\newblock Improving random number generators by chaotic iterations. application
+  in data hiding.
+\newblock In {\em ICCASM 2010, Int. Conf. on Computer Application and System
+  Modeling}, pages V13--643--V13--647, Taiyuan, China, October 2010.
+
+\bibitem{bgw10:ip}
+Jacques Bahi, Christophe Guyeux, and Qianxue Wang.
+\newblock A pseudo random numbers generator based on chaotic iterations.
+  application to watermarking.
+\newblock In {\em WISM 2010, Int. Conf. on Web Information Systems and Mining},
+  volume 6318 of {\em LNCS}, pages 202--211, Sanya, China, October 2010.
+
+\bibitem{bfgw11:ij}
+Jacques Bahi, Xiaole Fang, Christophe Guyeux, and Qianxue Wang.
+\newblock Evaluating quality of chaotic pseudo-random generators. application
+  to information hiding.
+\newblock {\em IJAS, International Journal On Advances in Security},
+  4(1-2):118--130, 2011.
+
+\bibitem{bcgw11:ip}
+Jacques Bahi, Jean-Fran\c{c}ois Couchot, Christophe Guyeux, and Qianxue Wang.
+\newblock Class of trustworthy pseudo random number generators.
+\newblock In {\em INTERNET 2011, the 3-rd Int. Conf. on Evolving Internet},
+  pages 72--77, Luxembourg, Luxembourg, June 2011.
+
+\bibitem{bfgw11:ip}
+Jacques Bahi, Xiaole Fang, Christophe Guyeux, and Qianxue Wang.
+\newblock On the design of a family of {CI} pseudo-random number generators.
+\newblock In {\em WICOM'11, 7th Int. IEEE Conf. on Wireless Communications,
+  Networking and Mobile Computing}, pages 1--4, Wuhan, China, September 2011.
+\newblock To appear.
+
+\bibitem{weicker:pre12}
+Lionel Weicker, Thomas Erneux, Maxime Jacquot, Yanne Chembo, and Laurent
+  Larger.
+\newblock Crenelated fast oscillatory outputs of a two-delay electro-optic
+  oscillator.
+\newblock {\em Phys. Rev. E}, 85:026206, 2012.
+
+\bibitem{PhysRevE.86.055201}
+Lionel Weicker, Thomas Erneux, Otti D'Huys, Jan Danckaert, Maxime Jacquot,
+  Yanne Chembo, and Laurent Larger.
+\newblock Strongly asymmetric square waves in a time-delayed system.
+\newblock {\em Phys. Rev. E}, 86:055201, Nov 2012.
+
+\bibitem{PhysRevLett.107.034103}
+Romain~Modeste Nguimdo, Pere Colet, Laurent Larger, and Luis Pesquera.
+\newblock Digital key for chaos communication performing time delay
+  concealment.
+\newblock {\em Phys. Rev. Lett.}, 107:034103, Jul 2011.
+
+\bibitem{lavrov:jqe10}
+Roman Lavrov, Maxime Jacquot, and Laurent Larger.
+\newblock Nonlocal nonlinear electro-optic phase dynamics demonstrating 10~gb/s
+  chaos communications.
+\newblock {\em IEEE J. Quantum Electron.}, 46(10):1430--1435, 2010.
+
+\bibitem{submit1}
+Jacques Bahi, Xiaole Fang, Christophe Guyeux, and Laurent Larger.
+\newblock Fpga design for pseudorandom number generator based on chaotic
+  iteration used in information hiding application.
+\newblock In {\em Applied Mathematics \& Information Sciences}.
+\newblock Submitted in Feb. 2013.
+
+\bibitem{submit2}
+Jacques Bahi, Xiaole Fang, Christophe Guyeux, and Qianxue Wang.
+\newblock Assessment of the suitability of three chaotic iterations schemes
+  based on xorshift generator for application in the internet security field.
+\newblock In {\em JNCA, Journal of Network and Computer Applications}, 2013.
+\newblock Accepted manuscript. To appear.
+
+\bibitem{submit3}
+Jacques Bahi, Xiaole Fang, Christophe Guyeux, and Laurent Larger.
+\newblock Fpga acceleration of a pseudorandom number generator based on chaotic
+  iterations.
+\newblock In {\em Cryptography and Communications Discrete Structures, Boolean
+  Functions and Sequences}.
+\newblock Submitted in Jan. 2013.
+
+\bibitem{submit4}
+Xiaole Fang, Benjamin Wetzel, Jean-Marc Merolla, John~M. Dudley, Laurent
+  Larger, Christophe Guyeux, and Jacques~M. Bahi.
+\newblock Noise and chaos contributions in fast random bit sequence generated
+  from broadband optoelectronic entropy sources.
+\newblock In {\em IEEE Transaction on Circuits and Systems}.
+\newblock Submitted in Jan. 2013.
+
+\bibitem{bfg12a:ip}
+Jacques Bahi, Xiaole Fang, and Christophe Guyeux.
+\newblock An optimization technique on pseudorandom generators based on chaotic
+  iterations.
+\newblock In {\em INTERNET'2012, 4-th Int. Conf. on Evolving Internet}, pages
+  31--36, Venice, Italy, June 2012.
+
+\bibitem{bfg12b:ip}
+Jacques Bahi, Xiaole Fang, and Christophe Guyeux.
+\newblock State-of-the-art in chaotic iterations based pseudorandom numbers
+  generators application in information hiding.
+\newblock In {\em IHTIAP'2012, 1-st Workshop on Information Hiding Techniques
+  for Internet Anonymity and Privacy}, pages 90--95, Venice, Italy, June 2012.
+
+\bibitem{Barker05recommendationfor}
+Elaine Barker, William Barker, William Burr, William Polk, and Miles Smid.
+\newblock Recommendation for key management part 1: General.
+\newblock In {\em NIST Special Publication 800-57, August 2005, National
+  Institute of Standards and Technology. Available at
+  http://csrc.nist.gov/publications/nistpubs/800-57/SP800-57-Part1.pdf}, 2005.
+
+\bibitem{Provenzale199231}
+A.~Provenzale, L.A. Smith, R.~Vio, and G.~Murante.
+\newblock Distinguishing between low-dimensional dynamics and randomness in
+  measured time series.
+\newblock {\em Physica D: Nonlinear Phenomena}, 58(1-4):31 -- 49, 1992.
+
+\bibitem{Werndl01032009}
+Charlotte Werndl.
+\newblock What are the new implications of chaos for unpredictability?
+\newblock {\em The British Journal for the Philosophy of Science},
+  60(1):195--220, 2009.
+
+\bibitem{Coppel55}
+W.~A. Coppel.
+\newblock The solution of equations by iteration.
+\newblock {\em Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 51(01):41--43, 1955.
+
+\bibitem{Robert1986}
+F.~Robert.
+\newblock {\em Discrete Iterations: A Metric Study}, volume~6 of {\em Springer
+  Series in Computational Mathematics}.
+\newblock 1986.
+
+\bibitem{GuyeuxThese10}
+Christophe Guyeux.
+\newblock {\em Le d{\'e}sordre des it{\'e}rations chaotiques et leur
+  utilit{\'e} en s{\'e}curit{\'e} informatique}.
+\newblock PhD thesis, Universit{\'e} de Franche-Comt{\'e}, 2010.
+
+\bibitem{gb11:bc}
+Christophe Guyeux and Jacques Bahi.
+\newblock A topological study of chaotic iterations. application to hash
+  functions.
+\newblock In {\em CIPS, Computational Intelligence for Privacy and Security},
+  volume 394 of {\em Studies in Computational Intelligence}, pages 51--73.
+  Springer, 2012.
+\newblock Revised and extended journal version of an IJCNN best paper.
+
+\bibitem{Knudsen94}
+Knudsen.
+\newblock Chaos without nonperiodicity.
+\newblock {\em Amer. Math. Monthly}, 101, 1994.
+
+\bibitem{Adler65}
+R.~L. Adler, A.~G. Konheim, and M.~H. McAndrew.
+\newblock Topological entropy.
+\newblock {\em Trans. Amer. Math. Soc.}, 114:309--319, 1965.
+
+\bibitem{bcgr11:ip}
+Jacques Bahi, Jean-Fran\c{c}ois Couchot, Christophe Guyeux, and Adrien Richard.
+\newblock On the link between strongly connected iteration graphs and chaotic
+  boolean discrete-time dynamical systems.
+\newblock In {\em FCT'11, 18th Int. Symp. on Fundamentals of Computation
+  Theory}, volume~12 of {\em LNCS}, pages 126--137, Oslo, Norway, August 2011.
+\newblock To appear.
+
+\bibitem{Lecuyer2009}
+Richard Simard and Universit{\'e}~De Montr{\'e}al.
+\newblock Testu01: A software library in ansi c for empirical testing of random
+  number generators., 2002.
+
+\bibitem{Marsaglia1996}
+G.~Marsaglia.
+\newblock Diehard battery of tests of randomness.
+\newblock Florida State University, 1995.
+
+\bibitem{ent}
+John Walker.
+\newblock Ent: a pseudorandom number sequence test program.
+\newblock {\em http://www.fourmilab.ch/random/}, Last check in July 2011.
+
+\bibitem{Menezes1997}
+A.~Menezes, Paul~C. van Oorschot, and S.~Vanstone.
+\newblock {\em Handbook of applied cryptography}.
+\newblock CRC Press, 1997.
+
+\bibitem{Knuth1998}
+D.~E. Knuth.
+\newblock {\em The Art of Computer Programming, Volume 2: Seminumerical
+  Algorithms}.
+\newblock Addison-Wesley, 1998.
+
+\bibitem{Zhu200675}
+Bin~B. Zhu.
+\newblock Multimedia encryption.
+\newblock In Wenjun Zeng, Heather Yu, and Ching-Yung Lin, editors, {\em
+  Multimedia Security Technologies for Digital Rights Management}, pages
+  75--109. Academic Press, Burlington, 2006.
+
+\bibitem{quantum}
+M.A. Nielsen and I.L. Chuang.
+\newblock {\em Quantum Computation and Quantum Information}.
+\newblock Cambridge Univ. Press, 2000.
+
+\bibitem{communication}
+Gallager R.G.
+\newblock {\em Principles of Digital Communication}.
+\newblock Cambridge Univ. Press, 2008.
+
+\bibitem{cryptography}
+D.R Stinson.
+\newblock {\em Cryptography: Theory and Practice}.
+\newblock CRC Press, 1995.
+
+\bibitem{LEcuyer08}
+Pierre L'ecuyer.
+\newblock Comparison of point sets and sequences for quasi-monte carlo and for
+  random number generation.
+\newblock {\em SETA}, pages 1--17, 2008.
+
+\bibitem{dice}
+Thomas~E. Murphy and Rajarshi Roy.
+\newblock Chaotic lasers: The world's fastest dice.
+\newblock {\em Nature Photonics}, 2:714 -- 715, 2008.
+
+\bibitem{pecora:prl90}
+Louis~M. Pecora and Thomas~L. Carroll.
+\newblock Synchronization in chaotic systems.
+\newblock {\em Physical Review Letters}, 64(8):821--824, 1990.
+
+\bibitem{argyris:nat05}
+Apostolis Argyris, Dimitris Syvridis, Laurent Larger, Valerio Annovazzi-Lodi,
+  Pere Colet, Ingo Fischer, Jordi Garcia-Ojalvo, Claudio~R. Mirasso, Luis
+  Pesquera, and Alan~K. Shore.
+\newblock Chaos--based communications at high bit rates using commercial
+  fiber--optic links.
+\newblock {\em Nature}, 438:343--346, 2005.
+
+\bibitem{Falcioni2005}
+M.~Falcioni, L.~Palatella, S.~Pigolotti, and A.~Vulpiani.
+\newblock Properties making a chaotic system a good pseudo random number
+  generator.
+\newblock {\em arXiv}, nlin/0503035, 2005.
+
+\bibitem{Cecen2009}
+S.~Cecen, R.~M. Demirer, and C.~Bayrak.
+\newblock A new hybrid nonlinear congruential number generator based on higher
+  functional power of logistic maps.
+\newblock {\em Chaos, Solutions \& Fractals}, 42:847--853, 2009.
+
+\bibitem{PO2004}
+L.~Po-Han, C.~Yi, P.~Soo-Chang, and C.~Yih-Yuh.
+\newblock Evidence of the correlation between positive lyapunov exponents and
+  good chaotic random number sequences.
+\newblock {\em Computer Physics Communications}, 160:187--203, 2004.
+
+\bibitem{Schuster1984}
+H.~G. Schuster.
+\newblock Deterministic chaos an introduction.
+\newblock {\em Physik Verlag}, Weinheim, 1984.
+
+\bibitem{cite-key}
+Laurent Larger and John~M. Dudley.
+\newblock Nonlinear dynamics: Optoelectronic chaos.
+\newblock {\em Nature}, 465(7294):41--42, 05 2010.
+
+\bibitem{PhysRevLett.64.821}
+Louis Pecora and Thomas Carroll.
+\newblock Synchronization in chaotic systems.
+\newblock {\em Physical Review Letters}, 64:821--824, 1990.
+
+\bibitem{BethLaMa94}
+Thomas Beth, Dejan~E. Lazic, and A.~Mathias.
+\newblock {\em Cryptanalysis of Cryptosystems Based on Remote Chaos
+  Replication}, pages 318--331.
+\newblock CRYPTO '94. Springer-Verlag, London, UK, 1994.
+
+\bibitem{HabutsuNSM91}
+Toshiki Habutsu, Yoshifumi Nishio, Iwao Sasase, and Shinsaku Mori.
+\newblock {\em A secret key cryptosystem by iterating a chaotic map}, pages
+  127--140.
+\newblock EUROCRYPT'91. Springer-Verlag, Berlin, Heidelberg, 1991.
+
+\bibitem{Biham91cryptanalysisof}
+Eli Biham.
+\newblock {\em Cryptanalysis of the chaotic-map cryptosystem suggested at
+  EUROCRYPT'91}, pages 532--534.
+\newblock EUROCRYPT'91. Springer-Verlag, Berlin, Heidelberg, 1991.
+
+\bibitem{Matthews:1984}
+R.~Matthews.
+\newblock On the derivation of a chaotic encryption algorithm.
+\newblock {\em Cryptologia}, 8:29--41, January 1984.
+
+\bibitem{Turan2008}
+M.~S. Turan, A~Doganaksoy, and S~Boztas.
+\newblock On independence and sensitivity of statistical randomness tests.
+\newblock {\em SETA 2008}, LNCS 5203:18--29, 2008.
+
+\bibitem{bibtexwangqianxue}
+Qianxue Wang.
+\newblock {\em Generating pseudo-random numbers. Applications in cryptology}.
+\newblock PhD thesis, Universit{\'e} de Franche-Comt{\'e}, 2012.
+
+\bibitem{BBS}
+Lenore Blum, Manuel Blum, and Michael Shub.
+\newblock A simple unpredictable pseudo-random number generator.
+\newblock {\em SIAM Journal on Computing}, 15:364--383, 1986.
+
+\bibitem{ulam1947}
+S.~M. Ulam and J.~V. Neumann.
+\newblock On combination of stochastic and deterministic processes.
+\newblock {\em Amer. Math. Soc.}, 53:1120, 1947.
+
+\bibitem{combined_lcg}
+P.~L'Ecuyer.
+\newblock Efficient and portable combined random number generators.
+\newblock {\em Communications of the ACM}, 31(6):742--749, 1988.
+
+\bibitem{Marsaglia2003}
+G.~Marsaglia.
+\newblock Xorshift rngs.
+\newblock {\em Journal of Statistical Software}, 8(14):1--6, 2003.
+
+\bibitem{Jenkins1996}
+R.~J. Jenkins.
+\newblock Isaac.
+\newblock {\em Fast Software Encryption}, pages 41--49, 1996.
+
+\bibitem{citeulike:3805944}
+P.~Prasithsangaree and P.~Krishnamurthy.
+\newblock {Analysis of energy consumption of RC4 and AES algorithms in wireless
+  LANs}.
+\newblock {\em Global Telecommunications Conference, 2003. GLOBECOM '03. IEEE},
+  3:1445--1449 vol.3, 2003.
+
+\bibitem{Bahi2000}
+Jacques Bahi.
+\newblock Boolean totally asynchronous iterations.
+\newblock {\em Int. Journal of Mathematical Algorithms}, 1:331--346, 2000.
+
+\bibitem{DBLP:journals/corr/abs-1112-5239}
+Jacques~M. Bahi, Rapha{\"e}l Couturier, Christophe Guyeux, and Pierre-Cyrille
+  H{\'e}am.
+\newblock Efficient and cryptographically secure generation of chaotic
+  pseudorandom numbers on gpu.
+\newblock {\em CoRR}, abs/1112.5239, 2011.
+
+\bibitem{DavidRC2003643}
+David R.C. and Hill.
+\newblock Urng: A portable optimization technique for software applications
+  requiring pseudo-random numbers.
+\newblock {\em Simulation Modelling Practice and Theory}, 11(7-8):643 -- 654,
+  2003.
+
+\bibitem{vmd}
+F.~Montoya Vitini, J.~Monoz Masque, and A.~Peinado Dominguez.
+\newblock Bound for linear complexity of bbs sequences.
+\newblock {\em Electronics Letters}, 34:450--451, 1998.
+
+\bibitem{Porter198443}
+Sig Porter.
+\newblock Cryptology and number sequences: Pseudorandom, random, and perfectly
+  random.
+\newblock {\em Computers \& Security}, 3(1):43 -- 44, 1984.
+
+\bibitem{Batina20031}
+Lejla Batina, Siddika~Berna Ors, Bart Preneel, and Joos Vandewalle.
+\newblock Hardware architectures for public key cryptography.
+\newblock {\em Integration, the VLSI Journal}, 34(1):1 -- 64, 2003.
+
+\bibitem{Carroll1990613}
+John~M. Carroll.
+\newblock Do-it-yourself cryptography.
+\newblock {\em Computers \& Security}, 9(7):613 -- 619, 1990.
+
+\bibitem{Liu2012331}
+Feng Liu, Teng guo, ChuanKun Wu, and Lina Qian.
+\newblock Improving the visual quality of size invariant visual cryptography
+  scheme.
+\newblock {\em Journal of Visual Communication and Image Representation},
+  23(2):331 -- 342, 2012.
+
+\bibitem{Bojani200663}
+Slobodan Bojanic, Gabriel Caffarena, Slobodan Petrovic, and Octavio
+  Nieto-Taladriz.
+\newblock Fpga for pseudorandom generator cryptanalysis.
+\newblock {\em Microprocessors and Microsystems}, 30(2):63 -- 71, 2006.
+
+\bibitem{Danger:2009:HST:1645457.1645933}
+J.~L. Danger, S.~Guilley, and P.~Hoogvorst.
+\newblock High speed true random number generator based on open loop structures
+  in fpgas.
+\newblock {\em Microelectron. J.}, 40(11):1650--1656, November 2009.
+
+\bibitem{Tsoi:2003:CFT:938383.938400}
+K.~H. Tsoi, K.~H. Leung, and P.~H.~W. Leong.
+\newblock Compact fpga-based true and pseudo random number generators.
+\newblock In {\em Proceedings of the 11th Annual IEEE Symposium on
+  Field-Programmable Custom Computing Machines}, FCCM '03, pages 51--,
+  Washington, DC, USA, 2003. IEEE Computer Society.
+
+\bibitem{verilog}
+Verilog hdl.
+\newblock http://www.verilog.com/IEEEVerilog.html, 2008.
+\newblock Accessed: 30/09/2012.
+
+\bibitem{Chen2004749}
+Guanrong Chen, Yaobin Mao, and Charles~K. Chui.
+\newblock A symmetric image encryption scheme based on 3d chaotic cat maps.
+\newblock {\em Chaos, Solutions \& Fractals}, 21(3):749 -- 761, 2004.
+
+\bibitem{Wu2007bis}
+X.~Wu and Z.~Guan.
+\newblock A novel digital watermark algorithm based on chaotic maps.
+\newblock {\em Physical Letters A}, 365:403----406, 2007.
+
+\bibitem{gfb10:ip}
+Christophe Guyeux, Nicolas Friot, and Jacques~M. Bahi.
+\newblock Chaotic iterations versus spread-spectrum: chaos and stego security.
+\newblock In {\em IIH-MSP'10, 6-th Int. Conf. on Intelligent Information Hiding
+  and Multimedia Signal Processing}, pages ***--***, Darmstadt, Germany,
+  October 2010.
+\newblock To appear.
+
+\bibitem{bg10:ip}
+Jacques~M. Bahi and Christophe Guyeux.
+\newblock An improved watermarking algorithm for internet applications.
+\newblock In {\em INTERNET'2010. The 2nd Int. Conf. on Evolving Internet},
+  pages 119--124, Valencia, Spain, September 2010. IEEE seccion ESPANIA.
+
+\bibitem{java}
+Java the programming language, http://www.java.com/en/.
+
+\bibitem{nios}
+Introduction to the altera nios ii soft processor.
+\newblock http://coen.boisestate.edu/smloo/files/2011/11/, 2011.
+\newblock Accessed: 30/09/2012.
+
+\bibitem{security}
+Randomness requirements for security.
+\newblock {\em http://tools.ietf.org/html/rfc4086}, Last check in 2011.
+
+\bibitem{radio}
+J.~Walker.
+\newblock Hotbits: Genuine random numbers, generated by radioactive decay.
+\newblock {\em http://www.fourmilab.ch/hotbits/}, Last check in 2011.
+
+\bibitem{circuits}
+G.~Bernstein and M.~M.Lieberman.
+\newblock Sercure random number generation using chaotic circuits.
+\newblock {\em IEEE Trans. Circuits Syst.}, 37:1157 -- 1164, 1990.
+
+\bibitem{oscillator}
+M.~Bucci, L.~Germani, R.~Luzzi, A.~Trifiletti, and M.~Varanouvo.
+\newblock A high-speed oscillator-based truly random number source for
+  cryptographic applications on a smart card ic.
+\newblock {\em IEEE Trans. Comput.}, 52:403 -- 409, 2003.
+
+\bibitem{dynes:031109}
+J.~F. Dynes, Z.~L. Yuan, A.~W. Sharpe, and A.~J. Shields.
+\newblock A high speed, postprocessing free, quantum random number generator.
+\newblock {\em Applied Physics Letters}, 93(3):031109, 2008.
+
+\bibitem{mukai85}
+Takaaki Mukai and kenju Otsuka.
+\newblock New route to optical chaos: Successive-subharmonic-oscillation
+  cascade in a semiconductor laser coupled to an external cavity.
+\newblock {\em Physical Review Letters}, 55:1711--1714, 1985.
+
+\bibitem{li:OL11}
+Xiaowen Li, Adam~B. Cohen, Thomas~E. Murphy, and Rajarshi Roy.
+\newblock Scalable parallel physical random number generator based on a
+  superluminescent led.
+\newblock {\em Optics Letters}, 36(6):1020--1022, March 2011.
+
+\bibitem{lavrov:pre09}
+Roman Lavrov, Michael Peil, Maxime Jacquot, Laurent Larger, Vladimir~S.
+  Udaltsov, and John~Michael Dudley.
+\newblock Electro--optic delay oscillator with non--local non linearity:
+  optical phase dynamics, chaos, and synchronization.
+\newblock {\em Phys. Rev. E}, 80:026207, 2009.
+
+\bibitem{PhysRevE.85.016211}
+Takuya Mikami, Kazutaka Kanno, Kota Aoyama, Atsushi Uchida, Tohru Ikeguchi,
+  Takahisa Harayama, Satoshi Sunada, Ken-ichi Arai, Kazuyuki Yoshimura, and
+  Peter Davis.
+\newblock Estimation of entropy rate in a fast physical random-bit generator
+  using a chaotic semiconductor laser with intrinsic noise.
+\newblock {\em Phys. Rev. E}, 85:016211, Jan 2012.
+
+\bibitem{wetzel:ox12}
+Benjamin Wetzel, Keith J. Sergei~K. Blow, Keith~J. Turitsyn, Guy Millot,
+  Laurent1 Larger, and John~M. Dudley.
+\newblock Random walks and random numbers from supercontinuum generation.
+\newblock {\em Optics Express}, 20(10):11143--11152, May 2012.
+
+\bibitem{williams:OE10}
+Caitlin R.~S. Williams, Julia~C. Salevan, Xiaowen Li, Rajarshi Roy, and
+  Thomas~E. Murphy.
+\newblock Fast physical random number generator using amplified spontaneous
+  emission.
+\newblock {\em Optics Express}, 18(23):23584--23597, November 2010.
+
+\bibitem{hirano:OE10}
+Kunihito Hirano, Taiki Yamazaki, Shinichiro Morikatsu, Haruka Okumura, Hiroki
+  Aida, Atsushi Uchida, Shigeru Yoshimori, Kazuyuki Yoshimura, Takahisa
+  Harayama, and Peter Davis.
+\newblock Fast random bit generation with bandwidthenhanced chaos in
+  semiconductor lasers.
+\newblock {\em Optics Express}, 18(6):5512--5524, March 2010.
+
+\bibitem{beker1982cipher}
+H.~Beker and F.~Piper.
+\newblock {\em Cipher systems: the protection of communications}.
+\newblock New electronics 'communications international' book. Northwood Books,
+  1982.
+
+\bibitem{PhysRevE.79.026208}
+Michael Peil, Maxime Jacquot, Yanne~Kouomou Chembo, Laurent Larger, and Thomas
+  Erneux.
+\newblock Routes to chaos and multiple time scale dynamics in broadband
+  bandpass nonlinear delay electro-optic oscillators.
+\newblock {\em Phys. Rev. E}, 79:026208, Feb 2009.
+
+\end{thebibliography}

@@ -14,158 +14,161 @@
 \contentsline {section}{\numberline {1.6}Abbreviations}{8}{section.1.6}
 \contentsline {section}{\numberline {1.7}Mathematical Symbols}{9}{section.1.7}
 \contentsline {chapter}{\numberline {2}Research Background}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Mathematical Theory of Chaos}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}General Presentation}{11}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}On Devaney's Definition of Chaos}{11}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Chaotic iterations}{12}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Chaos Deflation when Computing}{13}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Optical Chaos}{14}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}General Presentation of (Pseudo)Random Generation}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}True Random Number Generators (TRNGs)}{14}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Pseudo Random Number Generators (PRNGs)}{15}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Chaos-based Random Number Generators}{15}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Statistical Tests for Randomness}{16}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}NIST statistical test suite}{16}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}DieHARD battery of tests}{17}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}ENT test program}{19}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Comparative test parameters}{19}{subsection.2.3.4}
-\contentsline {paragraph}{Frequency test (monobit test)}{19}{section*.3}
-\contentsline {paragraph}{Serial test (2-bit test)}{19}{section*.4}
-\contentsline {paragraph}{Poker test}{20}{section*.5}
-\contentsline {paragraph}{Runs test}{20}{section*.6}
-\contentsline {paragraph}{Autocorrelation test}{20}{section*.7}
-\contentsline {subsection}{\numberline {2.3.5}TestU01 Statistical Test}{20}{subsection.2.3.5}
-\contentsline {section}{\numberline {2.4}FPGA}{24}{section.2.4}
-\contentsline {part}{II\hspace {1em}Pseudorandom Number Generator Based on Chaotic Iteration}{27}{part.2}
-\contentsline {xpart}{Pseudorandom Number Generator Based on Chaotic Iteration}{29}{part.2}
-\contentsline {chapter}{\numberline {3}Computer Science RNGs: an Introduction}{29}{chapter.3}
-\contentsline {chapter}{\numberline {4}Review of works}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Some well-known pseudorandom generators}{33}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Blum Blum Shub}{33}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}The logistic map}{33}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}XORshift}{34}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}ISAAC}{34}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}CIPRNG, version 1~\cite {wang2009}}{35}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Chaotic iterations as PRNG}{35}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}CIPRNG version 1: the algorithm}{36}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}The CIPRNG: Version 2 ~\cite {wbg10:ip}}{36}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Defining the sequence $m^n$ }{36}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Chaotic strategy}{37}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}CIPRNG version 2: the algorithm}{38}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Investigating the Design of new CIPRNGs}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}Investigating the CIPRNG Version 1 Algorithm}{39}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}On the periodicity of version 1}{39}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Security Analysis}{44}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Algorithm expression conversion}{44}{subsubsection.5.1.2.1}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Proof of cryptographical security}{44}{subsubsection.5.1.2.2}
-\contentsline {subsection}{\numberline {5.1.3}An Efficient and Cryptographically Secure Generator Based on CIPRNG Version 1}{47}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}CIPRNG Version 2: a Security Proof}{47}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Algorithm conversion}{47}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Proof}{48}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}``LUT'' CIPRNG(XORshift,XORshift) Version 3}{49}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Introduction}{49}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Sequence $m$}{50}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Defining the chaotic strategy $\mathcal {S}$ with a LUT}{52}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}LUT CI(XORshift,XORshift) Algorithm}{53}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}LUT CI(XORshift,XORshift) example of use}{53}{subsection.5.3.5}
-\contentsline {subsection}{\numberline {5.3.6}Security Analysis}{54}{subsection.5.3.6}
-\contentsline {section}{\numberline {5.4}The version 4 category of CIPRNGs}{54}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}XOR CIPRNG}{54}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}CIPRNG version 4: the algorithm}{55}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Security Analysis}{56}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Efficient cryptographic secure PRNG based on CI}{57}{subsection.5.4.4}
-\contentsline {chapter}{\numberline {6}Randomness Quality of CIPRNGs}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Test results for some PRNGs}{59}{section.6.1}
-\contentsline {section}{\numberline {6.2}Test results and comparative analysis for the CIPRNG version 3}{60}{section.6.2}
-\contentsline {section}{\numberline {6.3}Tests results and comparative analysis for the CIPRNG version 4}{62}{section.6.3}
-\contentsline {section}{\numberline {6.4}Assessment of four versions of CIPRNGs schemes using XORshift Generator}{67}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}NIST evaluation}{67}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Diehard}{67}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Comparative test parameters}{71}{subsection.6.4.3}
-\contentsline {chapter}{\numberline {7}An optimization technique on pseudorandom generators based on chaotic iterations}{77}{chapter.7}
-\contentsline {section}{\numberline {7.1}Presentation of new well known generators}{77}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Introduction}{77}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Details of some Existing Generators}{78}{subsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.2.1}LCG}{78}{subsubsection.7.1.2.1}
-\contentsline {subsubsection}{\numberline {7.1.2.2}MRG}{78}{subsubsection.7.1.2.2}
-\contentsline {subsubsection}{\numberline {7.1.2.3}UCARRY}{78}{subsubsection.7.1.2.3}
-\contentsline {subsubsection}{\numberline {7.1.2.4}GFSR}{79}{subsubsection.7.1.2.4}
-\contentsline {subsubsection}{\numberline {7.1.2.5}INV}{79}{subsubsection.7.1.2.5}
-\contentsline {section}{\numberline {7.2}Results and discussion}{79}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Tests based on the Single CIPRNG}{81}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Tests based on the Mixed CIPRNG}{81}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Tests based on the Multiple CIPRNG}{83}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Results Summary}{84}{subsection.7.2.4}
-\contentsline {chapter}{\numberline {8}Illustrative Example of use of CIPRNGs in the Computer Science Security Field}{85}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{85}{section.8.1}
-\contentsline {section}{\numberline {8.2}Application Evaluation}{87}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}The Proposed Information Hiding Method}{87}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}First Experimental Evaluation of the Proposed Scheme}{88}{subsection.8.2.2}
-\contentsline {subsubsection}{\numberline {8.2.2.1}The context}{88}{subsubsection.8.2.2.1}
-\contentsline {subsubsection}{\numberline {8.2.2.2}Histogram and Horizontal Correlation}{88}{subsubsection.8.2.2.2}
-\contentsline {subsubsection}{\numberline {8.2.2.3}All directions correlation coefficients analysis}{90}{subsubsection.8.2.2.3}
-\contentsline {subsubsection}{\numberline {8.2.2.4}Initial condition sensitivity}{91}{subsubsection.8.2.2.4}
-\contentsline {subsection}{\numberline {8.2.3}A small evaluation of Encryption}{91}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Conclusion}{91}{section.8.3}
-\contentsline {chapter}{\numberline {9}FPGA Acceleration of CIPRNGs}{93}{chapter.9}
-\contentsline {section}{\numberline {9.1}introduction}{93}{section.9.1}
-\contentsline {section}{\numberline {9.2}CIPRNG design on FPGA}{93}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Selection of the CIPRNG version}{93}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Design of XORshift}{94}{subsection.9.2.2}
-\contentsline {subsection}{\numberline {9.2.3}Design of BBS}{95}{subsection.9.2.3}
-\contentsline {subsection}{\numberline {9.2.4}Design of the chaotic iterations}{95}{subsection.9.2.4}
-\contentsline {chapter}{\numberline {10}Software and Hardware Implementation of a Watermarking Scheme using CIPRNG}{97}{chapter.10}
-\contentsline {section}{\numberline {10.1}Introduction}{97}{section.10.1}
-\contentsline {section}{\numberline {10.2}Definition of our Chaos-Based Information Hiding Scheme}{97}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Most and least significant coefficients}{97}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Stages of the algorithm}{98}{subsection.10.2.2}
-\contentsline {subsubsection}{\numberline {10.2.2.1}Watermark mixture}{99}{subsubsection.10.2.2.1}
-\contentsline {subsubsection}{\numberline {10.2.2.2}Watermark embedding}{99}{subsubsection.10.2.2.2}
-\contentsline {subsubsection}{\numberline {10.2.2.3}Extraction}{99}{subsubsection.10.2.2.3}
-\contentsline {section}{\numberline {10.3}Implementations: from software to hardware}{99}{section.10.3}
-\contentsline {subsection}{\numberline {10.3.1}Software Implementation: Experimental Protocol}{99}{subsection.10.3.1}
-\contentsline {subsection}{\numberline {10.3.2}Hardware Implementation}{101}{subsection.10.3.2}
-\contentsline {section}{\numberline {10.4}Robustness evaluation}{101}{section.10.4}
-\contentsline {subsubsection}{\numberline {10.4.0.1}Zeroing attack}{103}{subsubsection.10.4.0.1}
-\contentsline {subsubsection}{\numberline {10.4.0.2}Rotation attack}{104}{subsubsection.10.4.0.2}
-\contentsline {subsubsection}{\numberline {10.4.0.3}JPEG compression}{104}{subsubsection.10.4.0.3}
-\contentsline {subsubsection}{\numberline {10.4.0.4}Gaussian noise}{104}{subsubsection.10.4.0.4}
-\contentsline {part}{III\hspace {1em}Random Number Generators Based On Optoelectronic Chaotic Laser}{107}{part.3}
-\contentsline {xpart}{Random Number Generators Based On Optoelectronic Chaotic Laser}{109}{part.3}
-\contentsline {chapter}{\numberline {11}Introduction}{109}{chapter.11}
-\contentsline {chapter}{\numberline {12}Noise And Chaos Contributions in Fast Random Bit Sequences Generated From Broadband Optoelectronic Entropy Sources}{111}{chapter.12}
-\contentsline {section}{\numberline {12.1}Method for Random Bit Sequence Generation from an Optoelectronic Signal}{111}{section.12.1}
-\contentsline {subsection}{\numberline {12.1.1}Setup delivering a broadband optoelectronic signal}{111}{subsection.12.1.1}
-\contentsline {subsection}{\numberline {12.1.2}Extraction method for the random binary sequence}{113}{subsection.12.1.2}
-\contentsline {subsubsection}{\numberline {12.1.2.1}Sampling issues: aliasing for enhanced entropy}{113}{subsubsection.12.1.2.1}
-\contentsline {subsubsection}{\numberline {12.1.2.2}Further post-processing: difference sequence between distant samples}{117}{subsubsection.12.1.2.2}
-\contentsline {subsubsection}{\numberline {12.1.2.3}LSB retaining, and intrinsic noise of the original sequence}{118}{subsubsection.12.1.2.3}
-\contentsline {section}{\numberline {12.2}Effect of Noise on the Entropy Rate in the Binary Sequence}{119}{section.12.2}
-\contentsline {subsection}{\numberline {12.2.1}Introducing noise in the simulated chaotic dynamics}{119}{subsection.12.2.1}
-\contentsline {subsection}{\numberline {12.2.2}Entropy estimation for each bit cell}{120}{subsection.12.2.2}
-\contentsline {section}{\numberline {12.3}Statistical Tests}{122}{section.12.3}
-\contentsline {subsection}{\numberline {12.3.1}The tested streams}{123}{subsection.12.3.1}
-\contentsline {subsection}{\numberline {12.3.2}Statistical tests}{123}{subsection.12.3.2}
-\contentsline {subsubsection}{\numberline {12.3.2.1}NIST statistical test suite}{123}{subsubsection.12.3.2.1}
-\contentsline {subsubsection}{\numberline {12.3.2.2}DieHARD battery of tests}{124}{subsubsection.12.3.2.2}
-\contentsline {subsubsection}{\numberline {12.3.2.3}ENT test program}{124}{subsubsection.12.3.2.3}
-\contentsline {subsubsection}{\numberline {12.3.2.4}Comparative test parameters}{124}{subsubsection.12.3.2.4}
-\contentsline {section}{\numberline {12.4}Discussion, Conclusion, and Perspectives}{127}{section.12.4}
-\contentsline {chapter}{\numberline {13}CI Random Stream Generation Via Optoelectronic Chaotic Laser}{131}{chapter.13}
-\contentsline {section}{\numberline {13.1}Setup of a broadband optoelectronic chaotic laser signal}{131}{section.13.1}
-\contentsline {section}{\numberline {13.2}Random stream generation approach by applying CI method to chaotic laser}{131}{section.13.2}
-\contentsline {subsection}{\numberline {13.2.1}The proposed scheme}{132}{subsection.13.2.1}
-\contentsline {subsection}{\numberline {13.2.2}Examples of processing}{133}{subsection.13.2.2}
-\contentsline {subsubsection}{\numberline {13.2.2.1}A new XOR CI generator}{133}{subsubsection.13.2.2.1}
-\contentsline {subsubsection}{\numberline {13.2.2.2}XORshift}{133}{subsubsection.13.2.2.2}
-\contentsline {subsubsection}{\numberline {13.2.2.3}LFSR}{134}{subsubsection.13.2.2.3}
-\contentsline {subsubsection}{\numberline {13.2.2.4}Photonic chaos}{134}{subsubsection.13.2.2.4}
-\contentsline {section}{\numberline {13.3}NIST test results}{134}{section.13.3}
-\contentsline {part}{IV\hspace {1em}Conclusion and Perspectives}{137}{part.4}
-\contentsline {xpart}{Conclusion and Perspectives}{139}{part.4}
-\contentsline {chapter}{\numberline {14}Conclusion}{139}{chapter.14}
-\contentsline {section}{\numberline {14.1}CI method}{139}{section.14.1}
-\contentsline {section}{\numberline {14.2}Optical source}{140}{section.14.2}
-\contentsline {chapter}{\numberline {15}Perspectives}{143}{chapter.15}
-\contentsline {section}{\numberline {15.1}CI method}{143}{section.15.1}
-\contentsline {section}{\numberline {15.2}Optical source}{143}{section.15.2}
+\contentsline {section}{\numberline {2.1}General Presentation of (Pseudo)Random Generation}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}True Random Number Generators (TRNGs)}{11}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Pseudo Random Number Generators (PRNGs)}{12}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Chaos-based Random Number Generators}{12}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}The Theory of Chaos}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}General Presentation}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Topological Study of Disorder}{13}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Historical Context}{13}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Iterative Systems}{14}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Chaotic Iterations as Dynamical Systems}{15}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}A Topology for Chaotic Iterations}{17}{subsubsection.2.2.2.4}
+\contentsline {subsection}{\numberline {2.2.3}The Mathematical Theory of Chaos}{17}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Approaches Similar to Devaney}{17}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Li-Yorke approach}{19}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}Topological Entropy Approach}{19}{subsubsection.2.2.3.3}
+\contentsline {subsubsection}{\numberline {2.2.3.4}The Lyapunov Exponent}{20}{subsubsection.2.2.3.4}
+\contentsline {subsection}{\numberline {2.2.4}The Study of Chaotic Iterations}{20}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Chaotic finite machines}{21}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Presenting practical issues}{21}{subsubsection.2.2.5.1}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Solving problems}{22}{subsubsection.2.2.5.2}
+\contentsline {subsubsection}{\numberline {2.2.5.3}Possibly Chaotic Turing Machines}{23}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.4}The practical case of finite strategies}{23}{subsubsection.2.2.5.4}
+\contentsline {subsection}{\numberline {2.2.6}Optical Chaos}{24}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}Statistical Tests for Randomness}{25}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}NIST statistical test suite}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}DieHARD battery of tests}{26}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}ENT test program}{27}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Comparative test parameters}{28}{subsection.2.3.4}
+\contentsline {paragraph}{Frequency test (monobit test)}{28}{section*.3}
+\contentsline {paragraph}{Serial test (2-bit test)}{28}{section*.4}
+\contentsline {paragraph}{Poker test}{28}{section*.5}
+\contentsline {paragraph}{Runs test}{29}{section*.6}
+\contentsline {paragraph}{Autocorrelation test}{29}{section*.7}
+\contentsline {subsection}{\numberline {2.3.5}TestU01 Statistical Test}{29}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}FPGA}{33}{section.2.4}
+\contentsline {part}{II\hspace {1em}Pseudorandom Number Generator Based on Chaotic Iteration}{37}{part.2}
+\contentsline {xpart}{Pseudorandom Number Generator Based on Chaotic Iteration}{39}{part.2}
+\contentsline {chapter}{\numberline {3}Computer Science RNGs: an Introduction}{39}{chapter.3}
+\contentsline {chapter}{\numberline {4}Review of works}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Presentation of new well known generators}{43}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Introduction}{43}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Blum Blum Shub}{44}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}The logistic map}{44}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}LCG}{45}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}MRG}{45}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}UCARRY}{45}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.7}GFSR}{46}{subsection.4.1.7}
+\contentsline {subsection}{\numberline {4.1.8}INV}{46}{subsection.4.1.8}
+\contentsline {subsection}{\numberline {4.1.9}XORshift}{46}{subsection.4.1.9}
+\contentsline {subsection}{\numberline {4.1.10}ISAAC}{46}{subsection.4.1.10}
+\contentsline {section}{\numberline {4.2}CIPRNG, version 1~\cite {wang2009}}{47}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Chaotic iterations as PRNG}{47}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}CIPRNG version 1: the algorithm}{48}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}The CIPRNG: Version 2 ~\cite {wbg10:ip}}{48}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Defining the sequence $m^n$ }{48}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}strategy}{49}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}CIPRNG version 2: the algorithm}{50}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}XOR CIPRNG}{51}{section.4.4}
+\contentsline {chapter}{\numberline {5}Investigating the Design of new CIPRNGs}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}An optimization technique on pseudorandom generators based on chaotic iterations}{53}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}PRNGs tested}{53}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Results of PRNGs}{54}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Tests based on the Single CIPRNG}{54}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Tests based on the Mixed CIPRNG}{57}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Tests based on the Multiple CIPRNG}{58}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Results Summary}{59}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}``LUT'' CIPRNG(XORshift,XORshift) Version 3}{59}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Introduction}{59}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Sequence $m$}{60}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Defining the strategy $\mathcal {S}$ with a LUT}{62}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}LUT CI(XORshift,XORshift) Algorithm}{63}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}LUT CI(XORshift,XORshift) example of use}{63}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}The version 4 category of CIPRNGs}{64}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}CIPRNG version 4: the algorithm}{64}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}CI Version 4 example of use}{65}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Efficient PRNG based on CI: Version 4}{66}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}FPGA Acceleration of CIPRNGs}{67}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Introduction}{67}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}CIPRNG design on FPGA}{67}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Selection of the CIPRNG version}{67}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.2}Design of XORshift}{68}{subsubsection.5.4.2.2}
+\contentsline {subsubsection}{\numberline {5.4.2.3}Design of BBS}{68}{subsubsection.5.4.2.3}
+\contentsline {subsubsection}{\numberline {5.4.2.4}Design of the chaotic iterations}{68}{subsubsection.5.4.2.4}
+\contentsline {chapter}{\numberline {6}Randomness Quality of CIPRNGs}{71}{chapter.6}
+\contentsline {section}{\numberline {6.1}Test results for some PRNGs}{71}{section.6.1}
+\contentsline {section}{\numberline {6.2}Test results and comparative analysis for the CIPRNG version 3}{72}{section.6.2}
+\contentsline {section}{\numberline {6.3}Tests results and comparative analysis for the CIPRNG version 4}{74}{section.6.3}
+\contentsline {section}{\numberline {6.4}Assessment of four versions of CIPRNGs schemes}{79}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}NIST evaluation}{79}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Diehard}{79}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Comparative test parameters}{83}{subsection.6.4.3}
+\contentsline {chapter}{\numberline {7}Illustrative Example of use of CIPRNGs in the Computer Science Security Field}{89}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{89}{section.7.1}
+\contentsline {section}{\numberline {7.2}Application Evaluation}{91}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}The Proposed Information Hiding Method}{91}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}First Experimental Evaluation of the Proposed Scheme}{92}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}The context}{92}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}Histogram and Horizontal Correlation}{92}{subsubsection.7.2.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.3}All directions correlation coefficients analysis}{94}{subsubsection.7.2.2.3}
+\contentsline {subsubsection}{\numberline {7.2.2.4}Initial condition sensitivity}{95}{subsubsection.7.2.2.4}
+\contentsline {subsection}{\numberline {7.2.3}A small evaluation of Encryption}{95}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Conclusion}{95}{section.7.3}
+\contentsline {chapter}{\numberline {8}Software and Hardware Implementation of a Watermarking Scheme using CIPRNG}{97}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{97}{section.8.1}
+\contentsline {section}{\numberline {8.2}Definition of our Chaos-Based Information Hiding Scheme}{97}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Most and least significant coefficients}{97}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Stages of the scheme}{99}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Watermark mixture}{99}{subsubsection.8.2.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Watermark embedding}{99}{subsubsection.8.2.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.3}Extraction}{99}{subsubsection.8.2.2.3}
+\contentsline {section}{\numberline {8.3}Experimental protocol}{100}{section.8.3}
+\contentsline {section}{\numberline {8.4}Implementations: from software to hardware}{102}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Software Implementation: Experimental Protocol}{102}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Hardware Implementation}{103}{subsection.8.4.2}
+\contentsline {section}{\numberline {8.5}Robustness evaluation}{103}{section.8.5}
+\contentsline {subsubsection}{\numberline {8.5.0.1}Zeroing attack}{105}{subsubsection.8.5.0.1}
+\contentsline {subsubsection}{\numberline {8.5.0.2}Rotation attack}{106}{subsubsection.8.5.0.2}
+\contentsline {subsubsection}{\numberline {8.5.0.3}JPEG compression}{106}{subsubsection.8.5.0.3}
+\contentsline {subsubsection}{\numberline {8.5.0.4}Gaussian noise}{106}{subsubsection.8.5.0.4}
+\contentsline {part}{III\hspace {1em}Random Number Generators Based On Optoelectronic Chaotic Laser}{109}{part.3}
+\contentsline {xpart}{Random Number Generators Based On Optoelectronic Chaotic Laser}{111}{part.3}
+\contentsline {chapter}{\numberline {9}Introduction}{111}{chapter.9}
+\contentsline {chapter}{\numberline {10}Noise And Chaos Contributions in Fast Random Bit Sequences Generated From Broadband Optoelectronic Entropy Sources}{113}{chapter.10}
+\contentsline {section}{\numberline {10.1}Method for Random Bit Sequence Generation from an Optoelectronic Signal}{113}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Setup delivering a broadband optoelectronic signal}{113}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Extraction method for the random binary sequence}{115}{subsection.10.1.2}
+\contentsline {subsubsection}{\numberline {10.1.2.1}Sampling issues: aliasing for enhanced entropy}{115}{subsubsection.10.1.2.1}
+\contentsline {subsubsection}{\numberline {10.1.2.2}Further post-processing: difference sequence between distant samples}{119}{subsubsection.10.1.2.2}
+\contentsline {subsubsection}{\numberline {10.1.2.3}LSB retaining, and intrinsic noise of the original sequence}{120}{subsubsection.10.1.2.3}
+\contentsline {section}{\numberline {10.2}Effect of Noise on the Entropy Rate in the Binary Sequence}{121}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Introducing noise in the simulated chaotic dynamics}{121}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Entropy estimation for each bit cell}{122}{subsection.10.2.2}
+\contentsline {section}{\numberline {10.3}Statistical Tests}{124}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}The tested streams}{125}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Statistical tests}{125}{subsection.10.3.2}
+\contentsline {subsubsection}{\numberline {10.3.2.1}NIST statistical test suite}{125}{subsubsection.10.3.2.1}
+\contentsline {subsubsection}{\numberline {10.3.2.2}DieHARD battery of tests}{126}{subsubsection.10.3.2.2}
+\contentsline {subsubsection}{\numberline {10.3.2.3}ENT test program}{126}{subsubsection.10.3.2.3}
+\contentsline {subsubsection}{\numberline {10.3.2.4}Comparative test parameters}{126}{subsubsection.10.3.2.4}
+\contentsline {section}{\numberline {10.4}Discussion, Conclusion, and Perspectives}{129}{section.10.4}
+\contentsline {chapter}{\numberline {11}CI Random Stream Generation Via Optoelectronic Chaotic Laser}{133}{chapter.11}
+\contentsline {section}{\numberline {11.1}Setup of a broadband optoelectronic chaotic laser signal}{133}{section.11.1}
+\contentsline {section}{\numberline {11.2}Random stream generation approach by applying CI method to chaotic laser}{134}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}The proposed scheme}{134}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Examples of processing}{135}{subsection.11.2.2}
+\contentsline {subsubsection}{\numberline {11.2.2.1}A new XOR CI generator}{135}{subsubsection.11.2.2.1}
+\contentsline {subsubsection}{\numberline {11.2.2.2}XORshift}{135}{subsubsection.11.2.2.2}
+\contentsline {subsubsection}{\numberline {11.2.2.3}LFSR}{136}{subsubsection.11.2.2.3}
+\contentsline {subsubsection}{\numberline {11.2.2.4}Photonic chaos}{136}{subsubsection.11.2.2.4}
+\contentsline {section}{\numberline {11.3}NIST test results}{136}{section.11.3}
+\contentsline {part}{IV\hspace {1em}Conclusion and Perspectives}{139}{part.4}
+\contentsline {xpart}{Conclusion and Perspectives}{141}{part.4}
+\contentsline {chapter}{\numberline {12}Conclusion and Future Works}{141}{chapter.12}
+\contentsline {section}{\numberline {12.1}CI method}{141}{section.12.1}
+\contentsline {section}{\numberline {12.2}Optical source}{142}{section.12.2}
+\contentsline {section}{\numberline {12.3}Perspectives}{143}{section.12.3}
+\contentsline {chapter}{\numberline {13}Appendix}{145}{chapter.13}
+\contentsline {chapter}{Bibliographie}{147}{section*.9}

@@ -1,0 +1,19 @@
+\chapter{Appendix}
+In a cryptographic context, a pseudorandom generator is a deterministic algorithm $G$ transforming strings into strings and such that, for any seed 
+$s$ of length m, $G(s)$ (the output of $G$ on the input $s$) has size $l_G(m)$ with $l_G(m) > m$. The notion of secure 
+PRNGs can now be defined as follows.
+
+\begin{definition}
+\label{CSPRNG}
+A cryptographic PRNG $G$ is secure if for any probabilistic polynomial time algorithm D, for any positive polynomial p, 
+and for all sufficiently large m's,  
+\begin{equation}
+\left|Pr[D(G(U_m))=1]-Pr[D(U_{l_G(m)})=1]\right|<\frac{1}{p(m)},
+\end{equation}
+where $U_r$ is the uniform distribution over $\{0, 1\}^r$ and the probabilities are taken over $U_m$, 
+$U_{l_G(m)}$ as well as over the internal coin tosses of $D$.
+\end{definition}
+
+Intuitively, it means that there is no polynomial time algorithm that can distinguish a perfect uniform 
+random generator from $G$ with a non negligible probability. Note that it is quite easily possible to change 
+the function $l$ into any polynomial function $l'$ satisfying $l'(m)>m$. 
