@@ -1,0 +1,128 @@
+\chapter{Appendix}
+\label{appendix}
+In a cryptographic context, a pseudorandom generator is a deterministic algorithm $G$ transforming strings into strings and such that, for any seed 
+$s$ of length m, $G(s)$ (the output of $G$ on the input $s$) has size $l_G(m)$ with $l_G(m) > m$. The notion of secure 
+PRNGs can now be defined as follows.
+
+\begin{definition}
+\label{CSPRNG}
+A cryptographic PRNG $G$ is secure if for any probabilistic polynomial time algorithm D, for any positive polynomial p, 
+and for all sufficiently large m's,  
+\begin{equation}
+\left|Pr[D(G(U_m))=1]-Pr[D(U_{l_G(m)})=1]\right|<\frac{1}{p(m)},
+\end{equation}
+where $U_r$ is the uniform distribution over $\{0, 1\}^r$ and the probabilities are taken over $U_m$, 
+$U_{l_G(m)}$ as well as over the internal coin tosses of $D$.
+\end{definition}
+
+Intuitively, it means that there is no polynomial time algorithm that can distinguish a perfect uniform 
+random generator from $G$ with a non negligible probability. Note that it is quite easily possible to change 
+the function $l$ into any polynomial function $l'$ satisfying $l'(m)>m$. 
+
+Let us consider now the XOR CIPRNG defined by:
+\begin{equation}
+\left\{
+\begin{array}{l}
+x^0 \in \llbracket 0, 2^\mathsf{N}-1 \rrbracket, S \in \llbracket 0, 2^\mathsf{N}-1 \rrbracket^\mathds{N} \\
+\forall n \in \mathds{N}^*, x^n = x^{n-1} \oplus S^n,
+\end{array}
+\right.
+\label{equation Oplus}
+\end{equation}
+This PRNG being very closed to classics block cipher modes of operation, it is probable that, if
+$S$ satisfies Definition~\ref{CSPRNG}, then it should be the case too for the resulting XOR CIPRNG.
+
+A proof of this statement could be written using a contraposition approach: 
+if we suppose that a distinguisher (polynomial time probabilistic algorithm) $D$ exists for the XOR CIPRNG, then we
+can use it to construct another distinguisher $D'$ for $S$. Thus, if no 
+distinguisher exists for $S$, the XOR CIPRNG will be cryptographically secured.
+
+To have a complete manuscript, we give in what follows a demonstration of this 
+fact written by colleagues of
+my team (with their agreement). 
+
+\begin{proof}
+The generation schema developed in (\ref{equation Oplus}) is based on a
+pseudorandom generator. Let $H$ be a cryptographic PRNG. We may assume,
+without loss of generality, that for any string $S_0$ of size $N$, the size
+of $H(S_0)$ is $kN$, with $k>2$. It means that $\ell_H(N)=kN$. 
+Let $S_1,\ldots,S_k$ be the 
+strings of length $N$ such that $H(S_0)=S_1 \ldots S_k$ ($H(S_0)$ is the concatenation of
+the $S_i$'s). The cryptographic PRNG $X$ defined in (\ref{equation Oplus})
+is the algorithm mapping any string of length $2N$ $x_0S_0$ into the string
+$(x_0\oplus S_0 \oplus S_1)(x_0\oplus S_0 \oplus S_1\oplus S_2)\ldots
+(x_o\bigoplus_{i=0}^{i=k}S_i)$. One in particular has $\ell_{X}(2N)=kN=\ell_H(N)$. 
+
+We claim now that:
+If $H$ is a secure cryptographic PRNG, then $X$ is a secure cryptographic
+PRNG too.
+
+
+The proposition is proven by contraposition. Assume that $X$ is not
+secure. By Definition, there exists a polynomial time probabilistic
+algorithm $D$, a positive polynomial $p$, such that for all $k_0$ there exists
+$N\geq \frac{k_0}{2}$ satisfying 
+$$| \mathrm{Pr}[D(X(U_{2N}))=1]-\mathrm{Pr}[D(U_{kN}=1]|\geq \frac{1}{p(2N)}.$$
+We describe a new probabilistic algorithm $D^\prime$ on an input $w$ of size
+$kN$:
+\begin{enumerate}
+\item Decompose $w$ into $w=w_1\ldots w_{k}$, where each $w_i$ has size $N$.
+\item Pick a string $y$ of size $N$ uniformly at random.
+\item Compute $z=(y\oplus w_1)(y\oplus w_1\oplus w_2)\ldots (y
+  \bigoplus_{i=1}^{i=k} w_i).$
+\item Return $D(z)$.
+\end{enumerate}
+
+
+Consider  for each $y\in \mathbb{B}^{kN}$ the function $\varphi_{y}$
+from $\mathbb{B}^{kN}$ into $\mathbb{B}^{kN}$ mapping $w=w_1\ldots w_k$
+(each $w_i$ has length $N$) to 
+$(y\oplus w_1)(y\oplus w_1\oplus w_2)\ldots (y
+  \bigoplus_{i=1}^{i=k_1} w_i).$ By construction, one has for every $w$,
+\begin{equation}\label{PCH-1}
+D^\prime(w)=D(\varphi_y(w)),
+\end{equation}
+where $y$ is randomly generated. 
+Moreover, for each $y$, $\varphi_{y}$ is injective: if 
+$(y\oplus w_1)(y\oplus w_1\oplus w_2)\ldots (y\bigoplus_{i=1}^{i=k_1}
+w_i)=(y\oplus w_1^\prime)(y\oplus w_1^\prime\oplus w_2^\prime)\ldots
+(y\bigoplus_{i=1}^{i=k} w_i^\prime)$, then for every $1\leq j\leq k$,
+$y\bigoplus_{i=1}^{i=j} w_i^\prime=y\bigoplus_{i=1}^{i=j} w_i$. It follows,
+by a direct induction, that $w_i=w_i^\prime$. Furthermore, since $\mathbb{B}^{kN}$
+is finite, each $\varphi_y$ is bijective. Therefore, and using (\ref{PCH-1}),
+one has
+$\mathrm{Pr}[D^\prime(U_{kN})=1]=\mathrm{Pr}[D(\varphi_y(U_{kN}))=1]$ and,
+therefore, 
+\begin{equation}\label{PCH-2}
+\mathrm{Pr}[D^\prime(U_{kN})=1]=\mathrm{Pr}[D(U_{kN})=1].
+\end{equation}
+
+Now, using (\ref{PCH-1}) again, one has  for every $x$,
+\begin{equation}\label{PCH-3}
+D^\prime(H(x))=D(\varphi_y(H(x))),
+\end{equation}
+where $y$ is randomly generated. By construction, $\varphi_y(H(x))=X(yx)$,
+thus
+\begin{equation}%\label{PCH-3}      %%RAPH : j'ai viré ce label qui existe déjà, il est 3 ligne avant
+D^\prime(H(x))=D(X(yx)),
+\end{equation}
+where $y$ is randomly generated. 
+It follows that 
+
+\begin{equation}\label{PCH-4}
+\mathrm{Pr}[D^\prime(H(U_{N}))=1]=\mathrm{Pr}[D(U_{2N})=1].
+\end{equation}
+ From (\ref{PCH-2}) and (\ref{PCH-4}), one can deduce that
+there exists a polynomial time probabilistic
+algorithm $D^\prime$, a positive polynomial $p$, such that for all $k_0$ there exists
+$N\geq \frac{k_0}{2}$ satisfying 
+$$| \mathrm{Pr}[D(H(U_{N}))=1]-\mathrm{Pr}[D(U_{kN}=1]|\geq \frac{1}{p(2N)},$$
+proving that $H$ is not secure, which is a contradiction. 
+\end{proof}
+
+We should wonder whether such a result continues to hold for other versions of
+CIPRNGs presented in this manuscript. We once thought until Philippe Guillot 
+provides evidences that, when considering 2 generators as input, if only one of
+the two generators is cryptographically secure, then the CIPRNG cannot be secure.
+
+
